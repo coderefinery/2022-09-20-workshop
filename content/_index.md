@@ -150,7 +150,7 @@ The schedule includes frequent breaks.
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Software testing](https://coderefinery.github.io/testing/)
-  (Jarno and TBA)
+  (Jarno and Matteo)
 - 11:00 - 12:15
   [Modular code development](https://coderefinery.github.io/modular-type-along/)
   (TBA)
