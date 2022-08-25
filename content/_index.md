@@ -111,13 +111,13 @@ The schedule includes frequent breaks.
   (Richard and TBA)
 - 9:20 - 12:30
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
+  (TBA and Dhanya)
 
 **Day 2 (Wed, Sep 21)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
-  (TBA and Teemu)
+  (Dhanya and Teemu)
 
 **Day 3 (Thu, Sep 22)**
 - 8:50 - 9:00 connecting time, icebreaker
