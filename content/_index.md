@@ -111,7 +111,7 @@ The schedule includes frequent breaks.
   (Richard and TBA)
 - 9:20 - 12:30
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
-  (TBA and Dhanya)
+  (Radovan and Dhanya)
 
 **Day 2 (Wed, Sep 21)**
 - 8:50 - 9:00 connecting time, icebreaker
@@ -123,7 +123,7 @@ The schedule includes frequent breaks.
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-  (Sabry and TBA)
+  (Sabry and Radovan)
 
 **Day 4 (Tue, Sep 27)**
 - 8:50 - 9:00 connecting time, icebreaker
@@ -132,10 +132,10 @@ The schedule includes frequent breaks.
   (Richard and TBA)
 - 9:00 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
+  (Radovan and TBA)
 - 11:15 - 12:30
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
-  (TBA)
+  (Radovan and TBA)
 
 **Day 5 (Wed, Sep 28)**
 - 8:50 - 9:00 connecting time, icebreaker
@@ -153,7 +153,7 @@ The schedule includes frequent breaks.
   (Jarno and Matteo)
 - 11:00 - 12:15
   [Modular code development](https://coderefinery.github.io/modular-type-along/)
-  (TBA)
+  (Radovan and TBA)
 - 12:15 - 12:30
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
