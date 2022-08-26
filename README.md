@@ -6,7 +6,7 @@ workshops, and has coordination of roles.
 
 ## Quick reference
 
-- ...
+- [Planning HackMD](https://hackmd.io/@coderefinery/2022-sep-ws-planning)
 
 
 ## How to generate your workshop repository
