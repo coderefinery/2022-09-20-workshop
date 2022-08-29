@@ -13,6 +13,9 @@ to self-organize their registration process and some organizations prefer that.
 register here for basic online attendance with no obligation.  You may
 be interested in one of the following special attendee groups, in
 which case you don't need to register here, but still can):
+- Aalto University register via the main form, there will be an
+  in-person exercise room with helpers in Otaniemi and you receive
+  emails about the location.
 - [Jyväskylä University](https://indico.neic.no/event/233/) (In-person
   exercise and mentor group)
 - [SNIC/ENCCS in Stockholm (Sweden)](https://events.prace-ri.eu/event/1417/) (In-person participation on KTH Campus in Stockholm).
