@@ -135,7 +135,7 @@ The schedule includes frequent breaks.
   (Richard and TBA)
 - 9:00 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (Radovan and TBA)
+  (Radovan and Thomas)
 - 11:15 - 12:30
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
   (Radovan and TBA)
@@ -147,7 +147,7 @@ The schedule includes frequent breaks.
   (Johan and TBA)
 - 10:45 - 12:30
   [Documentation](https://coderefinery.github.io/documentation/)
-  (Jarno and TBA)
+  (Jarno and Thomas)
 
 **Day 6 (Thu, Sep 29)**
 - 8:50 - 9:00 connecting time, icebreaker
