@@ -156,7 +156,7 @@ The schedule includes frequent breaks.
   (Jarno and Matteo)
 - 11:00 - 12:15
   [Modular code development](https://coderefinery.github.io/modular-type-along/)
-  (Radovan and TBA)
+  (Radovan and Samantha)
 - 12:15 - 12:30
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
@@ -176,6 +176,7 @@ The schedule includes frequent breaks.
 #### Instructors and expert helpers
 
 - Sabry Razick (University of Oslo)
+- Samantha Wittke (CSC)
 
 
 #### Exercise leaders :heart:
