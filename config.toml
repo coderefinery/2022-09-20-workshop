@@ -31,7 +31,7 @@ navigation = [
     { name = "Q&A", path = "questions/" },
     { name = "Code of Conduct", path = "https://coderefinery.org/about/code-of-conduct/" },
     { name = "Volunteer", path = "volunteer/" },
-    { name = "Advertise", path = "advertise/" }
+    { name = "Announcement texts", path = "announcements/" }
 ]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
