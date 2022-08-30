@@ -144,7 +144,7 @@ The schedule includes frequent breaks.
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Jupyter](https://coderefinery.github.io/jupyter/)
-  (Johan and TBA)
+  (Johan and Thor)
 - 10:45 - 12:30
   [Documentation](https://coderefinery.github.io/documentation/)
   (Jarno and Thomas)
