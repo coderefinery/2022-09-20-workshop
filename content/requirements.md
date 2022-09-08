@@ -19,12 +19,14 @@ title = "Prerequisites and software requirements"
 
 ## Preparation (software installation)
 
-- You need to install some software **before the workshop starts**.
-  Please follow the instructions and checklist on
-  [this page](https://coderefinery.github.io/installation/).
-- **Make sure that Git is configured**, and **verify the configuration**:
-  [text instructions](https://coderefinery.github.io/installation/shell-and-git/),
-  [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
+It takes a bit of time to install and configure the required software but with
+200 or more participants it is not doable to debug these during the workshop
+and we ask you to install and configure these **before you arrive at the
+workshop** following the instructions and checklist on [this
+page](https://coderefinery.github.io/installation/).
+
+Please **make sure that Git is configured**, and **verify the configuration**
+([text instructions](https://coderefinery.github.io/installation/shell-and-git/), [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s)).
 
 
 ## Privacy and tools/online services
