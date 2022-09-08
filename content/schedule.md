@@ -47,7 +47,7 @@ The schedule includes frequent breaks.
   (Radovan and Thomas)
 - 11:15 - 12:30
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
-  (Radovan and TBA)
+  (Radovan and Hande)
 
 **Day 5 (Wed, Sep 28)**
 - 8:50 - 9:00 connecting time, icebreaker
