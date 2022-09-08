@@ -13,11 +13,10 @@ to self-organize their registration process and some organizations prefer that.
 register here for basic online attendance with no obligation.  You may
 be interested in one of the following special attendee groups, in
 which case you don't need to register here, but still can):
-- Aalto University register via the main form, there will be an
-  in-person exercise room with helpers in Otaniemi and you receive
-  emails about the location.
+- Aalto University: please register via the main form. You can also join us live in Otaniemi, see below.
 - [Jyväskylä University](https://indico.neic.no/event/233/) (In-person
   exercise and mentor group)
+- Note: anyone in Finland can attend the course together with other people in Otaniemi room F336, please register at [Finland in-person CodeRefinery event](https://link.webropol.com/s/CR2022fall). Snacks and drinks will be availble.
 - TU Delft: Please register in the following [waiting list](https://c.spotler.com/ct/m7/k1/b84Ar-ips1OhrZMd-JQS0tRRLJTB6SkaCKj2sqSkXzOsBjZ2K_byUpwohTfj9v7Y/BtnNfGfZjeEVZfL).
   We will try to allocate you in a team with an exercise leader. Being on the
   waiting list does not guarantee you a spot. You will receive a confirmation
