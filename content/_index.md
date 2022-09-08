@@ -64,6 +64,10 @@ join](join/):
   <https://twitch.tv/coderefinery>.  If you
   register, you can get emails and link to ask questions.
 
+* The reason why we stream the main workshop via Twitch and not via Zoom is
+  that this way we can guarantee that learners cannot appear in stream or
+  recording with voice or video.
+
 * You can also register to attend our Zoom breakout rooms (limited
   places), and you will be placed into a small, interactive breakout
   room.  Please only register for Zoom if you want to actively take
