@@ -130,6 +130,7 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 
 - Sabry Razick (University of Oslo)
 - Samantha Wittke (CSC)
+- Dhanya Pushpadas (University of Bergen)
 
 
 #### Exercise leaders :heart:
