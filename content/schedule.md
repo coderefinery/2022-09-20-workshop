@@ -8,11 +8,11 @@ All times are in **Europe/Stockholm time (CEST)**. ([Convert 9:00 to
 your timezone](https://arewemeetingyet.com/Stockholm/2022-09-20/09:00))
 The schedule includes frequent breaks.
 
-**Exercise leader onboarding**
+**Exercise leader onboarding** ([Link to material](https://coderefinery.github.io/manuals/exercise-leaders/))
 - Tue, Sep 13, 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-13/12:00))
 - Wed, Sep 14, 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-14/12:00))
 
-**Installation help and verification times** (drop in)
+**Installation help and verification times** (drop in) ([Link to material](https://coderefinery.github.io/installation/))
 - Tue, Sep 13, 13:30 - 15:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-13/13:30))
 - Wed, Sep 14, 13:30 - 15:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-14/13:30))
 
