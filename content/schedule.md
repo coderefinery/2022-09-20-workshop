@@ -42,7 +42,7 @@ The schedule includes frequent breaks.
 - 9:00 - 9:15
   [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (Richard and TBA)
-- 9:00 - 11:15
+- 9:15 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
   (Radovan and Thomas)
 - 11:15 - 12:30
