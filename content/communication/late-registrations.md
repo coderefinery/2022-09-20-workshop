@@ -7,7 +7,7 @@ subject = "Indico confirmation email"
 Thank you for signing up to the [CodeRefinery workshop](https://coderefinery.github.io/2022-09-20-workshop/)!
 
 
-#### Start required preparation
+#### Preparation
 
 Please read [the workshop
 page](https://coderefinery.github.io/2022-09-20-workshop/requirements/) in
@@ -39,6 +39,7 @@ Schedule and lecture material:
 
 
 If you have any questions, please write to support@coderefinery.org.
+All our previous emails to participants can also be read [here](https://coderefinery.github.io/2022-09-20-workshop/communication/).
 
 Best regards,
 
