@@ -10,10 +10,6 @@ title = "Prerequisites and software requirements"
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - Basics in one or more programming languages.
-- It is useful if you have a basic idea of how Git works. We will start from
-  the basics anyway, but please go through
-  [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
-  for a basic overview and important configuration steps.
 - Read [how to attend a livestream
   course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
