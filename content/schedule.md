@@ -20,7 +20,7 @@ The schedule includes frequent breaks.
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:20
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
-  (Richard and TBA)
+  (Richard and others)
 - 9:20 - 12:30
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
   (Radovan and Dhanya)
@@ -41,10 +41,10 @@ The schedule includes frequent breaks.
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:15
   [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
-  (Richard and TBA)
+  (Richard and others)
 - 9:15 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (Radovan and Thomas)
+  (Richard and Thomas)
 - 11:15 - 12:30
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
   (Radovan and Hande)
@@ -68,5 +68,5 @@ The schedule includes frequent breaks.
   (Radovan and Samantha)
 - 12:15 - 12:30
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
-  (TBA)
+  (Richard and others)
 
