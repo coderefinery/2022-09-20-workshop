@@ -140,7 +140,6 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Sabry Razick
 - Samantha Wittke
 - Dhanya Pushpadas
-- Teemu Ruokolainen
 - Thomas Pfau
 - Radovan Bast
 - Hande Celikkanat
