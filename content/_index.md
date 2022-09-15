@@ -129,11 +129,30 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Radovan Bast
 
 
-#### Instructors and expert helpers
+#### Video production and communication
 
-- Sabry Razick (University of Oslo)
-- Samantha Wittke (CSC)
-- Dhanya Pushpadas (University of Bergen)
+- Richard Darst
+- Diana Iusan
+
+
+#### Instructors
+
+- Sabry Razick
+- Samantha Wittke
+- Dhanya Pushpadas
+- Teemu Ruokolainen
+- Thomas Pfau
+- Radovan Bast
+- Hande Celikkanat
+- Johan Hellsvik
+- Thor Wikfeldt
+- Jarno Rantaharju
+- Matteo Tomasini
+
+
+#### Expert helpers
+
+(please add yourself)
 
 
 #### Exercise leaders :heart:
