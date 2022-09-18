@@ -164,4 +164,13 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 
 [Be an exercise leader](volunteer/).
 
-- TBA
+- Björn Claremar
+- Philip Gjedde
+- Juho Lehtonen
+- Bjørn Lindi
+- Giordano Lipari
+- Dhanya Pushpadas
+- Stephanie van de Sandt
+- Meron Vermaas
+- Aleksandra Wilczynska
+- Ruslan Zhuravchak
