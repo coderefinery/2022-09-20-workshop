@@ -9,7 +9,7 @@ to self-organize their registration process and some organizations prefer that.
 
 <div class="alert alert-info">
 
-[General registration](https://indico.neic.no/event/226/) (Anyone worldwide may
+**General registration is closed** (Anyone worldwide may
 register here for basic online attendance with no obligation.  You may
 be interested in one of the following special attendee groups, in
 which case you don't need to register here, but still can):
