@@ -151,7 +151,11 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 
 #### Expert helpers
 
-(please add yourself)
+- Diana Iusan
+- Thor Wikfeldt
+- Johan Hellsvik
+- Stephan Smuts
+- Juho Lehtonen
 
 
 #### Exercise leaders :heart:
