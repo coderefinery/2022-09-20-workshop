@@ -129,9 +129,15 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Radovan Bast
 
 
-#### Video production and communication
+#### Video production
 
 - Richard Darst
+- Matias Jääskeläinen
+
+
+#### Communication
+
+- Radovan Bast
 - Diana Iusan
 
 
