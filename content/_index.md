@@ -153,7 +153,7 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Thor Wikfeldt
 - Jarno Rantaharju
 - Matteo Tomasini
-
+- Richard Darst
 
 #### Expert helpers
 
@@ -162,7 +162,7 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Johan Hellsvik
 - Stephan Smuts
 - Juho Lehtonen
-
+- Dhanya Pushpadas
 
 #### Exercise leaders :heart:
 
@@ -178,3 +178,4 @@ These three documents should be sent before 30/October/2022 23:59CET to one of t
 - Meron Vermaas
 - Aleksandra Wilczynska
 - Ruslan Zhuravchak
+- Kaveh Karimi
