@@ -3,7 +3,9 @@ title = "Schedule"
 +++
 
 <div class="alert alert-info">
-### News
+
+## News
+
 - Thank you for attending day 1!  We covered the first half of
   [git-intro](https://coderefinery.github.io/git-intro/) up to the end
   of "Branching and merging"
@@ -26,6 +28,7 @@ title = "Schedule"
   replays.  [This YouTube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau)
   will get videos before tomorrow.
+
 </div>
 
 ## Registration
