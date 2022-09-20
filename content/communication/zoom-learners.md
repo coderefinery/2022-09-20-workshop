@@ -1,5 +1,5 @@
 +++
-title = "Zoom learners"
+title = "Before workshop: Zoom learners"
 [extra]
 subject = "CodeRefinery workshop - preparation"
 +++

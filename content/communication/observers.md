@@ -1,5 +1,5 @@
 +++
-title = "Observers"
+title = "Before workshop: Observers"
 [extra]
 subject = "CodeRefinery workshop - joining as observer"
 +++

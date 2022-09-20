@@ -1,5 +1,5 @@
 +++
-title = "Those who were unsure at registration time"
+title = "Before workshop: Those who were unsure at registration time"
 [extra]
 subject = "CodeRefinery workshop"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Stream learners"
+title = "Before workshop: Stream learners"
 [extra]
 subject = "CodeRefinery workshop - preparation"
 +++

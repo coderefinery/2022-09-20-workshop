@@ -1,5 +1,5 @@
 +++
-title = "Instructors/organizers"
+title = "Before workshop: Instructors/organizers"
 [extra]
 subject = "CodeRefinery workshop - connection details"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Exercise lead onboarding summary"
+title = "Before workshop: Exercise lead onboarding summary"
 [extra]
 subject = "Summary: CodeRefinery exercise leader onboarding"
 +++

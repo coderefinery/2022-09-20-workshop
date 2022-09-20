@@ -1,5 +1,5 @@
 +++
-title = "Exercise leads"
+title = "Before workshop: Exercise leads"
 [extra]
 subject = "CodeRefinery workshop - preparation"
 +++

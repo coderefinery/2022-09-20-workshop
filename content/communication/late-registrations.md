@@ -1,5 +1,5 @@
 +++
-title = "Last-week registrations"
+title = "Before workshop: Last-week registrations"
 [extra]
 subject = "Indico confirmation email"
 +++
