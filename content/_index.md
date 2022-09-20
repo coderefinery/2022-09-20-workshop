@@ -2,6 +2,31 @@
 title = "Schedule"
 +++
 
+<div class="alert alert-info">
+### News
+- Thank you for attending day 1!  We covered the first half of
+  [git-intro](https://coderefinery.github.io/git-intro/) up to the end
+  of "Branching and merging"
+- Day 1 was a slow day to get us all on the same page.  It gets more
+  exciting tomorrow.
+- For day 2:
+  - It's not too late to join!  Review the material and you can easily
+    join.
+  - We will resume with conflict resolution, if you want check
+    branching and merging again.  We will resume from that
+    repository.
+  - Don't forget Aalto University's in-person breakout room, if that
+    is your thing.
+- HackMD will be archived [on the Q&A page](questions/) soon, and is
+  available on HackMD until then.  You can keep commenting/asking
+  until it goes away.
+- Videos: [Twitch stores the videos for 14
+  days](https://www.twitch.tv/coderefinery/videos) for instant
+  replays.  [This YouTube
+  playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau)
+  will get videos before tomorrow.
+</div>
+
 ## Registration
 
 Why is there not just one registration page? Because we allow teams and organizations
