@@ -3,7 +3,8 @@ title = "Schedule"
 +++
 
 <div class="alert alert-info">
-## News
+
+### News
 
 - Thank you for attending day 1!  We covered the first half of
   [git-intro](https://coderefinery.github.io/git-intro/) up to the end
