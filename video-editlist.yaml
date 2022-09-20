@@ -1,0 +1,485 @@
+- workshop_title: CodeRefinery September 2022
+- workshop_description: >
+    This is part of the CodeRefinery September 2022 workshop.  The videos
+    are available to everyone, but may be most useful to the people
+    who attended the workshop and want to review later.
+
+
+    Playlist: 
+
+    Workshop webpage: https://coderefinery.github.io/2022-09-20-workshop/
+
+    CodeRefinery: https://coderefinery.org/
+
+# This input will be used for all segments until redefined
+- input: day1-obs.mkv
+
+
+## Preview icebreaker
+#- output: day1-preview.mkv
+#  title: 1.0 Preview icebreaker
+#  description: >-
+#    The pre-start discussion and icebreakers.  You probably want to go
+#    on to the next video.
+#  time:
+#    - start: 
+#    - end: 
+#
+#
+## Intro
+#- output: day1-intro.mkv
+#  title: 1.1 Intro
+#  description: >
+#    The introduction to this workshop, explaining general mechanics
+#    and what CodeRefinery is.
+#  time:
+#    - start: 
+#    - stop: 
+#
+#
+## Git-intro day 1
+#- output: day1-git-intro-1.mkv
+#  title: 1.2 Git Intro
+#  description: >
+#    Here, we go over the basics of git from first principles, though
+#    this is not the most basic course you can find.  We cover basics,
+#    motivation, making commits, undoing things, staging.  The part 2
+#    video goes into branching and merging, conflict resolution,
+#    inspecting history, basics of sharing repositories online, and
+#    some practical advice.  However, this does not cover multi-user
+#    work or remotes (that is the next lesson, git-collaborative).
+#
+#    There are two external videos which are excluded from this
+#    recording.  You can find the link to them in the table of contents
+#    below.
+#
+#    https://coderefinery.github.io/git-intro/
+#
+#  time:
+#    - start: 38:17
+#    - -: Introductions
+#    - 39:50: Overview of the day
+#    - 00:43:16: Motivation to version control
+#    - 00:57:11: Basics (creating repo, adding, committing, etc.)
+#    - 01:13:56: "Exercise: recording changes"
+#    - end: 01:16:41
+#    - start: 01:41:26
+#    - -: Going over the exercise
+#    - 01:44:05: git history and log
+#    - 01:46:33: commit messages
+#    - 01:49:52: .gitignore
+#    - 01:52:57: Misc topics and summary
+#    - 01:53:58: Summary
+#    - 01:58:12: Branching and merging
+#    - 01:59:10: Motivation for branches
+#    - 02:04:39: '"git graph" alias'
+#    - 02:06:47: Branch basics
+#    - 02:08:14: Creating and working with branches
+#    - 02:14:37: "Exercise: create and commit to branches"
+#    - stop: 02:20:10
+#    - start: 02:45:01
+#    - -: Going over the exercise
+#    - 02:50:10: Merging branches
+#    - 02:54:24: Deleting branches
+#    - 02:57:53: Tags
+#    - 03:02:43: "Summary and Q&A"
+#    - 03:08:49: Conflict resolution
+#    - 03:08:49: What is a conflict?
+#    - stop: 03:13:04
+#    - start: 03:22:51
+#    - 03:23:39: Continue with three branches and making a conflict
+#    - 03:32:57: "Wrap-up of the day, Q&A"
+#    - stop: 03:48:54
+#
+## Day 2
+#- input: day2-obs.mkv
+#
+##- output: day2-intro.mkv
+##  title: Day 2 introduction
+##  description: >
+##    The quick introduction to Day 2.  This is mainly icebreaker
+##    discussion and practical matters.
+##  time:
+##    - start: 11:33
+##    - end: 24:40
+#
+## Git-intro day 2
+#- output: day2-git-intro-2.mkv
+#  title: 2.1 Git Intro day 2
+#  description: >
+#    Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
+#
+#    Here, we go over the basics of git from first principles, though
+#    this is not the most basic course you can find.  Previous video:
+#    We covered basics, motivation, making commits, undoing things,
+#    staging.  This part 2 video goes into remotes and basics of
+#    sharing repositories online, inspecting history, undoing and
+#    recovering, and some practical advice.  However, this does not
+#    cover multi-user work or remotes (that is the next lesson,
+#    git-collaborative).
+#
+#    https://coderefinery.github.io/git-intro/
+#
+#  time:
+#    - start: 00:25:10
+#    - -: Plan of today
+#    - 00:26:13: Sharing repositories online
+#    - 01:04:21: Inspecting history
+#    - stop: 01:25:13
+#    - start: 01:35:36
+#    - -: Small clarifications
+#    - 01:37:48: "Exercises: inspecting history"
+#    - stop: 01:43:00
+#    - start: 02:16:48
+#    - -: Wrap-up of inspecting history
+#    - stop: 02:28:00
+#    - start: 02:39:06
+#    - -: Undoing and recovering
+#    - 02:56:51: "Exercises: undoing and recovering"
+#    - stop: 02:59:19
+#    - start: 03:22:17
+#    - -: Recovering from committing to the wrong branch (cherry-pick)
+#    - stop: 03:30:56
+#    - start: 03:37:25
+#    - 03:38:39: The staging area
+#    - 03:44:42: Practical advice
+#    - 03:50:43: Final discussion, feedback, etc.
+#    - stop: 03:54:10
+#
+#
+## Day 3
+#- input: day3-obs.mkv
+#
+#- output: day3-intro.mkv
+#  title: 3.0 Day 3 intro
+#  description: >
+#    The quick introduction to day 3.  This skips the icebreaker but
+#    shows how we actually use the very tools in this workshop through
+#    all of CodeRefinery.
+#  time:
+#    #Remove part before the start
+#    # soft start
+#    - start: 00:14:22
+#    - stop: 00:18:20
+#
+#
+#
+#- output: day3-git-collab.mkv
+#  title: 3.1 Git collaborative
+#  description: >
+#      Today, we expand from using git by yourself to using it in a
+#      team.  We use Github, centralized workflows, forking on Github,
+#      pull requests, code review, commenting on pull requests,
+#      practical advice on using Git and version control in real projects,
+#      contributing to other projects, and more.
+#
+#      https://coderefinery.org/git-collaborative/
+#  time:
+#    - start: 00:19:26
+#    - -: Intro
+#    - 00:23:52: Overview, summary of the day
+#    - 00:25:40: Concepts around collaboration
+#    - 00:38:26: Centralized workflow
+#    - 00:43:20: "Exercise Centralized-1: creating a pull request"
+#    - stop: 00:58:57
+#    - start: 00:59:58
+#    - stop: 01:13:54
+#    - start: 01:25:21
+#    - stop: 01:26:23
+#    - start: 01:35:59
+#    - -: Exercise as a demo
+#    - 01:44:38: Discussion
+#    - 01:49:30: "Exercise Centralized-2: reviewing the pull requests"
+#    - stop: 02:19:07
+#    - start: 02:29:58
+#    - -: More discussion and commenting on / reviewing / suggesting changes pull requests
+#    - stop: 02:34:12
+#    - start: 02:48:29
+#    - -: Distributed version control and forking workflow
+#    - 02:56:37: "Exercise Distributed-1"
+#    - stop: 03:05:41
+#    - start: 03:13:14
+#    - -: Exercise as a demo
+#    - stop: 03:20:57
+#    - start: 03:30:36
+#    - -: Discussion about distributed version control
+#    - 03:43:16: How to contribute changes to someone else's project
+#    - 03:46:28: "Feedback, Q&A, what comes next week"
+#    - stop: 03:49:54
+#    - 03:54:23: "Wrap up: of the week: three levels of git (yourself, small team, the world)"
+#    - stop: 04:02:39
+#
+## Day 4
+#- input: day4-obs.mkv
+#
+#- output: day4-intro.mkv
+#  title: 4.0 Second week introduction
+#  description: >
+#    The introduction to the second week, where we go into slightly
+#    more detail bout what we will cover this week and how it fits
+#    together.
+#
+#    In short, if last week was about tracking code, this week is about
+#    managing software.
+#  time:
+#    - start: 00:20:04
+#    - end: 00:23:21
+#
+#
+#- output: day4-reproducible-research.mkv
+#  title: 4.1 Reproducible Research
+#  description: >
+#    If you can't get your code to do the same thing again, is it
+#    really science?  Or more practically, are you able to do your
+#    work?  Reproducibilty is a big deal, but we don't always learn how
+#    to do it.  In this lesson, we cover the basics, how to organize
+#    projects, record computational steps with Snakemake or other
+#    workflow managers, how to record environments with conda (and docker
+#    a bit), and sharing code and data (FAIR).
+#
+#    https://coderefinery.github.io/reproducible-research/
+#
+#  time:
+#    - start: 00:24:15
+#    - -: Introductions
+#    - 00:26:18: Reproducible research
+#    - 00:28:55: Motivation
+#    - 00:37:51: Organizing your projects
+#    - 00:52:05: Recording dependencies
+#    - 01:09:02: "Exercise: Working with conda"
+#    - stop: 01:10:34
+#    - start: 01:23:45
+#    - -: Exercise discussion
+#    - 01:24:12: Other dependency management tools
+#    - stop: 01:25:29
+#    - start: 01:34:59
+#    - -: Recording computational steps
+#    - 01:36:24: "Exercise preparation: Snakemake"
+#    - 02:00:39: "Exercise: Using SnakeMake"
+#    - stop: 02:02:55
+#    - start: 02:18:08
+#    - -: Recording environments with containers
+#    - 02:27:22: Sharing code and data
+#    - 02:30:04: "Exercise: Connecting repositories to Zenodo"
+#    - stop: 02:33:43
+#    - start: 02:43:32
+#    - stop: 02:45:56
+#
+#- output: day4-social-coding.mkv
+#  title: 4.2 Social coding
+#  description: >
+#    We don't just program for ourselves: we are part of a community.
+#    As scientists, we want to get citations, so how can our software
+#    support this?  Our work is a constant balance between using the
+#    work of others and hoping that others will use our work.  In this
+#    lesson, we talk about the advantages and disadvantages of others
+#    building on our work, and how to support that.
+#
+#    We cover best practices for software/data projects, requirements
+#    for sharing, copyright, licensing, citation, and more.
+#
+#    https://coderefinery.github.io/social-coding/
+#  time:
+#    - start: 02:53:08
+#    - 02:54:49: Social coding
+#    - 03:19:06: Licensing
+#    - stop: 03:48:24
+#
+#
+##- output: day4-outro.mkv
+##  title: 4.3 Day 4 final remarks
+##  description: >
+##    ...
+##  time:
+##    - 3:38:30, 3:39:42
+##
+#
+## Day 5
+#- input: day5-obs.mkv
+#
+##- output: day5-intro.mkv
+##  title: 5.0 Day 5 introduction
+##  description: >
+##    The quick introduction to Day 5.
+##  time:
+##    - 5:00, 6:10 # talking about icebreaker
+##    - 8:25, 9:05
+##    - 13:15, 20:50     #
+##    - 15:00: Jupyter getting started
+#
+#
+#- output: day5-jupyter.mkv
+#  title: 5.1 Jupyter
+#  description: >
+#    This lesson teachs learners the user interface of JupyterLab, how
+#    Jupyter notebooks work, and what some common and powerful usecases
+#    are. Our focus is to demonstrate and discuss and guide towards
+#    good practices for reproducibility, collaboration, and
+#    reusability. The emphasis of this lesson is to demonstrate how to
+#    use notebooks in combination with version control and how to share
+#    reproducible notebooks via Binder.
+#
+#    This lesson demonstrates the use of JupyterLab, nbdime,
+#    jupyterlab-git, and Binder.
+#
+#    https://coderefinery.github.io/jupyter/
+#  time:
+#    - start: 00:13:13
+#    - 00:14:25: Intro to Jupyter and JupyterLab
+#    - 00:15:18: Motivation
+#    - 00:26:25: JuptyerLab and notebook interface
+#    - 00:37:48: A first computational notebook example
+#    - 00:39:28: "Exercise: calculating pi"
+#    - stop: 00:41:51
+#    - start: 00:51:27
+#    - -: Going over the exercise as a demo
+#    - stop: 00:59:20
+#    - start: 01:02:09
+#    - 01:03:55: Other examples
+#    - 01:06:03: Version control and notebooks
+#    - stop: 01:19:40
+#    - start: 01:30:22
+#    - -: Binder
+#    - stop: 01:57:46
+#
+#- output: day5-documentation.mkv
+#  title: 5.2 Documentation
+#  description: >
+#    In this lesson we discuss different solutions for implementing and
+#    deploying code documentation. We start by creating a wishlist for
+#    how we would code documentation like to be. Then after a tour of
+#    available tools, we discuss how to write useful and accessible
+#    READMEs, and then we progress by demonstrating and practicing the
+#    Sphinx documentation generator and demonstrate how to deploy
+#    documentation to Read the Docs service.
+#
+#    Topics and tools discussed: Markdown, reStructured text, README
+#    documentation, table of contents generation, Sphinx, Read the
+#    Docs, GitHub/GitLab pages.
+#
+#    https://coderefinery.github.io/documentation/
+#  time:
+#    - start: 02:07:24
+#    - 02:08:08: Documentation wishlist
+#    - 02:12:19: What do we expect from good documentation?
+#    - stop: 02:16:21  # network glitch
+#    - start: 02:16:59
+#    - 02:20:39: Popular tools and solutions
+#    - 02:25:23: In-code documentation (not covered)
+#    - 02:25:39: Readme files
+#    - 02:26:42: "Exercise: Readme files"
+#    - stop: 02:28:33
+#    - start: 02:42:17
+#    - -: Exercise discussion
+#    - 02:44:34: Sphinx lesson preparation
+#    - stop: 02:45:43
+#    - start: 02:55:42
+#    - -: Sphinx lesson
+#    - stop: 03:25:40
+#    - start: 03:40:13
+#    - -: Final discussion
+#    - 03:40:56: Deploying Sphinx to Github Pages / Hosting your own sites on Github Pages (not covered)
+#    - 03:42:17: Summary
+#    - stop: 03:45:28
+#
+#- output: day5-outro.mkv
+#  title: 5.3 Day 5 outro
+#  description: >-
+#    Conclusion of day 5 and expectations for day 6.
+#  time:
+#    - start: 03:45:28
+#    - stop: 03:46:23
+#
+#
+#
+#- input: day6-obs.mkv
+#
+##- output: day6-intro.mkv
+##  title: Day 6 intro
+##  description: >
+##    The quick introduction to Day 6.
+##  time:
+##    - start: 15:47
+##    - end: 19:10
+#
+#
+#
+#- output: day6-testing.mkv
+#  title: 6.1 Software Testing
+#  description: >
+#    Software testing is a fundamental part of modern software
+#    development, and especially important for science since results
+#    should be correct.  Luckily, it's not so hard to get started, and
+#    anyone can do it. This is a crash course for scientists to get
+#    started testing their software.
+#
+#    Tools covered include concepts of testing for science, unit
+#    testing, pytest, continuous integration, and GitHub actions.  We
+#    make demos in Python, but have examples in other languages and
+#    this will apply to every language in some form.
+#
+#    https://coderefinery.github.io/testing/
+#
+#  time:
+#    - start: 00:18:05
+#    - 00:20:25: Motivation
+#    - 00:36:53: Concepts
+#    - 00:45:15: Testing locally
+#    - 00:51:15: "Exercise: testing locally with pytest"
+#    - stop: 00:52:51
+#    - start: 01:06:35
+#    - -: "Q&A"
+#    - stop: 01:20:14
+#    - start: 01:29:47
+#    - 01:30:22: Automated testing and continuous integration with Github Actions
+#    - 01:51:23: Test design
+#    - stop: 02:17:23
+#
+#
+#
+#- output: day6-modular-code-development.mkv
+#  title: 6.2 Modular Code Development
+#  description: >
+#    In this live-coding demo session we take a Python script as
+#    starting point which reads data, computes simple statistics, and
+#    generates a plot. Together we then improve this code based on
+#    suggestions from the audience to arrive at a more reusable code
+#    with reusable components. We start in the Jupyter notebook, later
+#    move to a Python script/module, introduce testing, and finally
+#    introduce and motivate a command line interface to our code.
+#
+#    In this demonstration we use JupyterLab, Python, Pandas,
+#    Matplotlib, pytest, and Click.  It is also a great demonstration
+#    of pair programming.
+#
+#    https://coderefinery.github.io/modular-type-along/
+#  time:
+#    - start: 02:29:51
+#    - 02:32:18: Starting questions discussion
+#    - 02:37:08: Learning topics
+#    - 02:38:26: "Type-along begins: introduction to our task"
+#    - 02:42:47: Fetching the data
+#    - 02:44:52: Starting in a Jupyter notebook
+#    - 02:53:10: Splitting up into smaller functions
+#    - stop: 03:10:23
+#    - start: 03:20:33
+#    - 03:21:02: Benefits of organizing code into smaller units
+#    - 03:22:16: What should we do next? binder, packaging, ...
+#    - 03:24:22: Moving to git, command-line program, and modules
+#    - 03:26:43: Building a command-line program
+#    - 03:33:47: Adding a test
+#    - stop: 03:39:04
+#
+#
+#
+#- output: day6-outro.mkv
+#  title: 6.3 Workshop outro
+#  description: >
+#      The concluding remarks of the workshop.
+#
+#      Updated version: https://github.com/coderefinery/workshop-outro/blob/master/README.md
+#
+#      Version presented: https://github.com/coderefinery/workshop-outro/blob/26e552875f69bf338bb60575932197860578323c/README.md
+#  time:
+#    - start: 03:40:03
+#    - end: 03:53:00
