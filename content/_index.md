@@ -3,7 +3,6 @@ title = "Schedule"
 +++
 
 <div class="alert alert-info">
-
 ## News
 
 - Thank you for attending day 1!  We covered the first half of
