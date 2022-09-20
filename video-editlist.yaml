@@ -25,18 +25,24 @@
 #    - start: 
 #    - end: 
 #
-#
-## Intro
-#- output: day1-intro.mkv
-#  title: 1.1 Intro
-#  description: >
-#    The introduction to this workshop, explaining general mechanics
-#    and what CodeRefinery is.
-#  time:
-#    - start: 
-#    - stop: 
-#
-#
+
+# Intro
+- output: day1-intro.mkv
+  title: 1.1 Intro
+  description: >
+    The introduction to this workshop, explaining general mechanics
+    and what CodeRefinery is.
+  time:
+#     - input: CR_LOGO_2022_08_05.mp4
+#     - start: 00:00
+#     - stop: 00:06
+#     - input: day1-obs.mkv
+     - start: 00:26:20
+     - stop: 00:42:47
+#     - input: CR_LOGO_2022_08_05.mp4
+#     - start: 00:00
+#     - stop: 00:06
+
 ## Git-intro day 1
 #- output: day1-git-intro-1.mkv
 #  title: 1.2 Git Intro
@@ -56,6 +62,10 @@
 #    https://coderefinery.github.io/git-intro/
 #
 #  time:
+##    - input: CR_LOGO_2022_08_05.mp4
+#     - start: 00:00
+#     - stop: 00:06
+#    - input: day1-obs.mkv
 #    - start: 38:17
 #    - -: Introductions
 #    - 39:50: Overview of the day
@@ -90,6 +100,9 @@
 #    - 03:23:39: Continue with three branches and making a conflict
 #    - 03:32:57: "Wrap-up of the day, Q&A"
 #    - stop: 03:48:54
+#    - input: CR_LOGO_2022_08_05.mp4
+#     - start: 00:00
+#     - stop: 00:06
 #
 ## Day 2
 #- input: day2-obs.mkv
