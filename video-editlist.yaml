@@ -5,7 +5,7 @@
     who attended the workshop and want to review later.
 
 
-    Playlist: 
+    Playlist: https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau
 
     Workshop webpage: https://coderefinery.github.io/2022-09-20-workshop/
 
@@ -32,11 +32,13 @@
   description: >
     The introduction to this workshop, explaining general mechanics
     and what CodeRefinery is.
+
+    https://github.com/coderefinery/workshop-intro/blob/master/livestream.md
   time:
 #     - input: CR_LOGO_2022_08_05.mp4
 #     - start: 00:00
 #     - stop: 00:06
-#     - input: day1-obs.mkv
+     - input: day1-obs.mkv
      - start: 00:26:20
      - stop: 00:42:47
 #     - input: CR_LOGO_2022_08_05.mp4
@@ -75,7 +77,7 @@
     - 01:07:12: Basics (creating repo, adding, committing, etc.)
     - end: 01:25:33
     - start: 01:40:45
-    - 01:40:08: "Exercise: recording changes"
+    - 01:43:08: "Exercise: recording changes"
     - end: 01:45:02
     - start: 02:08:41
     - 02:08:41: Going over the exercise
@@ -91,28 +93,31 @@
     - start: 02:40:27
     - -: Branching and merging
     - 02:42:37: Motivation for branches
-    
-    - 02:04:39: '"git graph" alias'
-    - 02:06:47: Branch basics
-    - 02:08:14: Creating and working with branches
-    - 02:14:37: "Exercise: create and commit to branches"
-    - stop: 02:20:10
-    - start: 02:45:01
+    - 02:48:15: '"git graph" alias'
+    - 02:52:32: Branch basics
+    - 02:53:24: Creating and working with branches
+    - 03:04:04: "Exercise: create and commit to branches"
+    - stop: 03:08:18
+    - start: 03:35:55
     - -: Going over the exercise
-    - 02:50:10: Merging branches
-    - 02:54:24: Deleting branches
-    - 02:57:53: Tags
-    - 03:02:43: "Summary and Q&A"
-    - 03:08:49: Conflict resolution
-    - 03:08:49: What is a conflict?
-    - stop: 03:13:04
-    - start: 03:22:51
-    - 03:23:39: Continue with three branches and making a conflict
-    - 03:32:57: "Wrap-up of the day, Q&A"
-    - stop: 03:48:54
+    - 03:39:16: Merging branches
+    - 03:45:23: Deleting branches
+    - 03:51:47: Tags
+    - 03:54:07: "Summary and Q&A"
+    - 03:56:20: Feedback
+    - stop: 03:59:11
 #    - input: CR_LOGO_2022_08_05.mp4
 #     - start: 00:00
 #     - stop: 00:06
+
+
+#    - 03:08:49: Conflict resolution
+#    - 03:08:49: What is a conflict?
+#    - stop: 03:13:04
+#    - start: 03:22:51
+#    - 03:23:39: Continue with three branches and making a conflict
+#    - 03:32:57: "Wrap-up of the day, Q&A"
+#    - stop: 03:48:54
 #
 ## Day 2
 #- input: day2-obs.mkv
