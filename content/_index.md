@@ -11,7 +11,8 @@ title = "Schedule"
   exciting tomorrow.
 - For day 2:
   - It's not too late to join!  Review the material and you can easily
-    join.
+    catch up.  Please invite your friends and colleagues, too -
+    everyone is welcome.
   - We will resume with conflict resolution, if you want check
     branching and merging again.  We will resume from that
     repository.
