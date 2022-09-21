@@ -148,12 +148,14 @@
 - output: day2-git-intro-2.mkv
   title: 2.2 Git Intro day 2
   description: >
-    Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
+    Part 2 of the previous video: https://www.youtube.com/watch?v=HkiheYi0QsE&list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau&index=2
+
 
     Here, we go over the basics of git from first principles, though
     this is not the most basic course you can find.  Previous video:
-    We covered basics, motivation, making commits, undoing things,
-    staging.  This part 2 video goes into remotes and basics of
+    We covered basics, motivation, making commits, merging, and
+    staging.  This part 2 video goes into conflict resolution, remotes
+    and basics of
     sharing repositories online, inspecting history, undoing and
     recovering, and some practical advice.  However, this does not
     cover multi-user work or remotes (that is the next lesson,
