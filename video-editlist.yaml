@@ -12,7 +12,7 @@
     CodeRefinery: https://coderefinery.org/
 
 # This input will be used for all segments until redefined
-- input: day1-obs.mkv
+#- input: day1-obs.mkv
 
 
 ## Preview icebreaker
@@ -35,15 +35,15 @@
 
     https://github.com/coderefinery/workshop-intro/blob/master/livestream.md
   time:
-#     - input: CR_LOGO_2022_08_05.mp4
-#     - start: 00:00
-#     - stop: 00:06
+     - input: CR_LOGO_30p.mov
+     - start: 00:00
+     - stop: 00:06
      - input: day1-obs.mkv
      - start: 00:26:20
      - stop: 00:42:47
-#     - input: CR_LOGO_2022_08_05.mp4
-#     - start: 00:00
-#     - stop: 00:06
+     - input: CR_LOGO_30p.mov
+     - start: 00:00
+     - stop: 00:06
 
 # Git-intro day 1
 - output: day1-git-intro-1.mkv
@@ -64,10 +64,10 @@
     https://coderefinery.github.io/git-intro/
 
   time:
-##    - input: CR_LOGO_2022_08_05.mp4
-#     - start: 00:00
-#     - stop: 00:06
-#    - input: day1-obs.mkv
+    - input: CR_LOGO_30p.mov
+    - start: 00:00
+    - stop: 00:06
+    - input: day1-obs.mkv
     - start: 00:43:41
     - -: Introductions
     - 00:44:38: Overview of the day
@@ -106,66 +106,89 @@
     - 03:54:07: "Summary and Q&A"
     - 03:56:20: Feedback
     - stop: 03:59:11
-#    - input: CR_LOGO_2022_08_05.mp4
-#     - start: 00:00
-#     - stop: 00:06
+    - input: CR_LOGO_30p.mov
+    - start: 00:00
+    - stop: 00:06
 
 
-#    - 03:08:49: Conflict resolution
-#    - 03:08:49: What is a conflict?
+#    
 #    - stop: 03:13:04
 #    - start: 03:22:51
-#    - 03:23:39: Continue with three branches and making a conflict
 #    - 03:32:57: "Wrap-up of the day, Q&A"
 #    - stop: 03:48:54
 #
+
+
+#### I commented out the input from the top! -MJ
+
+
+
 ## Day 2
 #- input: day2-obs.mkv
 #
-##- output: day2-intro.mkv
-##  title: Day 2 introduction
-##  description: >
-##    The quick introduction to Day 2.  This is mainly icebreaker
-##    discussion and practical matters.
-##  time:
-##    - start: 11:33
-##    - end: 24:40
+- output: day2-intro.mkv
+  title: Day 2 introduction
+  description: >
+    The quick introduction to Day 2 and recap from Day 1.
+  time:
+    - input: CR_LOGO_30p.mov
+    - start: 00:00
+    - stop: 00:06
+    - input: day2-obs.mkv
+    - start: 00:19:23
+    - 00:21:00: Conflict resolution
+    - 00:22:29: What is a conflict?
+    - 00:25:41: "Type-along: Making a conflict"
+    - 00:42:32: Graphical diff-tools 
+    - 00:44:44: Course takeaway and conflict summary
+    - end: 00:46:33
+    - input: CR_LOGO_30p.mov
+    - start: 00:00
+    - stop: 00:06
 #
-## Git-intro day 2
-#- output: day2-git-intro-2.mkv
-#  title: 2.1 Git Intro day 2
-#  description: >
-#    Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
-#
-#    Here, we go over the basics of git from first principles, though
-#    this is not the most basic course you can find.  Previous video:
-#    We covered basics, motivation, making commits, undoing things,
-#    staging.  This part 2 video goes into remotes and basics of
-#    sharing repositories online, inspecting history, undoing and
-#    recovering, and some practical advice.  However, this does not
-#    cover multi-user work or remotes (that is the next lesson,
-#    git-collaborative).
-#
-#    https://coderefinery.github.io/git-intro/
-#
-#  time:
-#    - start: 00:25:10
+ Git-intro day 2
+- output: day2-git-intro-2.mkv
+  title: 2.1 Git Intro day 2
+  description: >
+    Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
+
+    Here, we go over the basics of git from first principles, though
+    this is not the most basic course you can find.  Previous video:
+    We covered basics, motivation, making commits, undoing things,
+    staging.  This part 2 video goes into remotes and basics of
+    sharing repositories online, inspecting history, undoing and
+    recovering, and some practical advice.  However, this does not
+    cover multi-user work or remotes (that is the next lesson,
+    git-collaborative).
+
+    https://coderefinery.github.io/git-intro/
+
+  time:
+    - input: CR_LOGO_30p.mov
+    - start: 00:00
+    - stop: 00:06
+    - input: day2-obs.mkv
+    - start: 00:47:04
 #    - -: Plan of today
-#    - 00:26:13: Sharing repositories online
-#    - 01:04:21: Inspecting history
-#    - stop: 01:25:13
-#    - start: 01:35:36
-#    - -: Small clarifications
-#    - 01:37:48: "Exercises: inspecting history"
-#    - stop: 01:43:00
-#    - start: 02:16:48
-#    - -: Wrap-up of inspecting history
-#    - stop: 02:28:00
-#    - start: 02:39:06
-#    - -: Undoing and recovering
-#    - 02:56:51: "Exercises: undoing and recovering"
-#    - stop: 02:59:19
-#    - start: 03:22:17
+    - 00:47:05: Sharing repositories online
+    - 01:07:00: Permission denied, public key
+    - 01:08:25: Cloning and deleting a repository
+    - stop: 01:16:28
+    - input: day2-obs.mkv # Does this need to be here? -MJ
+    - start: 01:34:04
+    - -: Small clarifications, SSH
+    - 01:37:28: Inspecting history
+    - 01:50:48: "Exercises: inspecting history"
+    - stop: 01:53:34
+    - input: day2-obs.mkv # Does this need to be here? -MJ
+    - start: 02:34:49
+    - -: Wrap-up of inspecting history
+    - 02:41:47: Git Bisect
+    - 02:44:29: Undoing and recovering
+    - 03:01:11: "Exercises: undoing and recovering"
+    - stop: 03:03:09
+    - input: day2-obs.mkv # Does this need to be here? -MJ
+    - start: 03:29:05
 #    - -: Recovering from committing to the wrong branch (cherry-pick)
 #    - stop: 03:30:56
 #    - start: 03:37:25
