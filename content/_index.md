@@ -18,6 +18,7 @@ title = "Schedule"
   - We will resume with conflict resolution, if you want check
     branching and merging again.  We will resume from that
     repository.
+  - Exercise leaders: The exercise plan is in the HackMD as usual.
   - Don't forget Aalto University's in-person breakout room, if that
     is your thing.
 - HackMD will be archived [on the Q&A page](questions/) soon, and is
