@@ -123,32 +123,30 @@
 
 
 
-## Day 2
-#- input: day2-obs.mkv
-#
-- output: day2-intro.mkv
-  title: Day 2 introduction
-  description: >
-    The quick introduction to Day 2 and recap from Day 1.
-  time:
-    - input: CR_LOGO_30p.mov
-    - start: 00:00
-    - stop: 00:06
-    - input: day2-obs.mkv
-    - start: 00:19:23
-    - 00:21:00: Conflict resolution
-    - 00:22:29: What is a conflict?
-    - 00:25:41: "Type-along: Making a conflict"
-    - 00:42:32: Graphical diff-tools 
-    - 00:44:44: Course takeaway and conflict summary
-    - end: 00:46:33
-    - input: CR_LOGO_30p.mov
-    - start: 00:00
-    - stop: 00:06
-#
- Git-intro day 2
+# Day 2
+- input: day2-obs.mkv
+
+#- output: day2-intro.mkv
+#  title: 2.1 Git intro - conflicts
+#  description: >
+#    The quick introduction to Day 2 and recap from Day 1.
+#  time:
+#    - input: CR_LOGO_30p.mkv
+#    - start: 00:00
+#    - stop: 00:06
+#    - input: day2-obs.mkv
+#    - start: 00:19:23
+#    - 00:21:00: Conflict resolution
+#    - 00:22:29: What is a conflict?
+#    - 00:25:41: "Type-along: Making a conflict"
+#    - stop: 26:00
+#    - input: CR_LOGO_30p.mkv
+#    - start: 00:00
+#    - stop: 00:06
+
+# Git-intro day 2
 - output: day2-git-intro-2.mkv
-  title: 2.1 Git Intro day 2
+  title: 2.2 Git Intro day 2
   description: >
     Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
 
@@ -164,40 +162,47 @@
     https://coderefinery.github.io/git-intro/
 
   time:
-    - input: CR_LOGO_30p.mov
-    - start: 00:00
-    - stop: 00:06
+    #- input: CR_LOGO_30p.mov
+    #- start: 00:00
+    #- stop: 00:06
     - input: day2-obs.mkv
+    - start: 00:19:23
+    - 00:21:00: Conflict resolution
+    - 00:22:29: What is a conflict?
+    - 00:25:41: "Type-along: Making a conflict"
+    - 00:42:32: Graphical diff-tools
+    - 00:44:44: Course takeaway and conflict summary
+    - end: 00:46:33
     - start: 00:47:04
 #    - -: Plan of today
     - 00:47:05: Sharing repositories online
     - 01:07:00: Permission denied, public key
     - 01:08:25: Cloning and deleting a repository
     - stop: 01:16:28
-    - input: day2-obs.mkv # Does this need to be here? -MJ
     - start: 01:34:04
     - -: Small clarifications, SSH
     - 01:37:28: Inspecting history
     - 01:50:48: "Exercises: inspecting history"
     - stop: 01:53:34
-    - input: day2-obs.mkv # Does this need to be here? -MJ
     - start: 02:34:49
     - -: Wrap-up of inspecting history
     - 02:41:47: Git Bisect
     - 02:44:29: Undoing and recovering
     - 03:01:11: "Exercises: undoing and recovering"
     - stop: 03:03:09
-    - input: day2-obs.mkv # Does this need to be here? -MJ
     - start: 03:29:05
-#    - -: Recovering from committing to the wrong branch (cherry-pick)
-#    - stop: 03:30:56
-#    - start: 03:37:25
-#    - 03:38:39: The staging area
-#    - 03:44:42: Practical advice
-#    - 03:50:43: Final discussion, feedback, etc.
-#    - stop: 03:54:10
-#
-#
+    - -: Recovering from committing to the wrong branch (cherry-pick)
+    - 03:31:54: How much git is necessary?  What is a good balance?
+    - 03:41:15: Takeaway from days 1-2
+    - 03:42:32: Note about ssh keys for tomorrow
+    - 03:43:02: "Other Q&A, feedback, and final discussion"
+    - stop: 03:49:34
+    #- input: CR_LOGO_30p.mov
+    #- start: 00:00
+    #- stop: 00:06
+
+
+
 ## Day 3
 #- input: day3-obs.mkv
 #
