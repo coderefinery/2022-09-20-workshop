@@ -235,7 +235,7 @@
   time:
     - start: 00:12:10
     - -: Intro
-    end: 00:13:45
+    - end: 00:13:45
     # I skipped FAIR stuff because I did not catch when it started
     start: 00:21:26
     - -: Overview, summary of the day, Re-introduction
