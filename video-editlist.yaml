@@ -237,7 +237,7 @@
     - -: Intro
     - end: 00:13:45
     # I skipped FAIR stuff because I did not catch when it started
-    start: 00:21:26
+    - start: 00:21:26
     - -: Overview, summary of the day, Re-introduction
     - 00:30:19: Concepts around collaboration
     - 00:54:28: Centralized workflow
