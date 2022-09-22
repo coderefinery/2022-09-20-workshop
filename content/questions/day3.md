@@ -104,18 +104,18 @@ Too slow: o
 7. When cloning, we only clone one branch to the local computer. Is not possible to clone the whole repository with all commits/branching history?
    - A clone actually does have all branchs and history.
    - Try `git branch -v` to see them - they are `origin/...` branches so "remote tracking branches" - they don't appear as local branches immediately.
-
+     - I think it should be `git branch --all`
 
 8. If I am working on a project and it has some collaborators, do I have to make the project public in github? I would not like to make it public before it finishes. 
    - +1
    - You can leave it private until you are ready to make it public.  This would be a typical workflow (github supports free private repositories now).
    - But if I make it private, how can the others clone it?
    - You can invite other person to have access to the repo. As owner of a repo, you can send an invite to anyone who has an account on Github.
-
+     - Alternative: have one repo that is private and one that is public. On the public one you have the `main` branch. On the private one you have all unpublished branches.
 
 9. Unrelated. Where I can find the definition of the alias `git graph`?
    - https://coderefinery.github.io/git-intro/reference/#commands-we-use
-   - `git config --global alias.graph "log --all --graph --decorate --oneline"``
+   - `git config --global alias.graph "log --all --graph --decorate --oneline"`
 
 
 10. Can we get a real life example (for example from one of your repositories) of a pull request after forking? So to see the size of changes.
@@ -124,7 +124,7 @@ Too slow: o
 
 
 11. Can you explain the "origin" concept again?
-    - `origin` is the convential term for "the place from where you cloned".
+    - `origin` is the convential term for "the place from where you cloned from".
     - git, by default, when you `git clone`, it a remote with the name `origin` and that name can be used with `git push` and `git pull` to send changes back and forth.
 
 
@@ -166,7 +166,7 @@ https://coderefinery.github.io/git-collaborative/centralized/
 
 18. Why does `git diff` not show any staged changes, only unstaged? Can we make it show? Could be useful for deciding commit-message?
     - `git diff --cached` will show staged changes. Or `git diff --staged`, which might be easier to remember!
-
+    - this surprising behavior can be useful as you can use `git diff` to see new changes since staging last. I typically stage several times before committing.
 
 19. Please mention the tasks to be done. By the time I accepted the invite, the tasks were already explained and I missed it.
     - ok will do after break. in short: your goal is to open a pull request, so everything until and including step H
@@ -241,7 +241,7 @@ I am:
 
 23. I forgot the -u when pushing. Can I fix this after the fact?
     - It's not a problem - `-u` only says "remember this for next time", you can use it later or be explicit each time.
-
+      - and you can also use this when pushing the second time and it will connect the two then.
 
 24. in the cloned project, in .git/config there is https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded.git
     Shouldn't it be some ssh git@github.com:something....  ?
@@ -274,7 +274,7 @@ I am:
 
 29. Is it possible to directly open the files inside the local repo and modify them using some editors (like notepad) and then save them and stage them in the git bash? (Is it also possible to modify the files somewhere else inside the local machine and then transfer them to the local git repo and stage them?)
     - Yes (and yes, even though I wouldn't recommend this unless you have a good reason)
-
+    - better than transferring between computers by hand is to place it on github/gitlab and then synchronize changes with pull and push
 
 30. Why should we use the SSH and not the direct url? What is the danger?
     - For cloning using https is fine, but if you want to push, git will need to check your identity, and if you use https, you have quite a bit of work setting up the authentication.
@@ -283,7 +283,7 @@ I am:
 
 31. When cloning a repo, why some branches are included and some are not? How to pull all branches?
     - The branches get renamed from "branch_name" into "origin/branch_name". You can see them using `git branch -v`.
-
+      - I think it should be `git branch --all`
 
 32. Why is the expression 'pull request'? In gitLab it's 'Merge request' which seems much more intuitive (sorry if this has been asked before).
     - see #26
@@ -292,7 +292,7 @@ I am:
 
 33. In step you showed this: git branch yourname-somefeature master, but know it was like this: yourname/somefeature why?
     - The `-` vs `/` has no special meaning.  We changed the recommendation to `-` because it was less confusing (the `/` in `origin/...` *does* mean something)
-
+       - RB: sorry. When working on my own I use "/" but for presenting I should rather use "-" for less confusion.
 
 34. Can I delete the branch after pushed to remote repo if I don't want to merge it?
     - Yes.  It will stay on the remote until deleted there.
@@ -322,11 +322,11 @@ I am:
 37. At some point it would be nice if you could say something about common pitfalls or experiences or maybe best practice when working several people on larger projects, as I go a long in my projects I usually get a clearer picture of functionality and sometimes want to change basic classes or functions made in the beginning of a project, but if other people are developing on the project I suppose this would introduce a lot of conflicts
     - The last part of today is practical ideas of how to contribute, where we discuss some of this.  If we don't remember the this question then, raise it again!
     - The best thing for these kind of situations are tests (imo). As long as the tests succeed, you should be fine in changing the underlying classes. But any time you have to change a test, you are introducing a breaking change, which might not be what you want.
-
+    - and to open an issue first and collect feedback before making a change. the issue can also inform others about the changes that are coming up.
 
 38. How would you manage something like credentials in your code when collaborating and sharing code online? Use a config file ignored using gitignore?
     - Correct.  Then share that config file some other way, or maybe each person has their own credentials in there.  Maybe even a "secrets" git repo that is handled separately.
-
+    - GitHub and GitLab can also store repository secrets without exposing them in the history or test outputs
 
 39. The admin and I (contributor) are sitting next to eachother comparing trees. We have both fetched, but the trees are different. Do we need to use some commands to make the trees align in the future. I have one branch that is not pushed yet.
     - Hm, does `git graph` show any hints (like, are you at slightly different places in the graph)?
@@ -512,4 +512,3 @@ Other comments:
 - Very cute cat +1
 - Hopefully more next week!
 - Thanks to all the teachers and organisers!
-
