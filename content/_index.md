@@ -15,7 +15,7 @@ title = "Schedule"
     probably new for many people.  We will do
     [git-collaborative](https://coderefinery.github.io/git-collaborative/).
   - **You need to have ssh keys set up and verify this for tomorrow**:
-    https://coderefinery.github.io/installation/ssh/ - do this early,
+    <https://coderefinery.github.io/installation/ssh/> - do this early,
     so you can ask for help if needed.
   - Exercise leaders: The exercise plan is in the HackMD as usual.
 - HackMD is archived each day [on the Q&A page](questions/), and is
