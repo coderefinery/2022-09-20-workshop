@@ -206,8 +206,8 @@
 
 
 ## Day 3
-#- input: day3-obs.mkv
-#
+- input: day3-obs.mkv
+
 #- output: day3-intro.mkv
 #  title: 3.0 Day 3 intro
 #  description: >
@@ -222,46 +222,56 @@
 #
 #
 #
-#- output: day3-git-collab.mkv
-#  title: 3.1 Git collaborative
-#  description: >
-#      Today, we expand from using git by yourself to using it in a
-#      team.  We use Github, centralized workflows, forking on Github,
-#      pull requests, code review, commenting on pull requests,
-#      practical advice on using Git and version control in real projects,
-#      contributing to other projects, and more.
-#
-#      https://coderefinery.org/git-collaborative/
-#  time:
-#    - start: 00:19:26
-#    - -: Intro
-#    - 00:23:52: Overview, summary of the day
-#    - 00:25:40: Concepts around collaboration
-#    - 00:38:26: Centralized workflow
-#    - 00:43:20: "Exercise Centralized-1: creating a pull request"
-#    - stop: 00:58:57
-#    - start: 00:59:58
-#    - stop: 01:13:54
-#    - start: 01:25:21
-#    - stop: 01:26:23
-#    - start: 01:35:59
-#    - -: Exercise as a demo
-#    - 01:44:38: Discussion
-#    - 01:49:30: "Exercise Centralized-2: reviewing the pull requests"
-#    - stop: 02:19:07
-#    - start: 02:29:58
-#    - -: More discussion and commenting on / reviewing / suggesting changes pull requests
-#    - stop: 02:34:12
-#    - start: 02:48:29
-#    - -: Distributed version control and forking workflow
-#    - 02:56:37: "Exercise Distributed-1"
-#    - stop: 03:05:41
-#    - start: 03:13:14
-#    - -: Exercise as a demo
-#    - stop: 03:20:57
+- output: day3-git-collab.mkv
+  title: 3.1 Git collaborative
+  description: >
+      Today, we expand from using git by yourself to using it in a
+      team.  We use Github, centralized workflows, forking on Github,
+      pull requests, code review, commenting on pull requests,
+      practical advice on using Git and version control in real projects,
+      contributing to other projects, and more.
+
+      https://coderefinery.org/git-collaborative/
+  time:
+    - start: 00:12:10
+    - -: Intro
+    end: 00:13:45
+    # I skipped FAIR stuff because I did not catch when it started
+    start: 00:21:26
+    - -: Overview, summary of the day, Re-introduction
+    - 00:30:19: Concepts around collaboration
+    - 00:54:28: Centralized workflow
+    - 01:02:00: "Exercise Centralized-1: creating a pull request"
+    - stop: 01:18:21
+    - start: 01:31:08
+    - stop: 01:32:11
+    - start: 02:17:04
+    - -: Review the exercise
+    - 02:18:22: Network view
+    - Reviewing pull requests and integrating changes
+    - 02:25:34: More discussion on reviewing, suggesting changes, merging
+    - 02:30:17: Again an example on commit + origin + PR + review + merge
+    - end: 02:35:00
+    - start: 02:46:12
+    - -: Review changes, make changes to pull requests
+    - 02:48:33: Unfinished idea and draft pull requests
+    - 02:50:15: More code reviewing, conflict resolve in GitHub, closing issues
+    - 02:55:00: Suggesting changes in GitHub
+    - 02:57:00: "Exercise Centralized-2: reviewing the pull requests"
+    - end: 02:57:17
+    - start: 03:01:47
+    - -: One more thing.. Pull changes from remote
+    - 03:05:40: Distributed version control and forking workflow
+    - 03:11:01: Preparation for "Exercise Distributed-1", origin and remotes
+    - stop: 03:21:34
+    - start: 03:40:56
+    - -: Key steps of the Exercise as a demo
+    - 03:44:28: Syncing changes from central repo to a fork
+    - 03:50:33: "Wrap-up and discussion: How to contribute changes to someone else's project"
+    - stop: 03:53:22
 #    - start: 03:30:36
 #    - -: Discussion about distributed version control
-#    - 03:43:16: How to contribute changes to someone else's project
+#    - 03:43:16: 
 #    - 03:46:28: "Feedback, Q&A, what comes next week"
 #    - stop: 03:49:54
 #    - 03:54:23: "Wrap up: of the week: three levels of git (yourself, small team, the world)"
