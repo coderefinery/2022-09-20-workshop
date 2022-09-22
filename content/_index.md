@@ -6,18 +6,22 @@ title = "Schedule"
 
 ### News
 
-- Day 2 showed us more advanced features of git - things that start to
-  be interesting like resolving conflicts or merge history.
-- For day 3:
-  - Again, it's not too late to join!  Invite your friends and
-    colleagues in order to see how to *work together* with Github -
-    either within your group, or on a larger project.  This is
-    probably new for many people.  We will do
-    [git-collaborative](https://coderefinery.github.io/git-collaborative/).
-  - **You need to have ssh keys set up and verify this for tomorrow**:
-    <https://coderefinery.github.io/installation/ssh/> - do this early,
-    so you can ask for help if needed.
-  - Exercise leaders: The exercise plan is in the HackMD as usual.
+- Day 3 showed us how to work together for real.  First we all worked
+  on the same Github repository (centralized), and then we saw what
+  happened if we don't have that access (distributed/forking).  While
+  next week goes a slightly different path, we will use these skills a
+  little bit next week, so practice if you want!
+- Next week resumes with a different track: instead of focusing on
+  version control, we focus on tools of software development like
+  documentation, testing, modular code.  We see how version control
+  makes a lot of this possible!
+  - Week 2 is a fine time for new people to join us!
+- For day 4:
+  - The CodeRefinery conda environment is needed immediately on day 4
+    Make sure it is set up and tested!  We will start using this.
+    <https://coderefinery.github.io/installation/conda/>
+  - Check any problems you may have had before, like SSH keys.
+  - Exercise leaders: The exercise plan will be in the HackMD as usual.
 - HackMD is archived each day [on the Q&A page](questions/), and is
   available on HackMD until then.
 - Videos: [Twitch stores the videos for 14
