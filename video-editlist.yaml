@@ -269,6 +269,9 @@
     - 03:44:28: Syncing changes from central repo to a fork
     - 03:50:33: "Wrap-up and discussion: How to contribute changes to someone else's project"
     - stop: 03:53:22
+    - start: 03:54:53
+    - -: Final wrap-up, preparation for next week.
+    - stop: 03:59:07
 #    - start: 03:30:36
 #    - -: Discussion about distributed version control
 #    - 03:43:16: 
