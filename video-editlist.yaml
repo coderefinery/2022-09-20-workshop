@@ -310,89 +310,51 @@
 
     https://coderefinery.github.io/reproducible-research/
 
-#  time:
-#    - start: 00:24:15
-#    - -: Introductions
-#    - 00:26:18: Reproducible research
-#    - 00:28:55: Motivation
-#    - 00:37:51: Organizing your projects
-#    - 00:52:05: Recording dependencies
-#    - 01:09:02: "Exercise: Working with conda"
-#    - stop: 01:10:34
-#    - start: 01:23:45
-#    - -: Exercise discussion
-#    - 01:24:12: Other dependency management tools
-#    - stop: 01:25:29
-#    - start: 01:34:59
-#    - -: Recording computational steps
-#    - 01:36:24: "Exercise preparation: Snakemake"
-#    - 02:00:39: "Exercise: Using SnakeMake"
-#    - stop: 02:02:55
-#    - start: 02:18:08
-#    - -: Recording environments with containers
-#    - 02:27:22: Sharing code and data
-#    - 02:30:04: "Exercise: Connecting repositories to Zenodo"
-#    - stop: 02:33:43
-#    - start: 02:43:32
-#    - stop: 02:45:56
-#
+  time:
+    - start: 00:33:14
+    - 00:34:36: Motivation
+    - 00:41:19: Organizing projects
+    - 00:51:02: Recording dependencies
+    - 01:01:09: "Exercise: explore conda a little bit"
+    - stop: 01:02:12
+    - start: 01:09:39
+    - -: "Short Q&A about dependencies"
+    - stop: 01:14:53
+    - start: 01:24:32
+    - 01:24:55: Recording computational steps
+    - 01:31:55: "Exercise: Snakemake"
+    - stop: 01:32:33
+    - start: 01:53:41
+    - -: "Q&A about the exercise"
+    - 02:01:01: Recording environments (containers)
+    - 02:12:32: Sharing code and data
+    - 02:16:46: Demonstration of Zenodo
+    - 02:23:03: Summary and conclusions
+    - stop: 02:30:04
 
-### I put here my times that I got from my screenshots (I put them in drive)
-### They are quite alright and I hope they help you in a way that you don't need to check around the video extensively
+- output: day4-social-coding.mkv
+  title: 4.2 Social coding
+  description: >
+    We don't just program for ourselves: we are part of a community.
+    As scientists, we want to get citations, so how can our software
+    support this?  Our work is a constant balance between using the
+    work of others and hoping that others will use our work.  In this
+    lesson, we talk about the advantages and disadvantages of others
+    building on our work, and how to support that.
 
-### Clock      Relative time
-### 09:51:00   00:14:00 Starting out
-### 10:03:00   00:26:00 Introductions
-### 10:09:00   00:32:00 Icebreakers
-### 10:10:33   00:33:33 Reproducible research
-### 10:17:54   00:40:54 Directory structure
-### 10:22:42   00:45:42 Exercise
-### 10:27:36   00:50:36 Recording dependencies
-### 10:30:09   00:53:09 Conda stuff
-### 10:31:40   00:54:40 Exercise
-### 10:37:51   01:00:51 Not sure
-### 10:38:59   01:01:59 Starting the exercise
-### 10:47:42   01:10:42 Getting back (maybe 2min late)
-### 10:47:58   01:10:58 Exercise review
-### 10:51:20   01:14:20 Probably starting a break
-### 11:01:11   01:24:11 Probably ending a break
-### 11:01:28   01:24:28 Recording conputational steps
-### 11:02:17   01:25:17 Exercise preparation
-### 11:08:59   01:31:59 More exercise
-### 11:30:18   01:53:18 Probably starting an exercise
-### 11:34:37   01:57:37 Probably ending an exercise
-### 11:37:37   02:00:37 Recording environment
-### 11:49:11   02:12:11 Sharing code and data
-### 11:52:17   02:15:17 Exercise/demo: Zenodo
-### 11:59:43   02:22:43
-### 12:06:23   02:29:23
-### 12:16:46   02:39:46
-### 12:21:10   02:44:10 Social coding
-### 12:50:16   03:13:16 Licencing
-###
-### > I did not get anymore times/screenshots because there were a fire alarm so I needed to evacuate :/ All fine tho.
+    We cover best practices for software/data projects, requirements
+    for sharing, copyright, licensing, citation, and more.
 
-
-
-#- output: day4-social-coding.mkv
-#  title: 4.2 Social coding
-#  description: >
-#    We don't just program for ourselves: we are part of a community.
-#    As scientists, we want to get citations, so how can our software
-#    support this?  Our work is a constant balance between using the
-#    work of others and hoping that others will use our work.  In this
-#    lesson, we talk about the advantages and disadvantages of others
-#    building on our work, and how to support that.
-#
-#    We cover best practices for software/data projects, requirements
-#    for sharing, copyright, licensing, citation, and more.
-#
-#    https://coderefinery.github.io/social-coding/
-#  time:
-#    - start: 02:53:08
-#    - 02:54:49: Social coding
-#    - 03:19:06: Licensing
-#    - stop: 03:48:24
+    https://coderefinery.github.io/social-coding/
+  time:
+    - start: 02:40:04
+    - -: Introductions
+    - 02:44:20: "Initial group discussion"
+    - 02:46:55: Social coding
+    - 03:13:38: Licensing
+    - 03:43:14: Software citation
+    - 03:53:06: Feedback of the day
+    - stop: 03:57:41
 #
 #
 ##- output: day4-outro.mkv
