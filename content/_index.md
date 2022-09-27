@@ -6,17 +6,16 @@ title = "Schedule"
 
 ### News
 
-- Day 3 showed us how to work together for real.  First we all worked
-  on the same Github repository (centralized), and then we saw what
-  happened if we don't have that access (distributed/forking).  While
-  next week goes a slightly different path, we will use these skills a
-  little bit next week, so practice if you want!
-- Next week resumes with a different track: instead of focusing on
-  version control, we focus on tools of software development like
-  documentation, testing, modular code.  We see how version control
-  makes a lot of this possible!
-  - Week 2 is a fine time for new people to join us!
-- For day 4:
+- Day 4 showed us more about working together.  We talked about things
+  that make research reproducible (or not) and how to get slightly
+  better for your own work. Then, we talked about the academic/legal
+  side of sharing: why you would want to share, the risks, the
+  rewards, the limitations.
+- Tomorrow we continue with Jupyter and Documentation.  Both of these
+  are reasonably fun lessons.
+  - It is still no problem having new people join - if you want to do
+    the exercises, make sure to follow the installation instructions.
+- For day 5:
   - The CodeRefinery conda environment is needed immediately on day 4
     Make sure it is set up and tested!  We will start using this.
     <https://coderefinery.github.io/installation/conda/>
