@@ -22,8 +22,8 @@
 #    The pre-start discussion and icebreakers.  You probably want to go
 #    on to the next video.
 #  time:
-#    - start: 
-#    - end: 
+#    - start:
+#    - end:
 #
 
 # Intro
@@ -111,7 +111,7 @@
     - stop: 00:06
 
 
-#    
+#
 #    - stop: 03:13:04
 #    - start: 03:22:51
 #    - 03:32:57: "Wrap-up of the day, Q&A"
@@ -274,7 +274,7 @@
     - stop: 03:59:07
 #    - start: 03:30:36
 #    - -: Discussion about distributed version control
-#    - 03:43:16: 
+#    - 03:43:16:
 #    - 03:46:28: "Feedback, Q&A, what comes next week"
 #    - stop: 03:49:54
 #    - 03:54:23: "Wrap up: of the week: three levels of git (yourself, small team, the world)"
@@ -364,12 +364,12 @@
 ### 11:37:37   02:00:37 Recording environment
 ### 11:49:11   02:12:11 Sharing code and data
 ### 11:52:17   02:15:17 Exercise/demo: Zenodo
-### 11:59:43   02:22:43 
-### 12:06:23   02:29:23 
-### 12:16:46   02:39:46 
+### 11:59:43   02:22:43
+### 12:06:23   02:29:23
+### 12:16:46   02:39:46
 ### 12:21:10   02:44:10 Social coding
 ### 12:50:16   03:13:16 Licencing
-### 
+###
 ### > I did not get anymore times/screenshots because there were a fire alarm so I needed to evacuate :/ All fine tho.
 
 
