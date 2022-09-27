@@ -279,10 +279,10 @@
 #    - stop: 03:49:54
 #    - 03:54:23: "Wrap up: of the week: three levels of git (yourself, small team, the world)"
 #    - stop: 04:02:39
-#
+
 ## Day 4
-#- input: day4-obs.mkv
-#
+- input: day4-obs.mkv
+
 #- output: day4-intro.mkv
 #  title: 4.0 Second week introduction
 #  description: >
@@ -296,20 +296,20 @@
 #    - start: 00:20:04
 #    - end: 00:23:21
 #
-#
-#- output: day4-reproducible-research.mkv
-#  title: 4.1 Reproducible Research
-#  description: >
-#    If you can't get your code to do the same thing again, is it
-#    really science?  Or more practically, are you able to do your
-#    work?  Reproducibilty is a big deal, but we don't always learn how
-#    to do it.  In this lesson, we cover the basics, how to organize
-#    projects, record computational steps with Snakemake or other
-#    workflow managers, how to record environments with conda (and docker
-#    a bit), and sharing code and data (FAIR).
-#
-#    https://coderefinery.github.io/reproducible-research/
-#
+
+- output: day4-reproducible-research.mkv
+  title: 4.1 Reproducible Research
+  description: >
+    If you can't get your code to do the same thing again, is it
+    really science?  Or more practically, are you able to do your
+    work?  Reproducibilty is a big deal, but we don't always learn how
+    to do it.  In this lesson, we cover the basics, how to organize
+    projects, record computational steps with Snakemake or other
+    workflow managers, how to record environments with conda (and docker
+    a bit), and sharing code and data (FAIR).
+
+    https://coderefinery.github.io/reproducible-research/
+
 #  time:
 #    - start: 00:24:15
 #    - -: Introductions
@@ -336,6 +336,44 @@
 #    - start: 02:43:32
 #    - stop: 02:45:56
 #
+
+### I put here my times that I got from my screenshots (I put them in drive)
+### They are quite alright and I hope they help you in a way that you don't need to check around the video extensively
+
+### Clock      Relative time
+### 09:51:00   00:14:00 Starting out
+### 10:03:00   00:26:00 Introductions
+### 10:09:00   00:32:00 Icebreakers
+### 10:10:33   00:33:33 Reproducible research
+### 10:17:54   00:40:54 Directory structure
+### 10:22:42   00:45:42 Exercise
+### 10:27:36   00:50:36 Recording dependencies
+### 10:30:09   00:53:09 Conda stuff
+### 10:31:40   00:54:40 Exercise
+### 10:37:51   01:00:51 Not sure
+### 10:38:59   01:01:59 Starting the exercise
+### 10:47:42   01:10:42 Getting back (maybe 2min late)
+### 10:47:58   01:10:58 Exercise review
+### 10:51:20   01:14:20 Probably starting a break
+### 11:01:11   01:24:11 Probably ending a break
+### 11:01:28   01:24:28 Recording conputational steps
+### 11:02:17   01:25:17 Exercise preparation
+### 11:08:59   01:31:59 More exercise
+### 11:30:18   01:53:18 Probably starting an exercise
+### 11:34:37   01:57:37 Probably ending an exercise
+### 11:37:37   02:00:37 Recording environment
+### 11:49:11   02:12:11 Sharing code and data
+### 11:52:17   02:15:17 Exercise/demo: Zenodo
+### 11:59:43   02:22:43 
+### 12:06:23   02:29:23 
+### 12:16:46   02:39:46 
+### 12:21:10   02:44:10 Social coding
+### 12:50:16   03:13:16 Licencing
+### 
+### > I did not get anymore times/screenshots because there were a fire alarm so I needed to evacuate :/ All fine tho.
+
+
+
 #- output: day4-social-coding.mkv
 #  title: 4.2 Social coding
 #  description: >
