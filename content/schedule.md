@@ -69,4 +69,6 @@ The schedule includes frequent breaks.
 - 12:15 - 12:30
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (Richard and others)
-
+- ~12:30 - 13:30 Optional: Meet the instructors on Zoom for chatting,
+  any other Q&A, how to get involved, etc.  Link sent to livestream
+  viewers.
