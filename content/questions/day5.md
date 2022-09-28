@@ -1,6 +1,6 @@
 +++
 template = "page-with-toc.html"
-title = "Questions and notes from workshop day 4"
+title = "Questions and notes from workshop day 5"
 +++
 
 ## Icebreakers
