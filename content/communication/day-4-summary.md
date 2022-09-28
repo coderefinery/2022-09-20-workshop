@@ -19,7 +19,7 @@ For the documentation lesson, we plan two exercise sessions:
 - https://coderefinery.github.io/documentation/sphinx/ (Sphinx-2; if time allows: Sphinx-3)
 
 Stream starts 8:50 CEST: https://www.twitch.tv/coderefinery
-- Collaborative document: (**notes**)
+- Collaborative document: (**link**)
 - Q&A archive: https://coderefinery.github.io/2022-09-20-workshop/questions/
 - Past emails: https://coderefinery.github.io/2022-09-20-workshop/communication/
 
