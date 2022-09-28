@@ -23,7 +23,7 @@ title = "Schedule"
   - Exercise leaders: The exercise plan will be in the HackMD as usual.
 - HackMD is archived each day [on the Q&A page](questions/), and is
   available on HackMD until then.
-- Videos: [Twitch stores the videos for 14
+- Videos: [Twitch stores the videos for 7
   days](https://www.twitch.tv/coderefinery/videos) for instant
   replays.  [This YouTube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau)
