@@ -366,7 +366,7 @@
 ##
 #
 ## Day 5
-#- input: day5-obs.mkv
+- input: day5-obs.mkv
 #
 ##- output: day5-intro.mkv
 ##  title: 5.0 Day 5 introduction
@@ -437,16 +437,16 @@
     - 02:17:01: Documentation examples
     - 02:21:19: "Brainstorm: What do we want in a good documentation?"
     - end: 02:25:09
-    - start: 
-    - -02:36:08: Popular tools and solutions
+    - start: 02:36:00
+    - 02:36:08: Popular tools and solutions
     - 02:41:08: README-file
     - 02:44:23: Sphinx and Markdown intro
     - 02:46:03: Typealong starts
     - 02:55:03: More Sphinx exercises
     - end: 02:55:45
     - start: 03:19:26
-    - -: A cat, some questions and discussion 
-    - end: 03:24:54
+    - -: A cat, some questions and discussion
+    - end: 03:25:27
     - start: 03:35:11
     - -: 'Demo: Deploying Sphinx to GitHub Pages'
     - 03:50:33: Questions and summary
