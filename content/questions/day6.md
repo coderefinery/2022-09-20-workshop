@@ -329,33 +329,33 @@ C. What do you know now about programming that you wish somebody told you earlie
 - Request. Would you share the `history` of your shell? Later, I meant, as a text file kind of `history > history.log`. 
   - Relayed via chat, hopefully we will remember to add it here.
 
-- 33. Question about modular code development in general (maybe you're getting to it soon): when we have small functions that combine to a larger whole, is it better to have the larger whole shared as a script or use wrapper functions and hide more of the behind-the-scenes stuff? Ie script that is 100+ lines or layers and layers of wrapper functions? By wrapper functions I mean larger functions that call the small, modular functions (e.g. preprocess_data() that depends on 20+ other functions vs a script that is called preprocess.py where the smaller functions are more evident to the user).
+33. Question about modular code development in general (maybe you're getting to it soon): when we have small functions that combine to a larger whole, is it better to have the larger whole shared as a script or use wrapper functions and hide more of the behind-the-scenes stuff? Ie script that is 100+ lines or layers and layers of wrapper functions? By wrapper functions I mean larger functions that call the small, modular functions (e.g. preprocess_data() that depends on 20+ other functions vs a script that is called preprocess.py where the smaller functions are more evident to the user).
     - I'm not quite sure what you mean by wrapper function here.  Functions in other files?
     - In my cases, I would often try to divide up into small functions, but (at the start) they are all in one standalone file.  Later on, if needed, I can split the functions out into a library that can be imported - if it ever gets that far.
     - Ah.  Well, I think you naturally get that kind of hierarchy when it makes sense.  Sometimes it does, maybe sometime not.  (I'm sorry for the non-answer but hopefully you figure out the best solution for each case).
         - thanks! So at least there isn't any "commonly agreed best practice" about always showing as much as possible or hiding as much as possible (of what steps happen behind the scenes etc)?
 
-- 34. If you create a general function and you test it for your case, how do you know you can copy it to another project? You haven't tested it for this new use case. Would you then test this new use case?
+34. If you create a general function and you test it for your case, how do you know you can copy it to another project? You haven't tested it for this new use case. Would you then test this new use case?
     - I should have created another notebook and tested it. thanks.
 
-- 35. Can you create a test which resets these input values to empty before running (like matlab clear all or something?)
+35. Can you create a test which resets these input values to empty before running (like matlab clear all or something?)
     - This is a good point and is part of test design.
 
-- 36. Would a better name be plot_data_with_meanline()?
+36. Would a better name be plot_data_with_meanline()?
     - Following on this - and it would be possible to derive mean inside the function. as well, not to have it as argument?
     - Sort of depends on the scope of the function -- there's a bit of conflict between generic functions and a reasonable number of parameters
       - this is very apparent with the plotting libraries themselves where functions often have *a lot* of parameters
     - Yes!  I agree.  The best solution I know (which may not work everywhere) is the generic function returns the figure/axes object, which can be modified at the higher level (= don't try to add arguments for everything).  Or the function receives the axes object to plot onto.  Both of these require some care and knowledge to do well.
       - This seems like a good strategy to me.
 
-- 37. What about the formatting of your plot? I think this is often difficult where you put this because you typically always tweak this a bit for the specific case 
+37. What about the formatting of your plot? I think this is often difficult where you put this because you typically always tweak this a bit for the specific case 
      - See above for my take. *Ok, thanks for the tip*.
 
-- 38. Maybe it should be read_temperates() -- no need to overabstract?
+38. Maybe it should be read_temperates() -- no need to overabstract?
 
-- 39. If you sometimes need to plot two (or more) traces in the same plot, is there a good suggestion to encompass this? or should you then just make a separate function that handles plotting multiple traces?
+39. If you sometimes need to plot two (or more) traces in the same plot, is there a good suggestion to encompass this? or should you then just make a separate function that handles plotting multiple traces?
 
--  40. In general, whenever I write code with many small pure functions, that combined solves a complex task I am always unsure of how to combine them - like which functions should call the other functions to assemble the workflow, can you comment on this problem?
+40. In general, whenever I write code with many small pure functions, that combined solves a complex task I am always unsure of how to combine them - like which functions should call the other functions to assemble the workflow, can you comment on this problem?
     - super question. we will pick it up.
     - might also need a longer written answer which I will provide in the afternoon
 
@@ -363,22 +363,22 @@ C. What do you know now about programming that you wish somebody told you earlie
    - Hopefully they notice this, if I (broadcaster) do it it will get confusing.
    - Thanks
 
-- But what if you use a different data type? How do you know that compute_mean() works with all data types? For example (len(data)) sometimes has unexpected behaviour depending on the data type.
+ - But what if you use a different data type? How do you know that compute_mean() works with all data types? For example (len(data)) sometimes has unexpected behaviour depending on the data type.
     - currently you do not know, we could tell python what datatype to expect by defining it in the function call
     **- ??? By typing? Or another way?**
     - we'll bring it up after the command line interface
     - Great! Thnx
 
-- 41. Sometimes we add/remove input variables of a function. Is it a good idea to always have just a single input variable, which is just a list, and then refer to its components inside the function?
+41. Sometimes we add/remove input variables of a function. Is it a good idea to always have just a single input variable, which is just a list, and then refer to its components inside the function?
     - You can add new arguments with default values, and then it is backwards compatible.
     - Or use keyword arguments, and then order/adding/removing doesn't matter so much.
     - If you want to remove a non-keyword argument, you have a problem with backwards compatibility.
     - Consider backwards compatibility when adding new arguments: do you change the default behavior?
 
-- 42. Would it be good to back up with Github, or something similar? I really wanted to see this done in real time.
+42. Would it be good to back up with Github, or something similar? I really wanted to see this done in real time.
     - done
 
-- 43. Another common issue for me is in a datapipeline, at a specific step, you would often have a set of functions to choose from depending on what analysis you wish to do. Is there a nice way to handle this? Some way to sort of inject a number of datamanipulation functions in to a step in a datapipeline.
+43. Another common issue for me is in a datapipeline, at a specific step, you would often have a set of functions to choose from depending on what analysis you wish to do. Is there a nice way to handle this? Some way to sort of inject a number of datamanipulation functions in to a step in a datapipeline.
     - Yes, this is a good question of design and takes some knowledge
     - There are differest strategies, but you could have an argument that selects the function by name (or you just pass the function itself in).  Or configuration files, each run gets told which configuration it should use, it finds that run name from the configuration file and uses that selection.
     - *Thanks, maybe someone knows of repos that implement solutions to this that I can check out?* 
@@ -386,7 +386,7 @@ C. What do you know now about programming that you wish somebody told you earlie
         - Well, it's a livestream course so... contact via this email if not at aalto: https://scicomp.aalto.fi/help/#email.  Or use the CodeRefinery chat (link in the workshop outro, coderefinery.zulipchat.com).
     - This doesn't have examples of this right now, but I aim to add some examples here as I develop them: https://github.com/AaltoSciComp/hpc-examples/
 
-- 44. Again, what is the `ve` command in the command history? After he edited the requirements file and before he staged it.
+44. Again, what is the `ve` command in the command history? After he edited the requirements file and before he staged it.
     - He has an alias that automatically creates a Python virtualenvironment (makes environment, adds packages from requirements.txt)
     - I will share in the afternoon
         - Thx
@@ -413,24 +413,24 @@ function ce
 end
 ```
 
-- 45. Add a main function!
+45. Add a main function!
      - thanks
 
-- 46. Basic question; what is the difference between installing requirements and this command (can't see it now, import?) on top of the script?
+46. Basic question; what is the difference between installing requirements and this command (can't see it now, import?) on top of the script?
     - Requirements defines packages needed
     - pip+virtualenv (or other tools) installs the packages
     - `import` (if that's what it is) loads packages that are already installed, but doesn't find or install them if not already there.
 
-- 47. Set type=int for num-measurements
+47. Set type=int for num-measurements
     - Thanks
 
-- 48. Pandas series
+48. Pandas series
     - Thanks
 
-- 49. Datasafety when cloud computing results based on unpublished data in a jupyternotebook? - use jupyternotebook instead of jupyterlab maybe? Like when sharing with colleagues. 
+49. Datasafety when cloud computing results based on unpublished data in a jupyternotebook? - use jupyternotebook instead of jupyterlab maybe? Like when sharing with colleagues. 
     - another way is to share a notebook with non-sensitive publich example data and that can all be public. and then separately distribute the unpublished data.
 
-- 50. I have a question from Day3 collaborative distributed version control. a) Step F. I am confused with what is being pushed to where. We clone the directory the instructor created, then we make a branch and create a text file in the branch. in Step F we push, but there I get lost. b) About forking workflow. I have a super basic question. Why do we need a fork? Why not just work with local clone and central? In Step E, why do we push to fork first and then pull request from fork? Why don't we want to directly pull request from clone to central? Thanks.
+50. I have a question from Day3 collaborative distributed version control. a) Step F. I am confused with what is being pushed to where. We clone the directory the instructor created, then we make a branch and create a text file in the branch. in Step F we push, but there I get lost. b) About forking workflow. I have a super basic question. Why do we need a fork? Why not just work with local clone and central? In Step E, why do we push to fork first and then pull request from fork? Why don't we want to directly pull request from clone to central? Thanks.
     - a) In step F we push the local branch to the exercise repository. Once this is done, please open the exercise repository in your web browser and check whether you can find your branch there. The next step then is to open a "pull request" (change proposal) from your branch towards master
     - b) This is to emulate the situation where you want to make a change to a repository but where you are not a "collaborator", in other words you have read permissions (since it's public) but no write permissions. For such repositories where you are not part of the group, you need to fork first before you can make any modifications. Of course you could also clone directly the central repo and make modifications on your laptop. That always works.
     - why create PR from fork to central and not send PR from clone to central: pull request (PR) is a merge request between one branch on GitHub towards another branch on GitHub (or from GitLab to GitLab; within the same repo or from one repo to another but still on the same platform). when using GitHub you need to have the change on GitHub before creating a pull request from it. It is not enough to have the change on your computer. And since you in this case cannot write to central, you need to write the change to fork first before opening the PR.
