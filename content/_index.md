@@ -6,21 +6,14 @@ title = "Schedule"
 
 ### News
 
-- Day 4 showed us more about working together.  We talked about things
-  that make research reproducible (or not) and how to get slightly
-  better for your own work. Then, we talked about the academic/legal
-  side of sharing: why you would want to share, the risks, the
-  rewards, the limitations.
-- Tomorrow we continue with Jupyter and Documentation.  Both of these
-  are reasonably fun lessons.
-  - It is still no problem having new people join - if you want to do
-    the exercises, make sure to follow the installation instructions.
-- For day 5:
-  - The CodeRefinery conda environment is needed immediately on day 4
-    Make sure it is set up and tested!  We will start using this.
-    <https://coderefinery.github.io/installation/conda/>
-  - Check any problems you may have had before, like SSH keys.
-  - Exercise leaders: The exercise plan will be in the HackMD as usual.
+- Thanks to all for attending!  Please take a look below at all of the
+  amazing people who helped to make this workshop possible.  Do you
+  want to be one next time?
+- Read the [workshop
+  outro](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
+  for what we suggest to do next.
+- All lesson material stays available indefinitely and will continue
+  to be improved.
 - HackMD is archived each day [on the Q&A page](questions/), and is
   available on HackMD until then.
 - Videos: [Twitch stores the videos for 7
@@ -28,6 +21,9 @@ title = "Schedule"
   replays.  [This YouTube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau)
   will get videos before midnight.
+- Information on certificates is below
+- Why don't you [get involved](https://coderefinery.org/) and help us
+  for next time?
 
 </div>
 
