@@ -490,7 +490,7 @@
 #
 #    https://coderefinery.github.io/testing/
 #
-#  time:
+#  editlist:
 #    - start: 00:18:05
 #    - 00:20:25: Motivation
 #    - 00:36:53: Concepts
