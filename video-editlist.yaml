@@ -459,11 +459,11 @@
 #  time:
 #    - start: 03:45:28
 #    - stop: 03:46:23
-#
-#
-#
-#- input: day6-obs.mkv
-#
+
+
+
+- input: day6-obs.mkv
+
 ##- output: day6-intro.mkv
 ##  title: Day 6 intro
 ##  description: >
@@ -474,82 +474,95 @@
 #
 #
 #
-#- output: day6-testing.mkv
-#  title: 6.1 Software Testing
-#  description: >
-#    Software testing is a fundamental part of modern software
-#    development, and especially important for science since results
-#    should be correct.  Luckily, it's not so hard to get started, and
-#    anyone can do it. This is a crash course for scientists to get
-#    started testing their software.
-#
-#    Tools covered include concepts of testing for science, unit
-#    testing, pytest, continuous integration, and GitHub actions.  We
-#    make demos in Python, but have examples in other languages and
-#    this will apply to every language in some form.
-#
-#    https://coderefinery.github.io/testing/
-#
-#  editlist:
-#    - start: 00:18:05
-#    - 00:20:25: Motivation
-#    - 00:36:53: Concepts
-#    - 00:45:15: Testing locally
-#    - 00:51:15: "Exercise: testing locally with pytest"
-#    - stop: 00:52:51
-#    - start: 01:06:35
-#    - -: "Q&A"
-#    - stop: 01:20:14
-#    - start: 01:29:47
-#    - 01:30:22: Automated testing and continuous integration with Github Actions
-#    - 01:51:23: Test design
-#    - stop: 02:17:23
-#
-#
-#
-#- output: day6-modular-code-development.mkv
-#  title: 6.2 Modular Code Development
-#  description: >
-#    In this live-coding demo session we take a Python script as
-#    starting point which reads data, computes simple statistics, and
-#    generates a plot. Together we then improve this code based on
-#    suggestions from the audience to arrive at a more reusable code
-#    with reusable components. We start in the Jupyter notebook, later
-#    move to a Python script/module, introduce testing, and finally
-#    introduce and motivate a command line interface to our code.
-#
-#    In this demonstration we use JupyterLab, Python, Pandas,
-#    Matplotlib, pytest, and Click.  It is also a great demonstration
-#    of pair programming.
-#
-#    https://coderefinery.github.io/modular-type-along/
-#  time:
-#    - start: 02:29:51
-#    - 02:32:18: Starting questions discussion
-#    - 02:37:08: Learning topics
-#    - 02:38:26: "Type-along begins: introduction to our task"
-#    - 02:42:47: Fetching the data
-#    - 02:44:52: Starting in a Jupyter notebook
-#    - 02:53:10: Splitting up into smaller functions
-#    - stop: 03:10:23
-#    - start: 03:20:33
-#    - 03:21:02: Benefits of organizing code into smaller units
-#    - 03:22:16: What should we do next? binder, packaging, ...
-#    - 03:24:22: Moving to git, command-line program, and modules
-#    - 03:26:43: Building a command-line program
-#    - 03:33:47: Adding a test
-#    - stop: 03:39:04
-#
-#
-#
-#- output: day6-outro.mkv
-#  title: 6.3 Workshop outro
-#  description: >
-#      The concluding remarks of the workshop.
-#
-#      Updated version: https://github.com/coderefinery/workshop-outro/blob/master/README.md
-#
-#      Version presented: https://github.com/coderefinery/workshop-outro/blob/26e552875f69bf338bb60575932197860578323c/README.md
-#  time:
-#    - start: 03:40:03
-#    - end: 03:53:00
+- output: day6-testing.mkv
+  title: 6.1 Software Testing
+  description: >
+    Software testing is a fundamental part of modern software
+    development, and especially important for science since results
+    should be correct.  Luckily, it's not so hard to get started, and
+    anyone can do it. This is a crash course for scientists to get
+    started testing their software.
+
+    Tools covered include concepts of testing for science, unit
+    testing, pytest, continuous integration, and GitHub actions.  We
+    make demos in Python, but have examples in other languages and
+    this will apply to every language in some form.
+
+    https://coderefinery.github.io/testing/
+
+  editlist:
+    - start: 00:22:28
+    - 00:22:41: Motivation
+    - 00:33:56: Concepts
+    - 00:41:13: Testing locally
+    - 00:41:46: "Exercise: testing locally with pytest"
+    - stop: 00:42:58
+    - start: 01:00:07
+    - -: "Q&A"
+    - stop: 01:04:52
+    - start: 01:14:57
+    - 01:16:55: Automated testing and continuous integration with Github Actions
+    - 01:42:46: "Test design and final Q&A"
+    - stop: 01:44:53
+    - start: 01:59:33
+    - stop: 02:09:06
+
+
+
+- output: day6-modular-code-development.mkv
+  title: 6.2 Modular Code Development
+  description: >
+    In this live-coding demo session we take a Python script as
+    starting point which reads data, computes simple statistics, and
+    generates a plot. Together we then improve this code based on
+    suggestions from the audience to arrive at a more reusable code
+    with reusable components. We start in the Jupyter notebook, later
+    move to a Python script/module, introduce testing, and finally
+    introduce and motivate a command line interface to our code.
+
+    In this demonstration we use JupyterLab, Python, Pandas,
+    Matplotlib, pytest, and Click.  It is also a great demonstration
+    of pair programming.
+
+    https://coderefinery.github.io/modular-type-along/
+  time:
+    - start: 02:18:54
+    - 02:19:34: Starting questions discussion
+    - 02:22:42: Learning outcomes
+    - 02:29:20: "Demo begins: introduction to our task"
+    - 02:32:01: Starting in a Jupyter notebook
+    - 02:35:21: Downloading the data
+    - 02:36:59: More Jupyter now that we have the data
+    - 02:38:47: Running multiple times with a loop
+    - 02:46:25: Splitting up into smaller functions
+    - stop: 02:59:15
+    - start: 03:09:36
+    - -: "Summary so far and Q&A on pure functions and many small functions"
+    - 03:15:44: Move out of notebook to executable files
+    - 03:19:47: requirements.txt to list dependencies and create virtual environment
+    - 03:23:07: Testing
+    - 03:25:37: Add a main function (... and continue testing)
+    - 03:27:10: More version control and .gitignore
+    - 03:28:23: Command line interface for more parameters
+    - 03:36:53: Benefits of the command line interface
+    - 03:39:05: What's next / more ideas
+    - stop: 03:40:58
+
+
+
+- output: day6-outro.mkv
+  title: 6.3 Workshop outro
+  description: >
+      The concluding remarks of the workshop.
+
+      Outro presentation (will be updated in the future):
+      https://github.com/coderefinery/workshop-outro/blob/master/README.md
+
+  time:
+    - start: 03:41:27
+    - -: Concluding remarks and where to go.
+    - 03:49:15: Looking over feedback and final questions
+    - stop: 03:49:59
+    - start: 03:50:45
+    - -: Final thoughts on the workshop and what we will do next time
+    - stop: 03:55:32
