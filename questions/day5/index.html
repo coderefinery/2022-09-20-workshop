@@ -1,0 +1,1242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://coderefinery.github.io/2022-09-20-workshop/img/favicon.ico">
+
+    
+      <title>Questions and notes from workshop day 5</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 5" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/eglerean/2022-09-20-workshop/main/static/img/CR_twittercard_Fall2022.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://coderefinery.github.io/2022-09-20-workshop/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main">
+      <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>CodeRefinery workshop September 20-22 and 27-29, 2022</h1>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop">About</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/schedule">Schedule</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/audience">Audience</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/join">How to join</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/requirements">Requirements</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/questions">Q&amp;A</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.org/about/code-of-conduct/">Code of Conduct</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/volunteer">Volunteer</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/announcements">Announcement texts</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/communication">Communication</a>
+                
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            
+  <h1>Questions and notes from workshop day 5</h1>
+
+  <ul>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#icebreakers">Icebreakers</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#what-tools-do-you-use-for-writing-code">What tools do you use for writing code?</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#what-tools-do-you-use-for-debugging-code">What tools do you use for debugging code?</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#are-you-already-using-jupyter-for-some-projects">Are you already using Jupyter for some projects?</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#other-questions-from-yesterday">Other questions from yesterday</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#jupyter">Jupyter</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#jupyterlab-and-notebok-interface">JupyterLab and notebok interface</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#exercise-first-notebook">Exercise first notebook</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#notebooks-and-version-control">Notebooks and version control</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#sharing-notebooks">Sharing notebooks</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#exercise-sharing-dynamic-notebooks-on-binder">Exercise sharing dynamic notebooks on Binder</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#documentation">Documentation</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#motivation-and-wishlist">Motivation and wishlist</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#popular-tools-and-solutions">Popular tools and solutions</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#readmes">READMEs</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#sphinx">Sphinx</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#exercises-sphinx">Exercises sphinx</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#deploying-sphinx-documentation-to-github-pages">Deploying Sphinx documentation to Github Pages</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day5/#feedback">Feedback</a>
+        
+      </li>
+    
+  </ul>
+
+  
+  
+    <h2 id="icebreakers">Icebreakers</h2>
+<h3 id="what-tools-do-you-use-for-writing-code">What tools do you use for writing code?</h3>
+<ul>
+<li>vscode: oooooooooooooooooooooooooooooooo</li>
+<li>eclipse: ooo</li>
+<li>vi: ooooooooooooo</li>
+<li>spyder: oooooooooooo</li>
+<li>jupyter: oooooooooooooooooooo</li>
+<li>rstudio: ooooooo</li>
+<li>matlab editor: ooooooooooo</li>
+<li>IntelliJ: oo</li>
+<li>Qt: o</li>
+<li>gedit: oo</li>
+<li>CodeBlocks: o</li>
+<li>emacs: ooooo</li>
+<li>atom: oooooooo</li>
+<li>sublime: ooo</li>
+<li>notepad: oo</li>
+<li>ms word: oo</li>
+<li>IDLE: oo</li>
+<li>nano/pico: ooo</li>
+<li>VisualStudio: {it's vscode above? (they are two different programs: https://code.visualstudio.com/, https://visualstudio.microsoft.com/)}</li>
+<li>Notepad ++:ooo</li>
+<li>PyCharm: ooo</li>
+<li>Arduino IDE: o</li>
+</ul>
+<p>A guide to editor selection:
+![](https://notes.coderefinery.org/uploads/ac9eb2f2-9205-4ad5-81a8-6857e3e8f568.jpg  =350x)</p>
+<h3 id="what-tools-do-you-use-for-debugging-code">What tools do you use for debugging code?</h3>
+<ul>
+<li>puts(), print(), console.log(), System.out.println(), cout...(+8)</li>
+<li>...or running it again without any changes and somehow expecting different results (+1)</li>
+<li>...or <strong>praying</strong>, running it again without any changes and somehow expecting different results</li>
+<li>printo</li>
+<li>breakpoint()</li>
+<li>print() ooooooooooo</li>
+<li>strace</li>
+<li>try, except(+print), assert oooooo</li>
+<li>debugging mode (+5)</li>
+<li>import </li>
+<li>pdb ; pdb.set_trace() or import IPython; IPython.embed() +1</li>
+<li>ic() </li>
+<li>print(), pytest, Ipython, python -i,</li>
+<li>going for a walk and getting a coffee +6</li>
+<li>having a nap +1</li>
+<li>waking up at 3 am with the solution (+1 but a blessing in disguise)</li>
+<li>Matlab debugging tool +1</li>
+<li>Spyder :sunglasses: o</li>
+<li>explaining the problem to a colleague/friend o</li>
+<li>Pycharm debug mode and then running program over and over again through the breakpoints</li>
+</ul>
+<h3 id="are-you-already-using-jupyter-for-some-projects">Are you already using Jupyter for some projects?</h3>
+<ul>
+<li>yes: oooooooooooooooooooo</li>
+<li>no: oooooooooooooooooo</li>
+</ul>
+<p>Check out our upcoming (livestreamed) course Python for Scientific Computing: https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/</p>
+<h3 id="other-questions-from-yesterday">Other questions from yesterday</h3>
+<ol>
+<li>
+<p>The environment.txt and .yml files we created yesterday contain more than just the version number of the package (e.g. <code>numpy=1.2.3 py310..</code>). What do the other numbers indicate?</p>
+<ul>
+<li>This number is the specific build version. In your example, it is build for Python 3.10. Often, conda packages are build for different operating systems and Python versions. These numbers distinguish between them.</li>
+<li>major release, minor version, build number</li>
+<li>Ah alright, makes sense. Is it necessary? Or is there a command so these build versions are not provided in .txt and .yml?</li>
+<li>Not necessary, but it locks down the specific version and build of the package. You can ommit the inclusion of the build info with the argument <code>--no-builds</code> in the environment export step. This <em>might</em> make your environment usable on multiple OS.</li>
+</ul>
+</li>
+<li>
+<p>What's the difference between <code>origin master</code> and <code>origin/master</code>?</p>
+<ul>
+<li><code>origin/master</code> is a branch on your computer which follows the remote <code>master</code> branch on <code>origin</code> (it's a view of what the branch on origin was last time git checked)</li>
+<li><code>origin master</code> is part of a command: <code>git pull origin master</code> or <code>git push origin master</code></li>
+<li>... and both <code>origin</code> and <code>master</code> are arbitrary names that point to a remote repo and to a branch, respectively</li>
+</ul>
+</li>
+<li>
+<p>Can you hear them talking?</p>
+<ul>
+<li>Yes: oooo</li>
+<li>No: o </li>
+</ul>
+</li>
+<li>
+<p>Would you recomend that we keep working in the code refinery conda environment after this course or is it recomended to create your own instead?</p>
+<ul>
+<li>for each project: make its own environment with a known environment.yml just for that project.
+<ul>
+<li>... and add it to the git repository so that it goes together with the project/code/notebook</li>
+</ul>
+</li>
+<li>for general work that's not part of a project: I might use the general (full) anaconda environment which has most of the common stuff.
+<ul>
+<li>that's cool, thank you! </li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="jupyter"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/#">Jupyter</a></h2>
+<h3 id="jupyterlab-and-notebok-interface"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/interface/">JupyterLab and notebok interface</a></h3>
+<ol start="5">
+<li>
+<p>Unrelated: how do you create a world map with color-coded states? See the Activity Inequality State section in the lesson.</p>
+<ul>
+<li>Good question. I don't know, but I'd start by looking at the repository and you can see...</li>
+<li>which language are you using for plotting usually?
+<ul>
+<li>ggplot2/R or Matplotlib/Python</li>
+</ul>
+</li>
+<li>one of the many libraries: https://altair-viz.github.io/gallery/index.html#maps</li>
+<li>search for &quot;choropleth map in &lt;your fav tool/language&gt;&quot;
+<ul>
+<li>Thx</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is a codebase?</p>
+<ul>
+<li>the entirety of your project code (and sometimes dependencies are also considered to be part of the codebase)
+<ul>
+<li>OK, I would not call it a base if it is what I do, but fine like this
+<ul>
+<li>the assumption is that you use your code as a base for future work
+<ul>
+<li>Thank you.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Jupyter is not starting when i type jupyter-lab in my git terminal and i dont get a link</p>
+<ul>
+<li>Are you in the CodeRefinery conda environment?
+<ul>
+<li>How do i know?
+<ul>
+<li>if you are in a conda environment it should be listed at the beginning of the line in parenthesis <code>(environment) your/current/path$ _</code></li>
+</ul>
+</li>
+<li>I don't have much time but it was the instructions here: https://coderefinery.github.io/installation/conda-environment/</li>
+<li>type conda activate and then conda activate coderefinery</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is non linear code flow?</p>
+<ul>
+<li>(I think this is what they were talking about) What happens if you run the cells in some random order?  Then, you won't remember the order and you can't get the same results</li>
+<li>I think what they meant is that in a notebook it's typically linear (first this, then that, finally that). There is a clear order. But many programs that we use are not working in a linear way (example: my browser. I can click whereever and I decide in which order it does things)</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between Jupyter Notebook and Jupyter Lab?</p>
+<ul>
+<li>Notebook was the first thing made long ago: it was like &quot;one notebook in one browser tab&quot;. It's still used sometimes but almost obsolete by now.</li>
+<li>Lab was made a few years ago as the next generation, more like an entire development environment.  Probably recommended for most use.</li>
+</ul>
+</li>
+<li>
+<p>I don't have the GitHub integration. Does something else need to be installed? +2</p>
+<ul>
+<li>We might have removed that from the CodeRefinery conda environment for simplicity.  I don't think it matters for the lesson.</li>
+<li>Okay!</li>
+<li>It was because I wasn't using the CodeRefinery environment. Now I switched I have the Git integration.
+<ul>
+<li>excellent</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I am using triton. Jupyter does not open in browser. Asks for some url. I am in the right env.</p>
+<ul>
+<li>if you are not on your machine, you are starting a jupyterlab server on a different machine, and as such you would either need to connect to that machine, or you could use the existing jupyterhub on triton (jupyter.triton.aalto.fi)
+<ul>
+<li>Ok. started the jupyterhub. How can I start the notebook in my env of choice?</li>
+<li>What I normally recommend doing is not starting Jupyter in an environment, but installing the jupyter <em>kernel</em> in the environment: https://scicomp.aalto.fi/triton/apps/jupyter/#installing-kernels-from-virtualenvs-or-anaconda-environments
+<ul>
+<li>This one works. Thanks</li>
+</ul>
+</li>
+<li>So you have the JupyterLab that is maintained by us, but you run your software in your own environment.</li>
+</ul>
+</li>
+<li>In general you can use SSH port forwarding, but it can be tricky to set up, especially if you are also using SLURM (then you need to also use the login node as a jump node)
+<ul>
+<li>Obviously nicer to use something supported by the people running the cluster computing facility </li>
+</ul>
+</li>
+<li>How are you trying to start it?  Yourself, not through JupyterHub? If running yourself, this gives some hints (but that page is not updated recently): https://scicomp.aalto.fi/triton/apps/sjupyter/</li>
+</ul>
+</li>
+<li>
+<p>Is VS code an IDE or a code editor?</p>
+<ul>
+<li>IDE</li>
+<li>VSCode is a code editor, but with the very extensive plugin system it can be turned into a full-fledged IDE</li>
+</ul>
+</li>
+<li>
+<p>How can one achieve something like the matlab debugger in VS code when working with python scripts for example?</p>
+<ul>
+<li>have a look here: https://code.visualstudio.com/docs/languages/python#_debugging</li>
+</ul>
+</li>
+<li>
+<p>How to make Markdown as a default? it will change constantly to code view in jupyter-lab</p>
+<ul>
+<li>give me a minute to find the configuration option for this
+<ul>
+<li>discussed here: https://stackoverflow.com/questions/40382454/jupyter-notebook-new-cell-type-default</li>
+</ul>
+</li>
+<li>but you can also use a keyboard shortcut to quickly toggle between code and markdown cells when in command mode: <code>y</code> for code and <code>m</code> for markdown
+<ul>
+<li>to go into command mode: <code>Esc</code> key</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="exercise-first-notebook"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/first-notebook/">Exercise first notebook</a></h3>
+<p>Task: Explore Jupyter some with the exercises on that page.</p>
+<ol start="15">
+<li>
+<p>Error in the third cell: &quot;zsh:1: unknown file attribute: h&quot;. Sorry, worked after switching to Markdown from Code.</p>
+<ul>
+<li>Ah yeah, that makes sense.</li>
+</ul>
+</li>
+<li>
+<p>how can one switch back and forth between seeing the actual markdown code and the preview?</p>
+<ul>
+<li>Click / double click on the cell to go into edit mode.  &quot;Run&quot; to render.
+<ul>
+<li>thankx
+<ul>
+<li>also <code>Enter</code> to start editing the cell, and <code>Shift-Enter</code> to &quot;execute&quot;/render the markdown</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Also: At the top of the file (in the menu part) there is a choose where you can set the type of the cell (Markdown, code, raw)</li>
+</ul>
+</li>
+<li>
+<p>In the optional exercise, how do I make the kernel a conda environment if I donn't want to change the configuration of my computer?</p>
+<ul>
+<li>you mean, install the other language without installing it system-wide?
+<ul>
+<li>Yes, exactly</li>
+<li>Hm, I guess first is decide the language and figure out how to install it in conda.  R/julia are probably already there.</li>
+<li>Then installing the kernel is probably the same.
+<ul>
+<li>Thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="notebooks-and-version-control"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/version-control/#notebooks-and-version-control">Notebooks and version control</a></h3>
+<ol start="18">
+<li>
+<p>I see an ERROR in the jupyterlab-demo terminal: <code>[IPKernalApp] ERROR | No such comm target registered</code> and <code>WARNING | No such comm.</code> What does it mean?</p>
+<ul>
+<li>That's completely new to me!  Does restarting the kernel help?</li>
+<li>Nope, still the errors. Everything runs though.</li>
+<li>hm, I guess if it seems to work, I'd ignore it for now.  If a problem, we can look after the course.</li>
+<li>Okay! Thnx</li>
+</ul>
+</li>
+<li>
+<p>JupyterLab is a JSON editor too, which is great. Any other suggestion about handy and pretty JSON editors?</p>
+<ul>
+<li>I acknowledge the question but don't know!</li>
+<li>Depends on what you want vscode does provide some features that make handling json a bit easier.</li>
+</ul>
+</li>
+<li>
+<p>Is it possible to use Matlab code in JupyterLab?</p>
+<ul>
+<li>There are MatLab &quot;kernels&quot;, the interface between the web interface and the code.  So you can run the Matlab code from jupyter, yes (but the kernel is more basic than other languages)</li>
+<li>Thanks</li>
+</ul>
+</li>
+<li>
+<p>Is there a way to utilize React.js components in a jupyter notebook? As a widget, for instance to integrate interaction and visualizations?</p>
+<ul>
+<li>Hm, I don't know details but I bet someone could write extensions that do this.  In only the user interface, I'm not sure.</li>
+</ul>
+</li>
+<li>
+<p>Why jupiterlab, why not pycharm ? I see most of stuff is similar..</p>
+<ul>
+<li>We used to have a lesson on IDEs in general, but in practice we need to choose something.  We thought that we could have more impact with Jupyter, since it's commonly used and advanced features are less known.</li>
+</ul>
+</li>
+<li>
+<p>Is this a free service? Who is maintaining/paying for these online servers? </p>
+<ul>
+<li>Jupyter itself is open-source, you can run yourself (perhaps how most people do it). Or your organization can run (e.g. on our cluster)</li>
+<li>having it hosted somewhere can cost something, but there are some providers (see next answer)</li>
+<li>There are some free services like the MyBinder we will see later, that are funded by grants. Services like Google that host it for free somehow think it makes business sense to them.</li>
+</ul>
+</li>
+<li>
+<p><strong>Too fast</strong>: I missed how you do <code>git status</code> and then lost the rest</p>
+<ul>
+<li>relayed.</li>
+</ul>
+</li>
+<li>
+<p>how can i get the git extension?</p>
+<ul>
+<li>It's in the CodeRefinery environment.</li>
+</ul>
+</li>
+<li>
+<p>How did you open the terminal in JupyterLab?</p>
+<ul>
+<li>From the left hand menu. There one open another Python session, a terminal, or other items. They will show up as tabs within JupyterLab.</li>
+<li><code>Ctrl + Shift + L</code> opens a new launcher (also Menu bar &gt; File &gt; Open launcher). Then select terminal and drag it below.</li>
+</ul>
+</li>
+<li>
+<p>My computer terminal is stuck after opening jupyter lab. How can I use it again?</p>
+<ul>
+<li>Is JupyterLab still running? 
+<ul>
+<li>Yes</li>
+</ul>
+</li>
+<li>so while it is running, it's occupying the terminal.  I'd start a new terminal in parallel (but there are also ways you can run jupyterlab in the background so that it doesn't stay occupying the terminal)</li>
+</ul>
+</li>
+<li>
+<p>I am using jupyter.triton.aalto.fi. How do I get the git extension?</p>
+<ul>
+<li>I would need to install it.  I would have thought it is installed. Please make a Triton issue or com and I can take a look. 
+<ul>
+<li>Ok thanks</li>
+</ul>
+</li>
+<li>Looks like it works for me, at least I see the buttons there.</li>
+<li>This probably means I need to discuss this in the garage</li>
+</ul>
+</li>
+<li>
+<p>If you don't have the Github extension, can you use this terminal to push the file on Github?</p>
+<ul>
+<li>Yes, everything can still be done in the terminal, and some people would prefer that. Basically it's up to you. <code>nbdime</code> also works from the command line.</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between <code>.gitignore</code> and <code>.git/exclude/info</code>?</p>
+<ul>
+<li><code>.gitignore</code> is kept under version control while <code>.git/info/exclude</code> is only locally kept. Use <code>.gitignore</code> for things that should be ignored generally in the project, like bytecode files, and <code>.git/info/exclude</code> for ignore specific things to your enviconment, like a <code>.vscode</code> file if you are using Visual Studio.</li>
+</ul>
+</li>
+<li>
+<p>When I press the +- icon to perform the git diff, i get the error message: error loading notebook diff: file or directory does not exist: (filedirectory)</p>
+<ul>
+<li>Strange... not sure what I can say without taking a closer look.</li>
+</ul>
+</li>
+<li>
+<p>No color for me after enabling nbdime, but indeed no image code.</p>
+<ul>
+<li>maybe you haven't made the change and saved it? I.e. so that the working version differs from the last committed version (HEAD)</li>
+<li>modified /cells/5/source:<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>@@ -8,4 +8,4 @@ for _ in range(num_points):
+</span><span> hits += 1
+</span><span> points.append((x, y, &quot;red&quot;))
+</span><span> else:
+</span><span>points.append((x, y, &quot;blue&quot;))
+</span><span>
+</span><span>points.append((x, y, &quot;green&quot;))
+</span></code></pre>
+</li>
+<li>But no color. Not a big deal, I'll check it later</li>
+</ul>
+</li>
+<li>
+<p>Feedback. This was difficult: one tab for the tv, one for JupyterLab, one for the lesson (the snippets) and one for the collaborative markdown... A lot of juggling.</p>
+<ul>
+<li>sorry about that, hopefully it all makes sense after going through the steps after the workshop</li>
+</ul>
+</li>
+<li>
+<p>Is it actually a good idea to commit results of each cell? Isn't it better to keep only formula/code and skip results. How to achieve this (keep only source)?</p>
+<ul>
+<li>Good question! It depends, maybe you want the results to be available on Github or wherever.</li>
+<li>For the case where you don't want the output (to make the version control more clean), there is <code>nbstripout</code> that can be used as a git hook: https://pypi.org/project/nbstripout/</li>
+</ul>
+</li>
+<li>
+<p>I didn't get any differences when checking the changed file, even though I changed num_points and color. I can see the clear difference between the main and the changed files, but not in the diff view.</p>
+<ul>
+<li>do you get any output from <code>git diff</code> in terminal?</li>
+</ul>
+</li>
+<li>
+<p>I am getting &quot;zsh: command not found: nbdime&quot;</p>
+<ul>
+<li>I guess nbdime isn't installed.  Are you using and have activated the CodeRefinery conda environment? got it, thanks</li>
+<li>Someone just brought up the point &quot;install nbdime hooks with --global in conda environment, but try to use it outside&quot;.  It depends on how it is installed.</li>
+</ul>
+</li>
+</ol>
+<h3 id="sharing-notebooks"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/sharing/">Sharing notebooks</a></h3>
+<ol start="37">
+<li>
+<p>If I am using a conda environment for my notebok, can I use a <code>.yml</code> instead of <code>requirements.txt</code> for binder?</p>
+<ul>
+<li>Yes!  MyBinder can use standard dependency lists for many different languages: https://mybinder.readthedocs.io/en/latest/using/config_files.html
+<ul>
+<li>Thank you!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is there some automated way how to find the dependencies / create the txt file?</p>
+<ul>
+<li>In the general case, not really, unfortunately.  I usually start with what I think and test and add requirements as needed.</li>
+<li>If you made a new conda environment for this, <code>conda env export --from-history</code> will show you what all you have explicitely requested in the past 
+<ul>
+<li>I think as of now, this only works with conda installed packages, so if you pip install a package into the conda environment, this is not exported . However there are efforts to include this and a PR is ready to be merged to handle this as well... </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Can you bind your project (notebook, whatever) to Binder directly from your local repo and not from GitHub?</p>
+<ul>
+<li>Binder needs a way to access the files, if it's only on your computer then it can't really work.  It can from various other sources, including an arbitary Git URL (e.g. put it on your own webspace).  Check the dropdown on the page.</li>
+</ul>
+</li>
+<li>
+<p>Can I publish the local repo to GitHub from the Jupyter extension? (Also I don't remember how to do it in any way - apart from creating a repo in github then cloning it and then copying the local files there...)</p>
+<ul>
+<li>Yes you can, but you will always first have to create a repo on github, either manually or via the github API (https://docs.github.com/en/rest), but commonly it's easier to just do it manually. you can then add the github repository as remote to your local git repo (<code>git remote add origin git@github.com/yourusername/yourrepo.git</code>) . 
+<ul>
+<li>There is something wrong with the comment, it returns usage: git remote add <code>[&lt;options&gt;] &lt;name&gt; &lt;url&gt;</code></li>
+<li>oops, I forgot <code>origin</code> in the command.</li>
+<li>Thanks!!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="exercise-sharing-dynamic-notebooks-on-binder"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/jupyter/sharing/#sharing-dynamic-notebooks-on-binder">Exercise sharing dynamic notebooks on Binder</a></h3>
+<p>Do what you can, there are optional exercises.  Nothing else relies on this.</p>
+<p>I am:</p>
+<ul>
+<li>done:oo</li>
+<li>not trying: </li>
+<li>wish for more time: oo (if only one student is lagging behind, there is no way one team can catch up)</li>
+<li>good exercise: o</li>
+<li>exercise needs improvement:</li>
+</ul>
+<ol start="41">
+<li>
+<p>I run into problems generating the requirement.txt file. I don't want to export the builds (see #1), so I tried <code>conda list --export &gt; requirements.txt --no-builds</code> and <code>conda list --no-builds --export &gt; requirements.txt</code>. But Anaconda doesn't lknow the builds.</p>
+<ul>
+<li>but in this case you can create the file manually with only the matplotlib dependency. That's the only package outside the standard library of python</li>
+<li>Okay, but how would I do this normally then?
+<ul>
+<li>it does work for me to do <code>conda env export --no-builds</code> to create an environment.yml file, which also works to set up mybinder environment</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is there a way of saving the figures generated in the binder jupyter notebook to our computer? like using plt.figsave(aslkdjfa;lk) but pointing to our local computer?</p>
+<ul>
+<li>I guess you would need to download it (from when it is saved on binderhub at first).</li>
+</ul>
+</li>
+<li>
+<p>Does mybinder.org uses its own computational resources to reproduce my results? Or how does it work? What if my coded requires very large CPU/GPU hours?</p>
+<ul>
+<li>Yes, it is running on hardware provided to this end. Mybinder is sponsored by Google Cloud, OVH, GESIS Notebooks and the Turing Institute and in addition private sponsors (crowd funding) so that it can be offered free of charge for normal use (not too heavy computing).</li>
+<li>Related: For the same reason the computational resurces are limited, the size of data sets has contraints (mybinder has to host all the data that you're showcasing). For more details, see https://github.com/binder-examples/getting-data, but in brief: if your data set is a few megabytes, it can be included in the git repository. If your data is much larger, say gigabytes, mybinder may not be the right platform for your work.</li>
+</ul>
+</li>
+<li>
+<p>If I delete a file in a local Git repo, how do I stage and commit this deletion so that later this change can be updated in GitHub?</p>
+<ul>
+<li><code>git rm FILENAME</code> or <code>git add DELETED_FILE</code> (will &quot;add the deletion&quot; to the staging area)</li>
+</ul>
+</li>
+<li>
+<p>I am trying to create the requirements.txt file with nano, but when I open it I see already a list with all the packages, matplotlib as well.</p>
+<ul>
+<li>So you had a requirements.txt file already? If you start from scratch in a new git repo, you can first add the ThrowDarts.ipynb and then manually add the requirements.txt file.</li>
+</ul>
+</li>
+<li>
+<p>How do I transfer changes done in the notebook in binder back to github?</p>
+<ul>
+<li>You could add the Gihub remote (or use it if it's already there) and push it.  But it's an cloud service without security guarantees so maybe you want to be careful about that</li>
+<li>so overall, I'd say binder is best for viewing projects, but not modifying them.</li>
+<li>Binder heavily recommends not including any secrets (usernames, passwords, API keys) in the gitrepo due to the security issues so this, in my opinion, covers also pushing back to the git repo.</li>
+</ul>
+</li>
+<li>
+<p>If I upload my entire env.txt and executed jupyter files, then others still can see the reproduction process. Could you be so kind to explain the additional benefits of using services like mybinder.org? This is related to Question 43, when the computational cost is high.</p>
+<ul>
+<li>the benefit is the openness and reproducibility, but I guess it's less useful for computationally demanding notebooks. </li>
+<li>a good use case is to do this for supplementary information with published articles</li>
+</ul>
+</li>
+<li>
+<p>I get this error when clicking the &quot;laun h binder&quot; button on github, so binder cannot open my notebook: &quot;Double check your URL. GitHub recently changed default branches from &quot;master&quot; to &quot;main&quot;. Did you mean the &quot;master&quot; branch?&quot; Any ideas?</p>
+<ul>
+<li>I got the same. +1</li>
+<li>is the default branch in your repository named <code>master</code>? Maybe changing it to <code>main</code> will solve it.</li>
+<li>New repository with main but again the same error. Working on win10</li>
+</ul>
+</li>
+<li>
+<p>Could you add (later, no rush) solutions to the optional exercises of this section?</p>
+<ul>
+<li>I'll add this as an issue on the repository! :+1:</li>
+</ul>
+</li>
+<li>
+<p>My launch binder badge does not appear, even though I followed the steps. I have the README.me file with the code inside.</p>
+<ul>
+<li>did you copy-paste the markdown text that looks something like: `<a rel="noopener" target="_blank" href="https://mybinder.org/v2/gh/wikfeldt/my-jupyter-project/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a></li>
+<li>got the error. it's a .md file and not a .me :)</li>
+</ul>
+</li>
+</ol>
+<h2 id="documentation"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/">Documentation</a></h2>
+<h3 id="motivation-and-wishlist"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/wishlist/#motivation-and-wishlist">Motivation and wishlist</a></h3>
+<p>Discussion:
+Is project documentation important? Why?</p>
+<ul>
+<li>Yes, it explains how to run a program</li>
+<li>It helps the group to have a common understanding of the project idea</li>
+<li>Even if the function names are self-explanatory, you have to explain why the function is relevant to which plan</li>
+<li>Some people will read the code without knowing the language (as fluently as you do). This includes your future self.</li>
+<li>It helps to remember how the code works for me personally as well, for example, which units I have used.</li>
+<li>To check my previous work and decisions on data analysis. To share work with students/ collegues.</li>
+<li>Not even you in a month would know what the code does. Not documenting a project is equivalent to transforming it in a dream: you'll only remember things in detail 15 min after you wake up. After that, it is no man's land.</li>
+</ul>
+<p>How would you describe a useful documentation?</p>
+<ul>
+<li>Clear, to the point. Not too much clutter.</li>
+<li>The minimum requirements: Installation, basic usage and description of parameters/arguments.</li>
+<li>Concise</li>
+<li>A clear table of contents and introduction.</li>
+<li>Explaining the meaning of any new variables, terms, libraries and files used.</li>
+<li>Not sure if it needs to be in documentation, but maybe citations for the formulas in given functions (or a short explanation of how the formula is obtained, it it  has been heavily optimised).</li>
+</ul>
+<p>How can you motivate your colleagues to contribute to the documentation?</p>
+<ul>
+<li>It is hard. In my friends' opinion, one does not want to write the documentation for ugly code, and elegent code is self-explaintory. Another person I know says that lack of documentation keeps his/her job because only he/she could understand what the code does.</li>
+<li>It's the last 5% of the work that nobody ever wants to do. I am not even sure how I can motivate myself
+<ul>
+<li>Is it only 5 % though? I feel like the documentation should take as much time as writing the code. Depends I guess but still.
+<ul>
+<li>An ideal coding process of something somewhat complex should go as: pseudocoding, documenting, filling the empty spaces with the code. If you know what something needs to do and how it will do it, coding takes the least amount of time, most coding problems come from having to think what do you want to do and how you will do it <em>while you're coding</em>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Erradicate ducktyping
+<ul>
+<li>whats ducktyping?
+<ul>
+<li>https://en.wikipedia.org/wiki/Duck_typing :smile:</li>
+<li>But this typing is about types and classes, not about typing as editing a document. Is this still relevant? Unclear to me.</li>
+<li>Type annotations can help with generating API docs</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Show them non-documented code and ask them to write something useful, I've been cured that way.</li>
+</ul>
+<p>Checklist: What do we want in good documentation?</p>
+<ul>
+<li>If there are only a few use cases &quot;closed usage&quot; examples are most important</li>
+<li>Readme; software requirements; in-code markdown; known issues; contact details.</li>
+<li>If there are many use cases &quot;open usage&quot; more is needed - motivation, topical guides and API documentation</li>
+<li>Visual representation of code structure</li>
+<li>Multi-language versions</li>
+<li>Standardization, like I can easily understand the content without puzzling what is meant, that we speak all a similar &quot;language&quot; to document
+<ul>
+<li>I would not want to enforce a &quot;general&quot; documentation standard. But within a project it makes absolute sense.</li>
+</ul>
+</li>
+<li>Developer docs: how to get started, coding style</li>
+<li>Description of parameters/inputs</li>
+<li>Wiki vs in-repository (tracked with git)?</li>
+</ul>
+<ol start="50">
+<li>What's your take on inline commenting of code?
+<ul>
+<li>(almost) Always needed, but not enough for users. Do I expect people other than me to use the program?</li>
+<li>also here the &quot;why&quot; often more interesting than the &quot;what&quot;</li>
+</ul>
+</li>
+</ol>
+<h3 id="popular-tools-and-solutions"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/tools/">Popular tools and solutions</a></h3>
+<h3 id="readmes">READMEs</h3>
+<h3 id="sphinx"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/">Sphinx</a></h3>
+<ol start="51">
+<li>
+<p>I am getting this error eventhough I have the documents in the toctree: <code>WARNING: toctree contains reference to nonexisting document ' feature-a'</code></p>
+<ul>
+<li>the space in front of it is interesting. is there an indentation error?</li>
+<li>see also 59</li>
+</ul>
+</li>
+<li>
+<p>https://coderefinery.github.io/installation/python/#installing-required-packages link not working</p>
+<ul>
+<li>where is it linked from?</li>
+<li>aha found it. fixing ...
+<ul>
+<li>https://github.com/coderefinery/documentation/pull/245 </li>
+</ul>
+</li>
+<li>After Test Sphinx tool installation</li>
+</ul>
+</li>
+<li>
+<p>Im not seeing index file</p>
+</li>
+</ol>
+<ul>
+<li>yes it seems to be in source dir
+<ul>
+<li>that happens if you use source and build directory</li>
+</ul>
+</li>
+</ul>
+<ol start="54">
+<li>
+<p>youre going really fast if we should have time to type along!</p>
+<ul>
+<li>i missed the source suffix-stuff</li>
+<li>not needed (probably)</li>
+</ul>
+</li>
+<li>
+<p>I couldn't follow as it's going really fast.</p>
+<ul>
+<li>thanks for notifying</li>
+</ul>
+</li>
+<li>
+<p>I messed up a bit when it asked me the questions and I don't have now all these files. Can I do something about it?</p>
+<ul>
+<li>maybe simplest is to remove all files and do it again?
+<ul>
+<li>I don't know how to do that. I tried using git rm but it didn't work.
+<ul>
+<li>git rm, only works for git tracked files. none of the files <code>sphinx-quickstart</code> created are under version control yet (you would need to add them first). So in this instance it would have been jsut <code>rm</code>. Also, is it possible that you selected the source/build repository option (as in #53)</li>
+<li>I would go out of the &quot;doc-example folder&quot;: <code>cd ..</code> and then create a new folder <code>mkdir another-doc-example</code> and try <code>sphinx-quickstart</code> again there. but maybe you are somewhere else on that page/exercise?
+<ul>
+<li>That worked, thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="exercises-sphinx"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/">Exercises sphinx</a></h3>
+<p>Everything on this page, whichever you are interested in: </p>
+<p>I am:
+done: oooooooooo
+not trying: oo
+wished for more time: oo</p>
+<ol start="58">
+<li>
+<p>How do we get the nice theme that you are using for the course?</p>
+<ul>
+<li>This is sphinx_rtd_theme: https://pypi.org/project/sphinx-rtd-theme/</li>
+<li>It's the theme developed for https://readthedocs.org/</li>
+</ul>
+</li>
+<li>
+<p>What is .rst?</p>
+<ul>
+<li>&quot;ReStructured Text&quot;: something similar to markdown but slightly more structure and some more options.</li>
+</ul>
+</li>
+<li>
+<p>When editing the index.rst file Emacs tried to force an indent level for the 'feature-a.md'-line that is not what it is supposed to be for the build to work</p>
+<ul>
+<li>is maybe question 51 related to this?</li>
+<li>Yes I got the same error, but can one get past that in Emacs? 
+<ul>
+<li>there are now 3 spaces in front of the file name?
+<ul>
+<li>I got it to work with 3 spaces, yes, so I guess that works but I feel like I should be able to do it by tabbing somehow</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Force the indent level, you should be able to make it indent right.  I can do it in emacs.</li>
+</ul>
+</li>
+<li>
+<p>I can't get the image to work, I keep getting &quot;WARNING: image file not readable: ..&quot;, no matter if I use absolute or relative path. It's a png and it does open otherwise: edit: sorry, my bad, dumb typo..</p>
+<ul>
+<li>Hm... is the relative path relative to where the source is?</li>
+<li>and &quot;absolute path&quot; is actually absolute path relative to the conf.py file (otherwise you can't relocate the repository).</li>
+<li>in essence: All files that are supposed to be in your documentation or used by your doc need to be either available at some URL on the web, or need to be within the folder (or subfolders of the folder). My conda environment of coderefinery cannot be activated... </li>
+<li>what's the error message? (I assume the command you used is <code>conda activate coderefinery</code>)</li>
+</ul>
+</li>
+<li>
+<p>The pros and cons are listed for various documentation tools, but not for Doxygen. What are the negative sides when using Doxygen? If it is all good, maybe the training could be offered for Doxygen in the future, instead of sphinx.</p>
+<ul>
+<li>I personally don't see any except for a pretty strict requirement as to the style of the documentation.</li>
+<li>Indeed nothing wrong with that tool and the reason why we focus on sphinx and markdown/rst in this lesson and not on doxygen is that sphinx is more general. doxygen is mainly used in the C++ community although it can be used and is also somewhat used in other languages.</li>
+<li>Doxygen is mainly intended for API documentation. So it's only one part of documentation
+<ul>
+<li>one can also create &quot;normal&quot; documentation but I agree with you that API documentation is the focus of it and it is really good at that</li>
+</ul>
+</li>
+<li>Sphinx can also extract docstrings and type annotations at make time, though</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between Sphinx and Markdown?</p>
+<ul>
+<li>Markdown is the file format. Sphinx the tool to convert it into nice looking formats (like html or pdf)</li>
+</ul>
+</li>
+<li>
+<p>When I open the conf.py file I don't have the lines that we are supposed to replace. Is that a problem?</p>
+<ul>
+<li>which line were you searching in there in particular?
+<ul>
+<li>I am sorry, this one: extensions = [ ]
+- I am checking on my side how it looks but it could be that it is not there and you can add it. just a sec ...
+- interesting that it is not there but can you try to add it? I just created a new conf.py and it was there.</li>
+</ul>
+</li>
+<li>Add the line, if it's not there already nothing to replace.  I guess the default conf.py of different sphinx versions is changing?
+<ul>
+<li>Does it matter where I put it? the order in the file I mean.
+<ul>
+<li>no it should not matter where exactly</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How is the correct way to use this new html as a documentation in github? what shoud we upload and where?</p>
+<ul>
+<li>after the break ...</li>
+</ul>
+</li>
+<li>
+<p>I hope the name of the cat is Sphinx &lt;3</p>
+<ul>
+<li>oooh nice one!  Unfortunately not.  The stream name is &quot;CATS&quot; (who gets the reference?)</li>
+</ul>
+</li>
+<li>
+<p>Why Sphinx/html instead of a simple tex or even word document?</p>
+<ul>
+<li>word document: does not easily integrate with git</li>
+<li>tex: is fine but then you need to render with latex/pdflatex and that can be done but requires a bit more installing and setting up but it can work. also markdown is easier to learn than tex (I really like tex)</li>
+</ul>
+</li>
+<li>
+<p>To what extent would you use docstrings? Would you aim to have docstrings for all functions you define in your code? </p>
+<ul>
+<li>I would start with the functions that are visible/callable from the outside. the interface functions. it's less important for the functions deep down in your code that are only called by your code.</li>
+<li>Ahh, okay, so maybe instead make sure to do inline commenting for those</li>
+</ul>
+</li>
+<li>
+<p>I feel like there is some way to integrate docstrings you write along when you code with your Sphinx auto generated documentation, is this correct? </p>
+<ul>
+<li>Correct: https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html</li>
+<li>It can be slightly more complex than other solutions if you want, but provides more control if you want.  Basic use can be simple still.</li>
+<li>Can you mention other solutions? </li>
+</ul>
+</li>
+</ol>
+<h3 id="deploying-sphinx-documentation-to-github-pages"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/gh_workflow/">Deploying Sphinx documentation to Github Pages</a></h3>
+<ol start="71">
+<li>
+<p>you are atill screen sharing the hackMD site</p>
+<ul>
+<li>but better now? or still? 
+<ul>
+<li>for me, still
+<ul>
+<li>maybe reload the twitch tab? fixed, thanks</li>
+</ul>
+</li>
+<li>for me not :D
+<ul>
+<li>try and empty the cache of your browser</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I can't hear him. Is it only me? Let's do a poll:</p>
+<ul>
+<li>works for me: oooo</li>
+<li>doesn't work:
+Ok I guess it is only me, thanks!</li>
+</ul>
+</li>
+<li>
+<p>I don't have a folder <code>.github</code>. Is that normal?</p>
+<ul>
+<li>maybe we should add it to the repo but currently it seems the exercise is to create it</li>
+</ul>
+</li>
+<li>
+<p>FYI: <code>workflow_dispatch</code> is needed to run the action manually on GitHub (without needing a trigger). Button can be found here: https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow</p>
+<ul>
+<li>nice. TIL
+<ul>
+<li>TIL means ... &quot;today I learned&quot;, sorry</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Can we combine Sphinx and Jupyter, or are these two separate approaches to publish a code and its documentation?</p>
+<ul>
+<li>sphinx can contain jupyter notebooks</li>
+</ul>
+</li>
+<li>
+<p>For me it is <code>https://&lt;username&gt;.github.io/word-count/</code></p>
+<ul>
+<li>thanks this is the correct one</li>
+</ul>
+</li>
+<li>
+<p>I guess this is of interest if your documentation is actually linked to your code (like question 70) otherwise there is no need to rebuild te documentation on a push since the documentation wouldn't change unless you have specifically rewritten the documentation, right? </p>
+<ul>
+<li>correct but maybe code documentation should always be linked to the code?</li>
+</ul>
+</li>
+</ol>
+<h2 id="feedback">Feedback</h2>
+<p>Today was:</p>
+<ul>
+<li>too fast: oooooooooooooo</li>
+<li>too slow: o</li>
+<li>just right: oooooo</li>
+<li>useful: ooooooooooooooo</li>
+<li>not so useful: </li>
+<li>I would recommend it: oooooooooooo</li>
+<li>needs improvement to recommend: </li>
+<li>just slightly too fast (last part)</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>I am actually motivated now to write documentation, this was a great overview and &quot;how to&quot; </li>
+<li>In general the learning about Sphinx (would have deserved more time, though)(+1)</li>
+<li>Binder! didn't think using it would be that easy...</li>
+<li>Getting an overview of tools that I had no idea they existed but will probably be useful for me at some point (if not right now)</li>
+<li>Nice guide on how to set up a reproducible and documented project code</li>
+<li>Jupyter is great, thanks for the introduction!</li>
+</ul>
+<p>One thing to improve for next time:</p>
+<ul>
+<li>Provide a broad overview about what types of documentation exist (in-document, API, etc.) I had to google API documentation to find out what was meant (it turned out I knew what it was, I just didn't know the name). +2</li>
+<li>I would like some more details in the steps of yesterday's and today's material in the website.</li>
+<li>more about good documentation practice please (yes it's subjective, but at least we would hear some opinions from competent people...)+1</li>
+<li>Like in a recipe, you should first declare the ingredients so that we are ready to fetch and use them; then you can catch up more easily if you get lost for a second.</li>
+<li>Give us newbies a little heads-up on starting requirements (environment, directory etc)(+1)</li>
+<li>The Sphinx and working a documentation could be a whole day</li>
+<li>Maybe you can make a poll before the workshops about which are the topics that most people want to learn. For me, Jupyter notebooks was something that I already knew and it took away time for other things, while I would like to learn Snakemake much better. So for me take time away from jupyter and yield it to Snakemake, but for other people may be different.</li>
+<li>This was difficult: one tab for the tv, one for JupyterLab, one for the lesson (the snippets) and one for the collaborative markdown... A lot of juggling.</li>
+</ul>
+<p>How are you attending?  (in-person, in a small group, watching at work alone, watching at home alone, etc):</p>
+<ul>
+<li>watching at home alone ooooooooooo</li>
+<li>in a small group in Zoom +1</li>
+<li>group at university ooooo</li>
+<li>watching at work alone oooo</li>
+<li>working at home with a small university group in Zoom o</li>
+</ul>
+<p>How would you want to attend (and why)?</p>
+<ul>
+<li>I would prefer to attend in person (because of the social aspect of it and because I think it is easier for you to teach when you can get a feeling for the classroom), but I think the online format is working really well. Especially the hackMD option to comment and ask questions.+1</li>
+</ul>
+<p>Other comments: </p>
+<ul>
+<li>couldn't proceed with Sphinx but used the useful resources to investicate it and some alternatives for other languages.</li>
+<li>Felt there was enough time for exercises, but didnt really understand the talks. Like I had time to do the steps in exercises, but didn't get connection between talk and excercise. </li>
+<li>would be nice to have repetition exercises so the people not familiar with the coding, environments etc. could get more used to the basics that you just run through.</li>
+<li>Is it possible to offer a small session to include cloud coumpting with all these?
+<ul>
+<li>do you mean teaching some about cloud computing here, or a way to use cloud computing to do tehse exercises?</li>
+</ul>
+</li>
+<li>I am hitting information overload, but I also like that I learn about so many different topics. But keeping the focus with so many demos is getting harder.</li>
+<li>Without help from my zoom group I would have had a lot of trouble following. So I would definitely recommend this.</li>
+<li>Hoping for a workshop only focusing on sphinx and jupter notebooks and how to combine them! feels like there's so much to learn!
+<ul>
+<li>If at Aalto, let us know and we can arrange something.</li>
+</ul>
+</li>
+<li>I think in general some of the most useful tips you provide are on best practice and what people usually do. In principle you could find guides etc for all the commands but getting to know the customs around code is more difficult to find on your own. </li>
+</ul>
+
+  
+
+          </div>
+          <div class="col-sm-2">
+            
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;">
+              
+              <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;processed_images&#x2F;ca3a9db6e52dcd2800.png" alt="CodeRefinery logo"
+                style="margin-top: 25px;">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
+
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Improve this page</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery/2022-09-20-workshop">Source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

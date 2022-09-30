@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://coderefinery.github.io/2022-09-20-workshop/img/favicon.ico">
+
+    
+      <title>Questions and notes from workshop day 6</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 6" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/eglerean/2022-09-20-workshop/main/static/img/CR_twittercard_Fall2022.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://coderefinery.github.io/2022-09-20-workshop/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main">
+      <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>CodeRefinery workshop September 20-22 and 27-29, 2022</h1>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop">About</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/schedule">Schedule</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/audience">Audience</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/join">How to join</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/requirements">Requirements</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/questions">Q&amp;A</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.org/about/code-of-conduct/">Code of Conduct</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/volunteer">Volunteer</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/announcements">Announcement texts</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/communication">Communication</a>
+                
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            
+  <h1>Questions and notes from workshop day 6</h1>
+
+  <ul>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#icebreakers">Icebreakers</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#what-tools-do-you-use-for-testing-code">What tools do you use for testing code?</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#tell-us-some-about-this-course">Tell us some about this course:</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#questions">Questions</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#software-testing">Software testing</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#motivation">Motivation</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#concepts">Concepts</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#testing-locally">Testing locally</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#exercise-local-1-2">Exercise Local-1,2</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#automated-testing">Automated testing</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#test-design">Test design</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#exercise-until-xx-40">Exercise until xx:40</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#modular-code-development">Modular code development</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#what-should-they-do-next-comments">What should they do next &#x2F; comments?</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#afterparty-here-now">Afterparty here now:</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day6/#feedback">Feedback</a>
+        
+      </li>
+    
+  </ul>
+
+  
+  
+    <h2 id="icebreakers">Icebreakers</h2>
+<h3 id="what-tools-do-you-use-for-testing-code">What tools do you use for testing code?</h3>
+<ul>
+<li>Assert, try-except, raise Error oooo</li>
+<li>unittest oo</li>
+<li>pytest</li>
+<li>cargo test</li>
+<li>catch2</li>
+<li>visualize my workflow on data  o</li>
+<li>logging o</li>
+<li>printing outputs and see if the result make sense oooooooooo</li>
+<li>junit</li>
+</ul>
+<h3 id="tell-us-some-about-this-course">Tell us some about this course:</h3>
+<p>How did you attend (alone home/work, small group home/work/online, organized group, ...):</p>
+<ul>
+<li>Organized group in person ooooooooooo</li>
+<li>Alone at home ooooooooo</li>
+<li>Zoom group from university: ooo</li>
+<li>Alone at work: oooooo</li>
+</ul>
+<p>What would be the ideal format for this course?  (e.g. like this, in-person, videos available and scheduled Q&amp;A/mentoring sessions, etc.)</p>
+<ul>
+<li>Like this is amazing, streamed freely and if you want you do exercises, and with access to the material. ooooooooo</li>
+<li>I like it this way (zoom group from own university, watching the stream and post questions on HackMD) o</li>
+<li>Studies on-campus are already difficult for someone at a distance of more than one hour from campus. When it is not required by the content of the course, it is very welcome to be online.</li>
+<li>Like this. I think that the teaching can be streamed or video material, and it is nice to have a small live group where to watch it together, communicate and do the exercises - and get help. </li>
+<li>Teaching/theory on video, exercises and such livestream/on-site</li>
+<li>In-person sessions aren't that fun unless there's actually exercises to be done. So if you want more people in person, less type-along and lecture type material. But I quite enjoyed this format. +1</li>
+<li>I really like a format like this, online. In person courses, for me, have more value when there is a more social aspect during exercises, but this is by definition coding and doing exercises on your own computer, so I find an online format works very well. I am doing this alone, I see some people do it in small groups, which is also a nice way to do it.</li>
+</ul>
+<p>Other feedback</p>
+<ul>
+<li>Consider adding Scala as another &quot;supported&quot; language for the courses, since Aalto teaches based on it programming to the undergraduate programs.
+<ul>
+<li>thanks </li>
+<li>would you like to help us add it?
+<ul>
+<li>I wish I had the confidence, but I'm still learning under huge time pressure (i.e. about x4 time per weekly assignments compared to the &quot;estimated required&quot;). But I will try to contact you regarding that once I'm better prepared skill-wise.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>I would have assumed that this course requires some coding skills, which actually have not been needed. I think many people would not attend because they might feel that they lack the good enough coding skills. 
+<ul>
+<li>thanks +1</li>
+</ul>
+</li>
+</ul>
+<h2 id="questions">Questions</h2>
+<ol>
+<li>
+<p>Where can I find the collaborative documents of the previous workshop days?</p>
+<ul>
+<li>https://coderefinery.github.io/2022-09-20-workshop/questions/</li>
+</ul>
+</li>
+<li>
+<p>I can hear you!</p>
+<ul>
+<li>Matteo is slightly louder than Richard, but not by much</li>
+<li>better?
+<ul>
+<li>sounds good.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="software-testing"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/#software-testing">Software testing</a></h2>
+<h3 id="motivation"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/motivation/">Motivation</a></h3>
+<h3 id="concepts"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/concepts/">Concepts</a></h3>
+<ol start="3">
+<li>
+<p>To the shown example: I'll check also that it returns a number, that that number is within a given range, etc</p>
+<ul>
+<li>Agreed to the extent, that you need to ensure, that a different type of return value cannot pass the test.</li>
+</ul>
+</li>
+<li>
+<p>Do I need to test the test function, then test the test of the test fuction, and so on...?</p>
+<ul>
+<li>I'd argue: no. If your test function doesn't work, it's the same as a policy not being followed. </li>
+<li>A micro-controllers teacher told me once &quot;Building test is more an art that an exact science&quot;. There's no correct way to test functions and projects once they grow enough. With a small Celsius to Fahrenheit function the test is self-evident, but when your function/code does more complex stuff when sometimes the output is not always proportional to the input (or even random) tests become more and more complex.
+<ul>
+<li>You can still try to get as close to testing that it does what is intended as possible. e.g. if you have an optimisation function with random starting points that aims for local optima, you can at least try to see if it returns better results than just the random inputs, or, you can test for a few known local optima of some known functions and check, whether those are found. But I agree, that writing good tests can be very challenging</li>
+</ul>
+</li>
+<li>You might want have the functionality your tests rely on to be tested (like that assert throws errors, if the assertion is wrong), but one would hope that this is done in the code that introduces these functions.</li>
+</ul>
+</li>
+<li>
+<p>One of my last famous mistakes was to type a sine instead of a cosine. It was a oneliner. The quantity of ink does not matter. It is the value of the operation that matters for me.</p>
+<ul>
+<li>the most difficult bugs for me were often one-liners</li>
+<li>somebody taught me: when you find a bug, look into recent commits since bugs seem to surface soon (but there is also git bisect)</li>
+</ul>
+</li>
+<li>
+<p>Any (binary) test can produce false/true positives/negative. So I think you should test the test. This is the issue of sensitivity and specificity and the topic of the confusion matrix. See https://en.wikipedia.org/wiki/Confusion_matrix</p>
+<ul>
+<li>We have seen this with the medical tests for covid-19. 
+<ul>
+<li>Exactly there is a control on the test to ensure its working correctly. Similar to placebo when testing effectiveness of medication</li>
+</ul>
+</li>
+<li>I would argue that this is something somewhat different to code-testing.
+<ul>
+<li>Disagree still. It's about asserting the reliability of a test, that is any assertion after a control. Obviously a virus is different from an operation. But the purpose of a test on either is the same: produce an assertion, which can be true or wrong based on the reliability of the test itself.</li>
+<li>See also https://coderefinery.github.io/testing/concepts/#tests-don-t-guarantee-correctness
+<ul>
+<li>I guess it depends on what you consider testing the test. Yes, I agree that not checking the test for actual correctness makes sense, but writing test functions for tests is not the way to do that (in my opininon)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>My typical solution here would be multiple independent tests.  If one test fails but others do not, I am forced to look deeper and will notice the problem is in the other test.
+<ul>
+<li>+1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is testing for one value enough? Like in the case of the Fahrenheit to Celcius.</p>
+<ul>
+<li>I'd argue no, because it doesn't protect against someone replacing the function by <code>return valueX</code>.... 
+<ul>
+<li>How much is enough? How do we test in a more general way?
+<ul>
+<li>I'd say as long as the amount of work necessary to hard-code the individual results is higher than just writing the actual functionality. But that could lead to a lot of tests.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>What follows is more defensive programming than a fully fledged test. Anyhow... In case of a division it may be wise to test for a condition that the denominator is never zero (and provide an alternative code route if the exception occurs). In that case you test all the values that end up in the denominator.</li>
+</ul>
+</li>
+<li>
+<p>Does mixing defensive programming and unit testing make stuff unorganised or complicated?</p>
+<ul>
+<li>No. Actually you can test your defensive programming assertions, and you should. </li>
+</ul>
+</li>
+<li>
+<p>Many languages have some sort of <code>assert</code> function vs a <code>raise</code> or <code>throw</code>. Can you expand on the <strong>conceptual</strong> difference (regardless of the technical ones)? What is the philosophy behind those type of functions?</p>
+<ul>
+<li>&quot;Assert&quot; is designed to be something that should never happen if the code/input is running normally.  So, Python provides a way to ignore assertions if you need to run slightly faster.</li>
+<li>Exceptions should be used for things that might happen even if the code is running as expected.</li>
+</ul>
+</li>
+<li>
+<p>Is Triton down?</p>
+<ul>
+<li>Yes, short maintenance.  Are you using it for exercises?
+<ul>
+<li>Yes. I have my env only there</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="testing-locally"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/pytest/">Testing locally</a></h3>
+<ol start="11">
+<li>If the floating point number has the problem, like 0.1+0.2= 0.30000000000000004. Why do people still use the floating point number, instead of decimal datatype? In other words, what is the additional cost to use decimal datatype? Would the error of the floating point be amplified in a large numerical simulations and cause numerical convergence issues? 
+<ul>
+<li>Because it is much, much faster for computers to use.  And the downsides aren't too bad in most cases.  When needed, you can use a decimal datatype in languages. (e.g. python <code>decimal</code>)</li>
+<li>There are whole studies dedicated to understanding floating point errors and handling them.  Which is needed, because decimal types would be too slow for those large simulations that need them...</li>
+</ul>
+</li>
+</ol>
+<h3 id="exercise-local-1-2">Exercise Local-1,2</h3>
+<p>Everything on this page: https://coderefinery.github.io/testing/pytest/
+Second on optional, OK if you can't do anything (next exercise starts over)</p>
+<p>I am:
+done: ooooooooooooooooo
+wished for more time:
+not trying:
+exercise was good: 
+exercise needs improvement: </p>
+<ol start="10">
+<li>
+<p>Hi, could you please add me to an exercise group? Should I email support? OK, then can I ask questions later? If so, how? Can I send an email to support?</p>
+<ul>
+<li>me too ! also i cant hear audio from twitch stream, not sure whats reason (unmuted, refreshed already, no audio before break even). may be i can join on zoom?</li>
+<li>Right now there is a break and no audio.  Yesterday, refreshing Twitch fixed audio for someone.  Also you may need to unmute Twitch.</li>
+<li>There is no zoom way to attend, though CR had another learner zoom that needed pre-registering.</li>
+<li>CR support email is support@coderefinery.org</li>
+</ul>
+</li>
+<li>
+<p>I don't really understand the purpose of this exercise. From my understanding pytest helps you to find syntax errors in your code. But isn't that something that Jupyter notebook or R studio doing anyway? And writing code in nano seems a bit unnatural to me.</p>
+<ul>
+<li>It's not syntax errors, but logic errors.  And you need logic to find those errors.</li>
+<li>Testing is also for future development. I.e. you want that any modifications to your (basic) function do not change results that were done before the change. So in any larger project you want to ensure that changing an underlying function does not make other functions invalid.</li>
+</ul>
+</li>
+<li>
+<p>So just like I use try-except to handle exceptions, I should also be using assert in my python code to catch errors that should never happen? </p>
+<ul>
+<li>You don't have to, but assertions make sure that some inputs are invalidated (e.g. in the kelvin conversion if you assert the input &gt; 0, you make sure that no invalid inputs are used), which would give results that are simply wrong because impossible.</li>
+</ul>
+</li>
+<li>
+<p>What is the reason behind <code>!pytest -v example.py</code>? I found it just test twice.</p>
+<ul>
+<li>Hm, it first makes me think &quot;that is a jupyter shell command&quot;.  Where is it exactly?</li>
+<li>In the exercise, there is a hint for us to try inside Spyder or IPython.</li>
+<li>Ah, yeah.  So, that lets you run the shell command without leaving the Python environment.  <code>!</code> means &quot;this isn't python but shell&quot;
+<ul>
+<li>Why should it run twice?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>On the Local-2 exercise, the 0,1+0,2 is meant to fail but mine is passing the test. (Python 3.10.6, MAC OS Monterey 12.4) Why?</p>
+<ul>
+<li>What OS/Python version are you running?</li>
+<li>interesting hardware architecure? Normally 0.1 +0.2 is not precisely 0.3 (due to floating arithmetic), but seems like either your machine, or some other part does a correction. </li>
+<li>Can someone test on different Python versions?  Fails on 3.9</li>
+<li>Fails on 3.8 (ubuntu 20.04)</li>
+<li>Fails on 3.10.4 (ubuntu 22) o</li>
+<li>Fails on 3.10.6 (ubuntu 20.04)</li>
+</ul>
+</li>
+<li>
+<p>Question about the optional exercise: I can use any arbitrary number or I can use approx. What is the mechanism of approx. Does it also use any small number?</p>
+<ul>
+<li>Depends on your application, how exact you want to be. For many aplication 3 significant figures could be enough.
+<ul>
+<li>I am just trying to understand if/how approx is better than the arbitrary number method</li>
+<li>I think that both will work. And you can specify the tolerance in the parameters I guess.</li>
+<li>Yeah both will work, but approx has the advantage of not having to specify a precise boundary (e.g. 1e-7). As a good practice, any number &quot;out of the blue&quot; will make the code less readable</li>
+</ul>
+</li>
+<li>The description of pytest.approx might give some hints why approx is better. Basically, it's a bit smarter: https://docs.pytest.org/en/7.1.x/reference/reference.html#pytest-approx</li>
+</ul>
+</li>
+<li>
+<p>When working with code that takes constantly changing data as input (say, a live database), how should we think about testing data import functions etc? Assert reasonable values? Have a small, artificial dataset to use exclusively for testing? other?</p>
+<ul>
+<li>I usually would try to make small, artifical data for testing.  But it can be a combination of strategies.</li>
+<li>This could also be a great place to test the robustness vs unexpected errors, like what does your function/tool do if the sensor provides gibberish due to an error, will it just go on, or does it error out?</li>
+<li>follow-up: if the code then gets shared, would the artificial data be included on the git repo to ensure everyone can run tests? I assume yes?
+<ul>
+<li>yes. What I personally do iseither have the test data directly integrated in the same folder as the tests, or have a test data directory that somewhat mirrors the structure of the code. </li>
+<li>And be careful with real data. That should not be personal data (or only your own personal data).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How do I incorporate tests when my input and output are more complex? Like <code>pandas.Dataframe</code> or <code>numpy.array</code>?</p>
+<ul>
+<li>E.g. by testing parts of your dataframe. using small examples. like np.array([2,3,4]) as input. Yes, tests can become quite long but they are often worth the effort since a good test can often be reused as an usage example for documentations with minimal adaption.</li>
+<li>You can also test at different levels. You can test whether the outputs are of the correct type/dimension, as well as checking a few points and see if they are correct. </li>
+</ul>
+</li>
+</ol>
+<h3 id="automated-testing"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/continuous-integration/">Automated testing</a></h3>
+<ol start="18">
+<li>
+<p>Why &quot;sorry for the Italian&quot;? :-) Should we be sorry for you? ;-) (I'm Italian too)</p>
+<ul>
+<li>Yeah but I'm Swiss ;) But we got a beautiful language, you're right! I take back my apology.</li>
+</ul>
+</li>
+<li>
+<p>I have code that does I/O with a database, do you have advice on how to test that this code correctly inserts, reads and deletes data in the database?</p>
+<ul>
+<li>What I would do is something along the lines of:<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>data = XYZ
+</span><span>addressofsubmitteddata = writeData(data)
+</span><span>dataFromDB = readData(addressofsubmitteddata)
+</span><span>assert data == dataFromDB
+</span><span>insert(newPoint,positionInData,addressofsubmitteddata)
+</span><span>dataFromDB = readData(addressofsubmitteddata)
+</span><span>assert dataFromDB[positionInData] == newPoint
+</span></code></pre>
+and similar for delete. Is this understandable? <em>To some extent, but i am not familiar with a means of getting an address for database data (or maybe I'm not getting the abstraction), also the insert and newPoint I do not get</em></li>
+<li>check pytest &quot;fixtures&quot;</li>
+</ul>
+</li>
+<li>
+<p>When I tried to push the file I got the following error:</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>fatal: &#39;origin&#39; does not appear to be a git repository
+</span><span>fatal: Could not read from remote repository.
+</span><span>
+</span><span>Please make sure you have the correct access rights
+</span><span>and the repository exists. 
+</span></code></pre>
+<ul>
+<li>I found the problem, I didn't access the repository after cloning.</li>
+</ul>
+</li>
+<li>
+<p>So no tests are done on the branch pushed?</p>
+<ul>
+<li>No, because it was not set up.</li>
+<li>Ok so not automatically set up on the branch? 
+<ul>
+<li>I might be wrong, but I think actions need to be set up for each branch. In the action definition you have:<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>  on:
+</span><span>    push:
+</span><span>      branches: [ main ]
+</span><span>    pull_request:
+</span><span>      branches: [ main ]
+</span></code></pre>
+where you define when your action is run.
+<ul>
+<li>we could see that a test is done when doing the pull request. That makes sense. Like a safeguard against breaking main branch. </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>It seems running the tests on Github is quite slow - we haven't even introduced a very large testsuite yet</p>
+<ul>
+<li>Starting up the tests is not very fast, but it's not supposed to be your &quot;testing ground&quot;, you should normally make sure, that the tests succeed on your machine before pushing. The Github side mainly tries to ensure the quality of your online repository. </li>
+</ul>
+</li>
+<li>
+<p>With automated testing we do not get any notification of the test outcome if we push from the terminal, do we?</p>
+<ul>
+<li>I think this depends on your notification settings. The action is performed, and if you are notified of action results, then you will get an email.</li>
+</ul>
+</li>
+<li>
+<p>If I am working on my own project, it would more sense to me to test just locally? But if I am in a collaborative project, git testing ensures everyone's code is tested?</p>
+<ul>
+<li>If you do test on Github you show others that your tests succeeded. Otherwise they don't see it.</li>
+</ul>
+</li>
+</ol>
+<h3 id="test-design"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/testing/test-design/">Test design</a></h3>
+<h3 id="exercise-until-xx-40">Exercise until xx:40</h3>
+<p>Your choice of exercises here (decide what is most interesting to you): https://coderefinery.github.io/testing/test-design/</p>
+<p>Write your thoughts and answers below.</p>
+<p>Poll (multi-choice):</p>
+<ul>
+<li>I am done: oo</li>
+<li>I'm not trying: </li>
+<li>needed more time:o</li>
+<li>good exercise: ooo</li>
+<li>needs improvement: </li>
+</ul>
+<ol start="26">
+<li>
+<p>In design 8, is the idea to use repetitive-test.txt as the well-defined test-input or should we have another file for test definition and then use repetitive-test.txt as the &quot;real world scenario&quot;? And would a reasonable solution include a file such as non-repetitive-test.txt as the correct result?</p>
+<ul>
+<li>My interpertation is that <code>repititive-test.txt</code> is the sample input.  And yeah, including pairs of (input, expected_output) would make sense for this.  Run through each pair, run on the input, compare to the output. Some inputs are hand-made to have a known output, some could be long and random and only for regression tests.</li>
+</ul>
+</li>
+<li>
+<p>I am wondering if design test would also include assuming the user to have the correct behaviors. For example, in Exercise Design 1, it assumes that <code>n</code> is a number, while the user could potentially pass a string to <code>n</code>, like <code>drop all</code> or <code>rm *</code>.</p>
+<ul>
+<li>Good question!  In this case, I am confident the function will raise an exception when it doesn't have a number, which might be good enough for me.</li>
+<li>Also, It would be reasonable to make a test that verifies the function raises an exception when it's not a number.</li>
+<li>And assertion if you want a nicer error message than the TypeError you would get.</li>
+</ul>
+</li>
+<li>
+<p>Following Question 27, but in a more general perspective, how could the developer code in a way to prevent users with bad intentions? For example, the user intentionally gives inputs like <code>rm *</code> or drop all tables. </p>
+<ul>
+<li>This gets to the topic of security, and a big deal.  If you have user input and there are security concerns, you want to be very careful in validating input.</li>
+<li>Assertions about the input, ensuring that interpreted elements are not arbitrary (log4j bug...) and similar things. </li>
+<li>... though I wouldn't use <code>assert</code> here if it was Python, to me that is stuff that doesn't happen.  <code>python -O</code> will remove assertions.
+<ul>
+<li>Would you use assertions to define ensure input type of a function? Or how would you handle it?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>In design 4, I don't understand the input to the test function, the <em>monkeypatch</em>. It is an object from another module? I understand the concept of monkeypatching but not the implementation.</p>
+<ul>
+<li>This is a <code>pytest</code> convention, and is <em>not obvious</em> by any means.  This is a &quot;fixture&quot; which provides some feature.  In this case, it says &quot;set max_temperature on <code>reactor</code> to <code>100</code> and undo it when the function is done&quot;.</li>
+</ul>
+</li>
+<li>
+<p>With these test functions don't you have the risk that you might not find a good (anti)example and then the test itself fails? In other words, that there is a bug but, with the examples you choose you don't find it.</p>
+<ul>
+<li>Yes, that is always an issue. In principle you try to write your tests as general as possible. If you find a new bug, you extend your tests to cover that bug (or write a new test that checks for exactly that bug). Yes, tests are not a foolproof way to avoid bugs, but they commonly help in maintaining code quality and they particularily help in keeping functionality stable (i.e. they make it less likely, that a change breaks code depending on the tested functionality)</li>
+</ul>
+</li>
+<li>
+<p>Ideas for testing randomness?</p>
+<ul>
+<li>Do statistical tests</li>
+<li>Check what is know about the distribution, i.e. dice roll is integer and &gt;=1 and &lt;=6</li>
+<li>Drive the distribution to one extreme that can be known.</li>
+<li>Since we don't ever have true randomness, use some way to &quot;fix&quot; the randomness and calculate your results with those &quot;random&quot; numbers. </li>
+</ul>
+</li>
+<li>
+<p>If a function operates with numerical inputs/outputs, then I suppose that the best way to test it is just to plot its outputs for a wide range of inputs.</p>
+<ul>
+<li>That depends a bit. I was working with linear programming optimizers, where multiple optima could exist, and the exact one was not necessarily achieved. But you could e.g. test, that the optimal value returned is the within the tolerances set for the solver for a given known optimum. That doesn't mean it needs to find a specific solution, but the optimal value that solution generates is correct (within the respective tolerances).</li>
+</ul>
+</li>
+</ol>
+<h2 id="modular-code-development"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/modular-type-along/">Modular code development</a></h2>
+<p>A. What does &quot;modular code development&quot; mean for you?</p>
+<ul>
+<li>What does modular code development mean? +3</li>
+<li>I'm not really sure but I suppose something like...that my code consists of &quot;modules&quot;, which can be moved and used in some other code. (I'm thinking about modular synthesis in electronic music and the way that you can change the output of your signal by changing the order of the signal processing modules.)</li>
+<li>Lots of small general classes +1</li>
+<li>Divide workload and liability in a large group</li>
+<li>The ability to reuse a lot of the created methods without the need to make extra adjustments </li>
+<li>Be clear on different steps in data processing</li>
+<li>A function that performs one task, not thousands of tasks.</li>
+<li>Many functions working separately which can be reused in different projects +1</li>
+<li>That I can copy-paste a function/module/package/portion from one project/notebook into another and it still works</li>
+<li>Modulation helps when one person works only on a part of the code</li>
+<li>I can recognize/recall where I did what, and then why</li>
+<li>Have one short main code and many modules imported</li>
+</ul>
+<p>B. What best practices can you recommend to arrive at well structured, modular code in your favourite programming language?</p>
+<ul>
+<li>Think before you act, at times</li>
+<li>Keeping functions simple and pure to combine well with other code</li>
+<li>Type hints in python (so you're confident in reusing code)</li>
+<li>Make functions (and code in general) as general as possible, not only working for the current case, as the code may be reusable in the future and modifying it later may be harder than right now.</li>
+<li>Have a good system architec design to begin with</li>
+<li>Create functions when possible</li>
+<li>Give clear comments for each part of the functions</li>
+</ul>
+<p>C. What do you know now about programming that you wish somebody told you earlier?</p>
+<ul>
+<li>Document your code! +1</li>
+<li>Always use functions instead of scripts (for my use case) - it can make your life so much easier down the line.</li>
+<li>Learn the proper way to set up a code, instead of jumping in and code random lines that seem to work.</li>
+<li>Do not use C++ when you can code in Python, life is too short for C++.
+<ul>
+<li>In some fields it's impossible to ignore, and there is tooling to make it nicer to work with.</li>
+</ul>
+</li>
+<li>Ignore a lot of the &quot;that's not efficient&quot; talk - you spend weeks on coding and seconds on computing, so don't worry too much about efficiency when you are starting.
+<ul>
+<li>I think the important bit here is &quot;when starting&quot;. Later on, you could either improve performance yourself, or ask others, who might be better at coding to help with improving the performance (like RSEs).
+<ul>
+<li>Agreed, but I think many people suffer very early on from a clear case of &quot;the perfect is the enemy of the good&quot;, and have efficient lines of code in a buggy or incomplete program, or start using C++ to shave seconds of a simulation that could've been developed in half the time in Python.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>In general, I've had a problem in my life that teachers and mentors just give &quot;algorithmic instructions&quot; that I need to follow to learn what's necessary. Everything should be explained so clearly, through metaphors and demonstrations, that I (or anyone else) <em>actually understands</em> what is happening.</li>
+<li>Programming languages are about syntax, you don't need read a lot of theory before starting to code. Just start and search for help on the internet when needed.</li>
+<li>A simple and non-fancy code that works reliably (and is readable) &gt;&gt; fancy non-readable code that may or may not work.</li>
+<li>There's this tool called 'git' and how easy it is to use, and how much it helps with version control +1</li>
+<li>Collaborating with people is the most important, which also means that you should use the most common programming language in your field (as long as it is Python ;) ), and spend a lot on time on cleaning, documenting and straight up communication.</li>
+<li>Paper and pen, yet</li>
+<li>Do not try to rewrite the legacy codebase if it already works well.</li>
+<li>Team up with somebody and mentor each other</li>
+<li>Never assume that your script/function will be only used by you, no matter how simple the script/function is.</li>
+<li>Even if working alone, there are always three collaborators involved: you, your past self, and your future self. Be kind to your collaborators.</li>
+</ul>
+<h3 id="what-should-they-do-next-comments">What should they do next / comments?</h3>
+<ul>
+<li>
+<p>Make a function! ooooooooo</p>
+<ul>
+<li>With one input which is the number of data for x
+<ul>
+<li>then you can call it with the different values</li>
+</ul>
+</li>
+<li>We can also pass the name of the csv file or the kind of data we want to plot, if they will be asked later on.</li>
+<li>Could the args be filename, columnname and numbers of points?</li>
+<li>Another plotname
+<ul>
+<li>plot name could also be generated from number of input points + predefined prefix o</li>
+<li>Better!</li>
+</ul>
+</li>
+<li>make multiple functions!
+<ul>
+<li>plotting</li>
+<li>mean()</li>
+<li>reading()</li>
+<li>?</li>
+</ul>
+</li>
+<li>Need to change the figure filename!</li>
+<li>Put the title and stuff into the loop
+<ul>
+<li>Use string interpolation to put the number into the title</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Make a repo for what you're working with so you can start tracking your changes!</p>
+<ul>
+<li>make a README.md-file</li>
+</ul>
+</li>
+<li>
+<p>num_measurements isn't necessary as you can can use len(data).</p>
+</li>
+<li>
+<p>Make a for loop to plot 3 times</p>
+</li>
+<li>
+<p>Document the code and explain why you're doing this </p>
+</li>
+<li>
+<p>Depending on your supervisor, you might get away with 3 repeats of code but I would do the function pretty much as soon as I realise the asks won't stop there.</p>
+</li>
+<li>
+<p>Request. Would you share the <code>history</code> of your shell? Later, I meant, as a text file kind of <code>history &gt; history.log</code>. </p>
+<ul>
+<li>Relayed via chat, hopefully we will remember to add it here.</li>
+</ul>
+</li>
+</ul>
+<ol start="33">
+<li>
+<p>Question about modular code development in general (maybe you're getting to it soon): when we have small functions that combine to a larger whole, is it better to have the larger whole shared as a script or use wrapper functions and hide more of the behind-the-scenes stuff? Ie script that is 100+ lines or layers and layers of wrapper functions? By wrapper functions I mean larger functions that call the small, modular functions (e.g. preprocess_data() that depends on 20+ other functions vs a script that is called preprocess.py where the smaller functions are more evident to the user).</p>
+<ul>
+<li>I'm not quite sure what you mean by wrapper function here.  Functions in other files?</li>
+<li>In my cases, I would often try to divide up into small functions, but (at the start) they are all in one standalone file.  Later on, if needed, I can split the functions out into a library that can be imported - if it ever gets that far.</li>
+<li>Ah.  Well, I think you naturally get that kind of hierarchy when it makes sense.  Sometimes it does, maybe sometime not.  (I'm sorry for the non-answer but hopefully you figure out the best solution for each case).
+<ul>
+<li>thanks! So at least there isn't any &quot;commonly agreed best practice&quot; about always showing as much as possible or hiding as much as possible (of what steps happen behind the scenes etc)?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>If you create a general function and you test it for your case, how do you know you can copy it to another project? You haven't tested it for this new use case. Would you then test this new use case?</p>
+<ul>
+<li>I should have created another notebook and tested it. thanks.</li>
+</ul>
+</li>
+<li>
+<p>Can you create a test which resets these input values to empty before running (like matlab clear all or something?)</p>
+<ul>
+<li>This is a good point and is part of test design.</li>
+</ul>
+</li>
+<li>
+<p>Would a better name be plot_data_with_meanline()?</p>
+<ul>
+<li>Following on this - and it would be possible to derive mean inside the function. as well, not to have it as argument?</li>
+<li>Sort of depends on the scope of the function -- there's a bit of conflict between generic functions and a reasonable number of parameters
+<ul>
+<li>this is very apparent with the plotting libraries themselves where functions often have <em>a lot</em> of parameters</li>
+</ul>
+</li>
+<li>Yes!  I agree.  The best solution I know (which may not work everywhere) is the generic function returns the figure/axes object, which can be modified at the higher level (= don't try to add arguments for everything).  Or the function receives the axes object to plot onto.  Both of these require some care and knowledge to do well.
+<ul>
+<li>This seems like a good strategy to me.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What about the formatting of your plot? I think this is often difficult where you put this because you typically always tweak this a bit for the specific case </p>
+<ul>
+<li>See above for my take. <em>Ok, thanks for the tip</em>.</li>
+</ul>
+</li>
+<li>
+<p>Maybe it should be read_temperates() -- no need to overabstract?</p>
+</li>
+<li>
+<p>If you sometimes need to plot two (or more) traces in the same plot, is there a good suggestion to encompass this? or should you then just make a separate function that handles plotting multiple traces?</p>
+</li>
+<li>
+<p>In general, whenever I write code with many small pure functions, that combined solves a complex task I am always unsure of how to combine them - like which functions should call the other functions to assemble the workflow, can you comment on this problem?</p>
+<ul>
+<li>super question. we will pick it up.</li>
+<li>might also need a longer written answer which I will provide in the afternoon</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<p>Can you switch to the HackMD when you are talking about a question in it?</p>
+<ul>
+<li>Hopefully they notice this, if I (broadcaster) do it it will get confusing.</li>
+<li>Thanks</li>
+</ul>
+</li>
+<li>
+<p>But what if you use a different data type? How do you know that compute_mean() works with all data types? For example (len(data)) sometimes has unexpected behaviour depending on the data type.</p>
+<ul>
+<li>currently you do not know, we could tell python what datatype to expect by defining it in the function call
+<strong>- ??? By typing? Or another way?</strong></li>
+<li>we'll bring it up after the command line interface</li>
+<li>Great! Thnx</li>
+</ul>
+</li>
+</ul>
+<ol start="41">
+<li>
+<p>Sometimes we add/remove input variables of a function. Is it a good idea to always have just a single input variable, which is just a list, and then refer to its components inside the function?</p>
+<ul>
+<li>You can add new arguments with default values, and then it is backwards compatible.</li>
+<li>Or use keyword arguments, and then order/adding/removing doesn't matter so much.</li>
+<li>If you want to remove a non-keyword argument, you have a problem with backwards compatibility.</li>
+<li>Consider backwards compatibility when adding new arguments: do you change the default behavior?</li>
+</ul>
+</li>
+<li>
+<p>Would it be good to back up with Github, or something similar? I really wanted to see this done in real time.</p>
+<ul>
+<li>done</li>
+</ul>
+</li>
+<li>
+<p>Another common issue for me is in a datapipeline, at a specific step, you would often have a set of functions to choose from depending on what analysis you wish to do. Is there a nice way to handle this? Some way to sort of inject a number of datamanipulation functions in to a step in a datapipeline.</p>
+<ul>
+<li>Yes, this is a good question of design and takes some knowledge</li>
+<li>There are differest strategies, but you could have an argument that selects the function by name (or you just pass the function itself in).  Or configuration files, each run gets told which configuration it should use, it finds that run name from the configuration file and uses that selection.</li>
+<li><em>Thanks, maybe someone knows of repos that implement solutions to this that I can check out?</em> </li>
+<li>I wish I knew of some good examples, but I'm not sure where to point.  We hope that an upcoming livestream course https://scicomp.aalto.fi/training/scip/workflows-2023/ will cover this in more detail, but we still have to design the course!  Want to help? *Maybe - am I eligible for attending? :p I do not get from your get-in-touch-link who I would talk to to help *
+<ul>
+<li>Well, it's a livestream course so... contact via this email if not at aalto: https://scicomp.aalto.fi/help/#email.  Or use the CodeRefinery chat (link in the workshop outro, coderefinery.zulipchat.com).</li>
+</ul>
+</li>
+<li>This doesn't have examples of this right now, but I aim to add some examples here as I develop them: https://github.com/AaltoSciComp/hpc-examples/</li>
+</ul>
+</li>
+<li>
+<p>Again, what is the <code>ve</code> command in the command history? After he edited the requirements file and before he staged it.</p>
+<ul>
+<li>He has an alias that automatically creates a Python virtualenvironment (makes environment, adds packages from requirements.txt)</li>
+<li>I will share in the afternoon
+<ul>
+<li>Thx</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>I use fish instead of bash and this is fish's way of defining an alias/shortcut. In short, the &quot;ve&quot; creates a virtual environment if it does not exist yet, activates it, and installs into it dependencies it reads from <code>requirements.txt</code>. The important point here is that I like installing dependencies from a file because it will force me to document my dependencies. I recommend to do the same for <code>environment.yml</code> (how this is done is less important and sorry for introducing yet another thing here, fish, but it's the shell I use):</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>function ve
+</span><span>    if not test -d venv
+</span><span>        python -m venv venv
+</span><span>    end
+</span><span>    source venv/bin/activate.fish
+</span><span>    if test -e requirements.txt
+</span><span>        python -m pip install --upgrade pip
+</span><span>        python -m pip install -r requirements.txt
+</span><span>    end
+</span><span>end
+</span><span>
+</span><span>function ce
+</span><span>    eval $HOME/miniconda3/bin/conda &quot;shell.fish&quot; &quot;hook&quot; $argv | source
+</span><span>    if not test -d env
+</span><span>        conda env create --prefix ./env --file environment.yml
+</span><span>    end
+</span><span>    conda activate ./env
+</span><span>end
+</span></code></pre>
+<ol start="45">
+<li>
+<p>Add a main function!</p>
+<ul>
+<li>thanks</li>
+</ul>
+</li>
+<li>
+<p>Basic question; what is the difference between installing requirements and this command (can't see it now, import?) on top of the script?</p>
+<ul>
+<li>Requirements defines packages needed</li>
+<li>pip+virtualenv (or other tools) installs the packages</li>
+<li><code>import</code> (if that's what it is) loads packages that are already installed, but doesn't find or install them if not already there.</li>
+</ul>
+</li>
+<li>
+<p>Set type=int for num-measurements</p>
+<ul>
+<li>Thanks</li>
+</ul>
+</li>
+<li>
+<p>Pandas series</p>
+<ul>
+<li>Thanks</li>
+</ul>
+</li>
+<li>
+<p>Datasafety when cloud computing results based on unpublished data in a jupyternotebook? - use jupyternotebook instead of jupyterlab maybe? Like when sharing with colleagues. </p>
+<ul>
+<li>another way is to share a notebook with non-sensitive publich example data and that can all be public. and then separately distribute the unpublished data.</li>
+</ul>
+</li>
+<li>
+<p>I have a question from Day3 collaborative distributed version control. a) Step F. I am confused with what is being pushed to where. We clone the directory the instructor created, then we make a branch and create a text file in the branch. in Step F we push, but there I get lost. b) About forking workflow. I have a super basic question. Why do we need a fork? Why not just work with local clone and central? In Step E, why do we push to fork first and then pull request from fork? Why don't we want to directly pull request from clone to central? Thanks.</p>
+<ul>
+<li>a) In step F we push the local branch to the exercise repository. Once this is done, please open the exercise repository in your web browser and check whether you can find your branch there. The next step then is to open a &quot;pull request&quot; (change proposal) from your branch towards master</li>
+<li>b) This is to emulate the situation where you want to make a change to a repository but where you are not a &quot;collaborator&quot;, in other words you have read permissions (since it's public) but no write permissions. For such repositories where you are not part of the group, you need to fork first before you can make any modifications. Of course you could also clone directly the central repo and make modifications on your laptop. That always works.</li>
+<li>why create PR from fork to central and not send PR from clone to central: pull request (PR) is a merge request between one branch on GitHub towards another branch on GitHub (or from GitLab to GitLab; within the same repo or from one repo to another but still on the same platform). when using GitHub you need to have the change on GitHub before creating a pull request from it. It is not enough to have the change on your computer. And since you in this case cannot write to central, you need to write the change to fork first before opening the PR.</li>
+<li>Thank you. Understood. </li>
+</ul>
+</li>
+</ol>
+<h2 id="afterparty-here-now">Afterparty here now:</h2>
+<p><strong>You can meet the instructors on Zoom right after we finish</strong>
+and anyone want to meet for dinner in helsinki area?: </p>
+<h2 id="feedback">Feedback</h2>
+<p>Today was:</p>
+<ul>
+<li>too fast oooooo</li>
+<li>too slow o</li>
+<li>just right oooooooooooo</li>
+<li>useful oooooooooooooo</li>
+<li>recommendable oooooooooo</li>
+<li>needs improvement before recommendable oo</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>Radovan, he's such a great teachter. ooooooooooo </li>
+<li>I kind of had an idea about testing as something big and scary and hairy before today. I feel like you managed to make it much more approachable and comprehensible. Thank you for that! oo</li>
+<li>Radovans session was great, would be good to have more sessions like this. </li>
+<li>I would like a dedicated session on how to use Jupyter and Github as a solitary tool for backup (not just the collaborator perspective, first make sure to secure our own production)</li>
+<li>Learning a bit about automatic testing</li>
+<li>very useful day, thank you! </li>
+<li>Lot's of useful stuff today, need to include more training. The first session of the day was way too fast. Good with write along excersises, but can sometimes be too fast. </li>
+<li>Good stuff!</li>
+<li>The lesson about modular code was super, helped me to understand a lot +1</li>
+<li>Thank you very much for CI excercise, especially GitLab section (I did it in GitLab) - I will definitely direct my colleagues to this ecxercise, and looking forward to setup automatic linting and testing for our projects!. </li>
+<li>The course was excellent! Keep the good work!</li>
+</ul>
+<p>One thing to be improved for next time:</p>
+<ul>
+<li>The first testing exercise was really easy, but we got a lot of time for it.oooooooo</li>
+<li>would love to have had time to properly go through the more thorough testing examples (but of course the time is scarce)o</li>
+<li>The type-along this morning (automatic testing) was too fast ooooo</li>
+<li>The last workover type along was difficult to follow in the end </li>
+<li>One nice thing would be if you knew of projects that use the same tools and concepts as described in the course that you could recommend for inspiration (you present some in the course material, but if there are projects that use most or all of the tools that you demonstrate in one project it would be great) </li>
+<li>maybe say some more about CI/CD this concept is quite widespread but is still somewhat vague to me </li>
+</ul>
+<p>Other comments:</p>
+<ul>
+<li>I am completely new to the coding but learned lot. +1</li>
+<li>Really like the documentation you guys have on CodeRefinery o</li>
+<li>I <em>think</em> this may have been my first time attending a full day of coderefinery workshop (I think I have previously just dropped in on individual sessions) and I loved the warm &amp; approachable vibe you managed to create despite the distance teaching mode. That is really difficult and you did great! +1</li>
+<li><strong>THANKS</strong> so much to everyone involved, I learned so much and am excited to apply this in my work life. oooooooo</li>
+<li>Open Access of the course material and video are really valuable part of the course. +1</li>
+<li>You mentioned there was a cheat sheet, at least for the Git-stuff, but I didn't catch where to find it? 
+<ul>
+<li>In general a niceness to the course would be to have a short-n-sweet cheatsheet for the material covered in the course (maybe this could be generated simply from some of the summarizing text-boxes)</li>
+</ul>
+</li>
+<li>I think you do a great job of teaching this course! The material is really good and comprehensive also. I was surprised about how well the <em>otherwise quite passive</em> online stream actually worked in combination with the HackMD interaction. Kudos for your efforts! </li>
+</ul>
+<p>What would you like to do next:</p>
+<ul>
+<li>
+<p>Experiment &amp; learn further. What a useful course!</p>
+</li>
+<li>
+<p>Have lunch! +1</p>
+</li>
+<li>
+<p>More sessions where we do the full walk from initializing repo, starting with a code base, doing the Jupyter notebook, modularizing, testing, making som developmental branches, making issue, merge request, publishing code in a binder. We almost got there today but would be nice to do it a couple of times over. Doesnt need to be complicated code. The important thing would be to do the whole &quot;lifecycle&quot; a coupple of times. +1</p>
+</li>
+<li>
+<p>Starting my own repository and applying all that I have learned. +1</p>
+</li>
+<li>
+<p>Many (some) questions about how these tie together into workflows, looking forward to the feb workflows workshop! until then I'll try to strengthen up the basics based on these materials</p>
+</li>
+<li>
+<p>Save the material of this course for studying it again later</p>
+<ul>
+<li>Addition to comment above. Please tell me i can access these lectures for ever! I have a lot to catch up on and absolutely loved this workshop. 
+<ul>
+<li>They should stay online as long as the CodeRefinery project is funded, and the sources are on Github, so as long as Github doesn't close down they can be hosted elsewhere.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>A question: where can I find some instructions for uninstalling the coderefinery environment and creating my own?</p>
+<ul>
+<li>uninstalling an environemnt: <code>conda env remove -n coderefinery</code>, installing your own: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html</li>
+</ul>
+</li>
+<li>
+<p>can we find the stream from last and this week recorded somewhere?</p>
+<ul>
+<li>for the next two weeks on twitch, after that I think they will be on youtube ( https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg )</li>
+</ul>
+</li>
+<li>
+<p>Where is the readme file that Richard is showing right now? linked from schedule - https://github.com/coderefinery/workshop-outro/blob/master/README.md</p>
+</li>
+<li>
+<p>A course on parallelizing code?</p>
+<ul>
+<li>There are some resources around on the web. Main issue is that it commonly highly depends on the actual code you have, the language (and libraries) you use and whether the code is parallelizable at all, or if the overhead from trying to parallelize it is not worth it. It also introduces the problems of concurrency... 
+<ul>
+<li>gotcha, thanks</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  
+
+          </div>
+          <div class="col-sm-2">
+            
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;">
+              
+              <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;processed_images&#x2F;ca3a9db6e52dcd2800.png" alt="CodeRefinery logo"
+                style="margin-top: 25px;">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
+
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Improve this page</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery/2022-09-20-workshop">Source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

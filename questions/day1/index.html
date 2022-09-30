@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://coderefinery.github.io/2022-09-20-workshop/img/favicon.ico">
+
+    
+      <title>Questions and notes from workshop day 1</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 1" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/eglerean/2022-09-20-workshop/main/static/img/CR_twittercard_Fall2022.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://coderefinery.github.io/2022-09-20-workshop/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main">
+      <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>CodeRefinery workshop September 20-22 and 27-29, 2022</h1>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop">About</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/schedule">Schedule</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/audience">Audience</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/join">How to join</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/requirements">Requirements</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/questions">Q&amp;A</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.org/about/code-of-conduct/">Code of Conduct</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/volunteer">Volunteer</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/announcements">Announcement texts</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/communication">Communication</a>
+                
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            
+  <h1>Questions and notes from workshop day 1</h1>
+
+  <ul>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#icebreaker-question">Icebreaker question</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#icebreakbreaker-and-intro">Icebreakbreaker and intro</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#we-will-use-this-for-collaborative-notes-and-questions">We will use this for collaborative notes and questions.</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#git-intro">git-intro</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#exercise-until-xx-40">Exercise until xx:40</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#continued-branching-and-merging">Continued: Branching and merging</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#exercise-until-xx-00">Exercise until xx:00</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day1/#feedback-day-1">Feedback, day 1</a>
+        
+      </li>
+    
+  </ul>
+
+  
+  
+    <h2 id="icebreaker-question">Icebreaker question</h2>
+<p>:::info
+Add <code>o</code> after the option that describes your situation
+:::</p>
+<ol>
+<li>
+<p>What is the operating system on the computer that you will use during the course?</p>
+<ul>
+<li>Linux: oooooooooooooooooooooooooo</li>
+<li>macOS: oooooooooooooooooooo</li>
+<li>Windows: ooooooooooooooooooooooooooooo</li>
+<li>Other:
+<ul>
+<li>(name here)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How did you learn to program?</p>
+<ul>
+<li>At my university Fortran introductory course in theory. In reality self taught to finish all the assignments.</li>
+<li>I'm self-educated.</li>
+<li>I took some coding courses during my bachelor and master.</li>
+<li>I followed some courses in modelling and simulation during my master.</li>
+<li>During my bachelor of psychobiology and now learning a lot during my Ph in computational neuroscience, but I feel like some of basic knowledge is still lackingD.</li>
+<li>I am creating a small inversion script for my PhD in Geophysics.</li>
+<li>I am a master student and I need to review my <code>git</code> knowledge.</li>
+<li>It looked cool and started writing scripts on Windows 95 and MSDOS when I was like 10. Eventually I learned to use a compiler and started to program in C from a book from Deitel &amp; Deitel.</li>
+<li>Started learning at school back in the early 2010s. Really started to get a hang of it as a research assistant.</li>
+<li>I was doing my bachelor and I had to submit 700 molecular calculations to a supercomputer and I did not want to write the input files by hand.</li>
+<li>Undergrad course in C.</li>
+<li>For my PhD position I needed to learn R.</li>
+<li>10 PRINT &quot;HELLO, WORLD&quot;; 20 GOTO 10 on a C64 a long time ago.</li>
+<li>During last year of high school I learned VisualBasic for Excel.</li>
+<li>At school (mainly html back then), during an extracuricular activity and during classes (with delphi...).</li>
+<li>My PhD project is about high performance computing. Starting from Matlab, then Fortran, now trying Julia. Every time I look back, I find my code sucks!</li>
+<li>I started coding in the final year project in my bacholer degree. My coding is very basic...</li>
+<li>BSc from Aalto university (Scala)</li>
+<li>In my Physics Diploma in C and then Matlab. Now I am using Python.</li>
+<li>Matlab during Bachelor, C++ during side-job.</li>
+<li>I learnt to program during my high school years starting with C.</li>
+<li>During my engineering program in university where we mainly used Matlab but also a bit of Python.</li>
+<li>Started in school, then just continued for fun and later as part of my university studies and research.</li>
+<li>With my first bachaler course, C++.</li>
+<li>I learned Python during my bachelors, the basics needed for engineering. I incresed my skill since then slightly.</li>
+<li>During my bachelors, while everyone was learning MATLAB. I just thought that I want to do Python and did all the exercises on my own ; later we also learned Fortran during the bachelors and used it for climate modelling; added C basic during my doctoral studies.</li>
+<li>I started during my time at highschool with Pascal in an informatics course, and later added Fortran and Matlab at university. Even later, I went into graphic programming with LabVIEW..</li>
+<li>BASIC in the 80s: I used it to draw  the silhouette of a Ferrari F40, I think</li>
+<li>While I was doing my physics degree.</li>
+<li>Matlab at the university, Fortran for my MSc, and then Python for pre-and post-processing of results in my job as an engineer.</li>
+<li>I started learning Matlab during an university course in numerical techniques.</li>
+<li>Via a programming course at university.</li>
+<li>I started programming in my bridging programme where I made human muscle models in Matlab, then I learned a bit of Python and javascript as well.</li>
+<li>Logo in primary school.</li>
+<li>During my master (TCCM) we learned Fortran and then I moved to Python for my PhD.</li>
+<li>When I started my Bachelor degree at Aalto.</li>
+<li>Self study.</li>
+<li>During my masters, I started with Fortran 77. Then, during my postdoc at Aalto, I have been learning/using Python.</li>
+<li>As a compulsory part of computer science and signal processing studies.</li>
+<li>Pascal at high school, then Python and Matlab during undergrad studies and later for PhD and postdoctoral research.</li>
+<li>Compulsory Python course during Bachelor program.</li>
+<li>R for my dissertation in neuroscience, basics in Matlab.</li>
+<li>I don't really know how to program but I'm trying. - Started as self study for fun.</li>
+<li>Python course.</li>
+<li>During university courses (Java and Fortran) and self study (Python).</li>
+<li>I started with programming at University, mainly with MATLAB. Now I need more advanced programming skills.</li>
+<li>I developed an interest in coding through the mandatory programming courses in my bachelor's, chose to minor in it, and now I've moved on to studying machine learning in my master's.</li>
+<li>During my undergraduate study and started from C++ programming, but later mostly used Matlab.</li>
+<li>Undergraduate course of C++.</li>
+<li>Started with old school QBasic as a kid, then started again much later.</li>
+<li>Self taught.</li>
+<li>In university studying fluid dynamics and population dynamics learned Matlab. Later at work Python and some Fortran.</li>
+<li>Online Java course at university.</li>
+<li>During master course in Matlab.</li>
+</ul>
+</li>
+</ol>
+<h2 id="icebreakbreaker-and-intro">Icebreakbreaker and intro</h2>
+<ul>
+<li><h2 id="we-will-use-this-for-collaborative-notes-and-questions">We will use this for collaborative notes and questions.</h2>
+</li>
+</ul>
+<ol>
+<li>
+<p>Q: How can I ask questions?
+A: <em>To write on this document, click on the :pencil:
+(Edit) icon on the top bar and write at the bottom, above
+the ending line. If you experience lags, switch back to
+&quot;view mode&quot; (eye :eye: icon)</em>
+A: Write your question under here (number questions)</p>
+</li>
+<li>
+<p>Why do we use miniconda, while pip provides all the software required for this workshop?</p>
+<ul>
+<li>To create an isolated programming environment for a specific project</li>
+<li>because pip might at some point not be enough.</li>
+<li>pip also requires a little bit more familiarity with python environment than anaconda and for many learners this is really the first contact with python/terminal/dependencies</li>
+<li>pip itself is also not contained, i.e. you can't have two distinct environments for different projects with pip and you'll need some environment system</li>
+<li>pip is a victim of python 2/3 split, perhaps</li>
+</ul>
+</li>
+<li>
+<p>Do I need to join in a Zoom?</p>
+<ul>
+<li>You may if you got the Zoom link. It is helpful to do the exercises in a team, but it's not a must.</li>
+<li>Also totally ok to try the exercises on your own. weation via stream for everybody. let's see how this will go. so no problem.</li>
+</ul>
+</li>
+<li>
+<p>I signed up late so I didn’t get a zoom link, is it possible to get one now?</p>
+<ul>
+<li>We do not have enough helpers for everybody. So for late registrations please follow Twitch only and do the exercises on your own. But please ask questions in HackMD whenever you need help.</li>
+<li>see also 3. it's not a problem and you will get most of the workshop even without zoom exercise room.</li>
+</ul>
+</li>
+</ol>
+<h2 id="git-intro">git-intro</h2>
+<p>https://coderefinery.github.io/git-intro/</p>
+<ol start="5">
+<li>
+<p>Which software is being used on the stream to have the screen divided like that (web-browser above, command line below)? Emacs? Vim?</p>
+<ul>
+<li>I think it is several terminals and windows organized like that.  Current instructuor is using some tiling window manager, I think - check back later for details</li>
+<li>It is recorded via Zoom (different meeting ID from the learner's Zoom). Only a portion oit is the browser with the lesson material and the bottom part is a terminal.</li>
+</ul>
+</li>
+<li>
+<p>Will stashing be covered during this version control tutorial? I'd like to learn more about that.</p>
+<ul>
+<li>The &quot;Interrupted work&quot; episode covers it, but we usually don't get to it.  (we used to, but it was often confusing in an initial course).  Check the exercises there</li>
+</ul>
+</li>
+<li>
+<p>What are the differences between Git and GitHub?</p>
+<ul>
+<li>git is a version control tool/format while github is a ommercial web service that uses it.  One option of many.</li>
+<li>git is a program/method to organize/track changes while gitHub is the system where you can “apply”/ it</li>
+<li><code>git</code> is the version control tool and <code>GitHub</code> is (one of the) centralised collaborative platform(s) to share your git repositories. GitHub also provides other extra tools on top of git.</li>
+</ul>
+</li>
+<li>
+<p>What is a git repository?</p>
+<ul>
+<li>A git repository is a bit like an archive where different versions are tracked, i.e., like snapshots (called commits). However, the files aren’t just copy-pasted but only their differences are tracked.</li>
+<li>Git history is the set of commits of the project. You can jump back to a previous commit and see the code exactly as it was at that point in time.</li>
+</ul>
+</li>
+<li>
+<p>What are problems with all the files??</p>
+<ul>
+<li>Share/sync</li>
+<li>You cant see the background of why a certain version exists.</li>
+</ul>
+</li>
+<li>
+<p>How did you get to the annotation view in GitHub?</p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py">here</a></li>
+<li>Traditionally it is called blame/praise</li>
+<li>if you are on the page of a code file on github, click on the <code>Blame</code> button
+le, click on the&quot;&quot;</li>
+</ul>
+</li>
+<li>
+<p>Is git useful with overleaf latex?</p>
+<ul>
+<li>Overleaf internally uses version control. If you decide to download your Overleaf project to your computer, you can make changes using git, then push it to Overleaf. However, you cannot use git in the browser version.</li>
+<li>Otherwise, Latex + version control is a great idea, and many are using to write papers and theses.</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between github and gitlab? I le to get the annotation view in gitlab as well?</p>
+<ul>
+<li>They are practically the same in basic features (like annotation view)</li>
+<li>In my experience I've decided to use GitLab because I can set up restricted projects without the necessity of paying a fee. By this I mean that I can manage a project and select who to give visibility and accessibility to the project. At the time I started to use GitLab this option was not possible in GitHub. Perhaps nowadays it is. GitHub is more popular and was acquired by Microsoft some years ago. Nowadays, it works as a sort of Facebook oof code.</li>
+</ul>
+</li>
+<li>
+<p>Should we repeat this process (git config) even though we did it before the workshop?</p>
+<ul>
+<li>No (but it doesn't hurt)</li>
+<li>You can check the <code>git config --list</code> and make sure it looks correct.</li>
+</ul>
+</li>
+<li>
+<p>can I add diff.tool  to 'gvim -d' ?</p>
+<ul>
+<li>Yes: https://stackoverflow.com/questions/26554865/how-can-i-make-git-difftool-to-use-gvim-gvimdiff</li>
+<li>You can usaully make most editors work if you search around.</li>
+</ul>
+</li>
+</ol>
+<p>:::info
+<strong>Tip</strong> To paste into nano, use ctrl + <strong>shift</strong> + V.
+Also.. feel free to use your favourite editor.
+:::</p>
+<ol start="21">
+<li>
+<p>Is there an argument against using the desktop app over the terminal (as we do now?)</p>
+<ul>
+<li>this is fine also but we start with terminal to have understanding of what is really happening but if you are comfortable with the app, it is ok to use it</li>
+<li>And concepts from terminal help with desktop.  Most people need to use the terminal eventually.</li>
+<li>Practising with the terminal is also the basis to write scripts and make workflows automatic</li>
+<li>Working with the terminal is faster in terms of interaction with the computer peripherals (keyboard mouse video)</li>
+</ul>
+</li>
+<li>
+<p>My bash prompt doesn't look nice, can I customize it?</p>
+<ul>
+<li>As long as the terminal is a window within your desktop, it should have a menu bar with options to customize its appearance.</li>
+<li>Here what I usually use. Paste this line inside your <code>.bashrc</code> file in the home folder
+<ul>
+<li>`export PS1=&quot;[[\e[33m]\H [\e[32m]\w[\e[0m]]\n[[\e[31m]$?[\e[0m]] $&quot;</li>
+</ul>
+</li>
+<li>There are million of flavors, some shell already have nice default setups like the &quot;fish shell&quot; https://fishshell.com/docs/current/fish_for_bash_users.html</li>
+<li>Oh My Zsh can also be worth checking out https://ohmyz.sh/</li>
+</ul>
+</li>
+<li>
+<p>I get the following warning in git bash:</p>
+<blockquote>
+<p>warning: in the working copy of     'ingredients.txt', LF will be replaced by CRLF the next time Git touches it</p>
+</blockquote>
+<p>What does it mean?.</p>
+<ul>
+<li>It goes about Carriage Return and Line Feed. It's the token use to mark the end of line, which may differ between Linux, Windows and Mac operating systems. Git is overriding the end of line of your text editor.</li>
+<li>If you are using Windows, this will iron out things:
+<blockquote>
+<p>git config --global core.autocrlf true</p>
+</blockquote>
+</li>
+<li>If you are using Linux or MAC, this will iron out things:
+<blockquote>
+<p>git config --global core.autocrlf input</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>Where can I find .bashrc on windows for git bash?</p>
+<ul>
+<li>Stack Overflow says <code>echo ~</code> might give you a hint.  <code>nano ~/.bashrc</code> might take you to the right place.</li>
+</ul>
+</li>
+<li>
+<p>I still don't understand what &quot;git add&quot; is really for, or what it is doing, other than being required before &quot;git commit&quot;</p>
+<ul>
+<li>Yeah!  It's basically some preparation, it splits selecting files and committing.  It may seem extra, but lets you check yourself.</li>
+<li><code>add</code> moves files into the staging area, <code>commit</code> turns the staged files into a snapshot</li>
+<li>if you had only <code>commit</code>, you would either:
+<ul>
+<li>need to specify all files you want to add to the commit in that command</li>
+<li>have loads of individual commits for each file you change</li>
+<li>or you would only be able to ever do one huge commit with everything in the repository directory</li>
+</ul>
+</li>
+<li>You are not always keen to commit ALL the changes of the repository folder. For example, it is considered <em>bad practice</em> to add generated files. For example, let's say that you have a very light code that generates tons of data. You don't need to track the data, you only need to track the code that generates that data. In that case, with <code>add</code> you're saying &quot;Next time I store my changes (<code>commit</code>), I only want to store the changes done to <strong>this</strong> file&quot;.
+<ul>
+<li>That can also be done by not using the filenames with <code>git commit</code>.</li>
+</ul>
+</li>
+<li>Also, you don't have to put all of your changes to a file into one commit. You can commit only some lines from a file and then commit another set of lines from the same file with another commit message, for example.
+<ul>
+<li>Can also be done with <code>git commit -p</code></li>
+</ul>
+</li>
+<li>My thought: most of the justifications above can also be done with only <code>git commit</code> and the right options.  The actual advantage is <em>slowing you down</em> so you have a chance to inspect <em>before</em> you run the commit.  This lets you verify that your commit is going to be perfect.  Perfection isn't always required.</li>
+</ul>
+</li>
+<li>
+<p>After <code>git init</code> + <code>git status</code>, I got a message &quot;fatal: unsafe repository ('../recipe' is owned by someone else) To add an exception for this directory, call: git config --global --add safe.directory '../recipe/' &quot;. Why does this appear?</p>
+<ul>
+<li>Weird!  This is new to me.  Are you using multiple user acconuts, or user account + admin account, somehow?  Is this an own laptop?</li>
+<li>this seems to be a new thing: https://stackoverflow.com/a/71941707</li>
+</ul>
+</li>
+<li>
+<p>How do i edit one of the text files ingredients.txt or instructions.txt (i am using visual studio code)</p>
+<ul>
+<li>Can you edit using vscode like normal file?</li>
+<li>in terminal: <code>vscode ingredients.txt</code></li>
+</ul>
+</li>
+</ol>
+<p>:::info</p>
+<h2 id="exercise-until-xx-40">Exercise until xx:40</h2>
+<p>https://coderefinery.github.io/git-intro/basics/#exercise-record-changes
+Try to do at least Basic-1
+All optional and bonus are extra
+:::</p>
+<ol start="28">
+<li>
+<p>I have signed up for this course via VU, but have not been invited for zoom sessions nor have i received the link to this file. Is there a zoom I can join?</p>
+<ul>
+<li>They have their own zoom (?), maybe try contacting the organizer and check?</li>
+<li>email to support@coderefinery.org</li>
+<li>Hi, we have sent the mail last week, we can resend the mail or please reach out to us.</li>
+<li>Problem solved!</li>
+</ul>
+</li>
+<li>
+<p>I tried the <code>opendiff</code> and get an error message
+Launch 'opendiff' [Y/n]? Y
+xcode-select: error: tool 'opendiff' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+I should have xcode installed.</p>
+<ul>
+<li>See https://github.com/nodejs/node-gyp/issues/569.
+1. Install Xcode (skip this step if you already have Xcode).
+2. Run <code>sudo xcode-select -s /Applications/Xcode.app/Contents/Developer</code></li>
+<li>Did it work??</li>
+</ul>
+</li>
+<li>
+<p>about git diff. I entered these</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>bash-3.2$ git log --oneline
+</span><span>5bb254f (HEAD -&gt; master) added enjoy!
+</span><span>496d216 add half an onion
+</span><span>05828cf adding ingredients and instructions
+</span><span>bash-3.2$ git diff 5bb254f 496d216
+</span><span>diff --git a/instructions.txt b/instructions.txt
+</span><span>index f7dd63a..6a8b2af 100644
+</span><span>--- a/instructions.txt
+</span><span>+++ b/instructions.txt
+</span><span>@@ -3,4 +3,3 @@
+</span><span> * squeeze lime
+</span><span> * add salt
+</span><span> * and mix well
+</span><span>-* enjoy!
+</span></code></pre>
+<p>I have a hard time typing here. Anyway, The hashes point to different files. So I see diffeerent results. Can you explain it?</p>
+<ul>
+<li>Do you have different hashes to similar commits perhaps? That would be the expected behaviour.</li>
+<li>For hard time typing in HackMD please copy and paste from another editor that you use as a clipboard. (I am doing this)</li>
+<li>Those hashes point to <code>commits</code>, not files.  These commits point to all files, and when you diff them, it shows the diff of all changed files between them.</li>
+</ul>
+</li>
+<li>
+<p>How do we copy paste hash codes in git bash</p>
+<ul>
+<li>https://initialcommit.com/blog/how-to-paste-in-git-bash</li>
+</ul>
+</li>
+<li>
+<p>I do <code>git difftool --tool=meld 4a6245a4fd</code> and nothing happens</p>
+<ul>
+<li>It will not do anything unless you have uncommited changes. d try again.</li>
+<li>Thanks it worked:smile:</li>
+</ul>
+</li>
+<li>
+<p>can't exit</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>$ git difftool --tool=opendiff ingredients.txt
+</span><span>
+</span><span>Viewing (1/1): &#39;ingredients.txt&#39;
+</span><span>Launch &#39;opendiff&#39; [Y/n]? y
+</span><span>n
+</span><span>^X
+</span><span>:q
+</span></code></pre>
+<ul>
+<li><code>q</code> or close the window, if it is a separate window?</li>
+<li>Solved.</li>
+</ul>
+</li>
+<li>
+<p>I couldn’t do the git diff optional exercises. What should I put in the <code>&lt;hash&gt;</code> part?</p>
+<ul>
+<li>Do <code>git log</code> first, which will list all the hashes of the previous commits. Use one of them, for example the latest one, to compare against. Another option is to use <code>HEAD</code> instead of the <code>&lt;hash&gt;</code>,  then you compare against the latest commit. If you still have problems please ask in Zoom in the next break.</li>
+</ul>
+</li>
+<li>
+<p>I tried to Rename the file newfile.txt with git mv to oldfile.txt (you will need to git commit the rename) and recieved the message &quot;pathspec 'oldfile.txt' did not match any file(s) known to git&quot;</p>
+<ul>
+<li>You didu do <code>git mv newfile.txt oldfile.txt</code> or the other way around?</li>
+<li>I forgot to put git before the mv.</li>
+</ul>
+</li>
+<li>
+<p>What does this mean in the output? &quot;@@ -3,3 +3,4 @@&quot;</p>
+<ul>
+<li>The <code>-3,3</code> means &quot;showing three lines starting from line number 3 in the first file&quot;, and <code>+3,4</code> means &quot;showing four lines starting from line number 3 in       the second file&quot;.</li>
+<li>start line and stride, in other words</li>
+</ul>
+</li>
+<li>
+<p>What do you think about bulletpoints in a commit message?</p>
+<ul>
+<li>I always use them!  Some don't.</li>
+<li>I also think bullet points amakes es the commit more readable. Just keep the first line of the commit as an overall summary of the changes introduced in the commit.</li>
+<li>Additional readings
+<ul>
+<li>https://cbea.ms/git-commit/</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Instead of using .gitignore, can I do something opposite to this, I want to update?</p>
+<ul>
+<li>This is sort of what <code>git add</code> does - you can add even if it is ignored.</li>
+<li>you can put <code>*</code> in the top of your gitignore and then invert only those files you want to commit with <code>!</code> in front of the spec:<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>*
+</span><span>!**/*.m
+</span><span>!*.m
+</span></code></pre>
+Should make anything that is not a <code>.m</code> file ignored by git</li>
+<li>ah now I understand the question I think. it is indeed possible to list all the things that should not be ignored. I would still recommend to list things that should be ignored as this wil</li>
+</ul>
+</li>
+<li>
+<p>How to remove large unwanted file from history?</p>
+<ul>
+<li>(does not contain the answer) There is an optional section on editing history here: https://coderefinery.github.io/git-intro/recovering/</li>
+<li>This is advanced. It will change the hash of every commit in history and make your branch incompatible with anything you have on a remote machine (such as GitHub or GitLab). You can run a command on each commit using <code>git-filter-branch</code>.  We would not recommend this unless you have experience or someone to help you, but it is very possible.<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>git filter-branch --force --index-filter \
+</span><span>&#39;git rm --cached --ignore-unmatch FILENAME&#39; \
+</span><span>--prune-empty --tag-name-filter cat -- --all
+</span></code></pre>
+<ul>
+<li>push with <code>git push --force</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is staging?</p>
+<ul>
+<li>preparing for the next commit. the action of adding changes that will end up as the next commit - it gives you a chance to check and make sure everything is ready.</li>
+<li>you can see it as putting your changes on a stage, for evidence, before you give your changes a time stamp and an explanation (with the commit)</li>
+</ul>
+</li>
+<li>
+<p>If I have two repositories, how do I know which one I am initializing when I use git init command?</p>
+<ul>
+<li><code>git init</code> works on the directory you are currently in (by default).  It is unrelated to connecting to online repositories.</li>
+<li>initializing is not related directly with an online repository. <code>git init</code> essentially turns the local folder you run it in into a repository. If you want to use an online repository, you can either <code>git clone</code> or set up a remote for your local repository.</li>
+<li>keep in mind that repository can be either local or remote.  If you type <code>git help init</code> the explanation is
+<blockquote>
+<p>Create an empty Git repository or reinitialize an existing one</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>What does this signify? (HEAD -&gt; master)</p>
+<ul>
+<li>This will become clear later. However, master is the (sole, so far) branch you are on; and HEAD is a pointer that tells you where you are working. This is telling you that you are working on the default branch that you have at the beginning</li>
+</ul>
+</li>
+<li>
+<p>Why <code>git rm</code> and <code>git mv</code> instead of just <code>rm</code> and <code>mv</code></p>
+<ul>
+<li><code>git rm/mv</code> is the same as the <code>mv</code> followed by <code>git add</code> to tell git about it.</li>
+<li>because with <code>git rm</code> and <code>git mv</code> you keep track of those changes (especially the move) which can otherwise get lost. Git sometimes tries to  notice that a file was renamed and not deleted and a new one created but you might loose a lot of history if it doesn't.
+<ul>
+<li>Note: git doesn't track moves specially.  It looks at the files to see what was moved, so there should be no difference in history.</li>
+</ul>
+</li>
+<li>It is possible to move the file with <code>mv</code> but then you have to use <code>git add</code>.</li>
+<li>If you use <code>mv</code> you will only rename the file in your directory, but Git does not do anything with that action. You should be able to see this state of the play with a new difference between your work and what Git knows, using <code>git status</code></li>
+</ul>
+</li>
+<li>
+<p>Can we use Microsoft Word as the editor?</p>
+<ul>
+<li>Not advisable, because Word files are not in pure text format and contain a lot of encoded information about typesetting (formatting etc). Try to open a Word document with a text editor: this is what Git will see and track. The changes would not be intellegible, hence not meaningful.</li>
+<li>Better use notepad (or a proper editor, like notepad++, which has syntax highliting)</li>
+</ul>
+</li>
+</ol>
+<h2 id="continued-branching-and-merging">Continued: Branching and merging</h2>
+<p>https://coderefinery.github.io/git-intro/branches/</p>
+<ol start="47">
+<li>
+<p>Useful alias: <code>git config --global alias.graph &quot;log --all --graph --decorate --oneline&quot;</code></p>
+<ul>
+<li>This way you only need to type <code>git graph</code> instead of <code>git log --all --graph --decorate --oneline</code>.</li>
+</ul>
+</li>
+<li>
+<p>My HEAD points to the last action (file removal in optional exercise). Is that a problem, and can I move the HEAD again?</p>
+<ul>
+<li>No problem if HEAD points to the tip of the master. <code>git log</code> should show: <code>HEAD -&gt; master</code>. Or <code>HEAD -&gt; main</code> if you use Windows or a different version of Git.</li>
+</ul>
+</li>
+</ol>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span> $ git graph
+</span><span>		* e181d9d (HEAD -&gt; master) File deleted.
+</span><span>		* 162d3f8 This is the renamed file.
+</span><span>		* 66361ef Extra file optional Basic-4
+</span><span>		* af1765f Extra fun.
+</span><span>		* 03a5671 add half an onion
+</span><span>		* 9f3a0b5 adding ingredients and instructions
+</span></code></pre>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>- All good!
+</span></code></pre>
+<ol start="49">
+<li>
+<p>What causes the difference between MAIN and MASTER?</p>
+<ul>
+<li>In 2020, people decided <code>master</code> should be renamed because of associations with slavery.</li>
+<li>Thus, we get this split thing where different git configurations have different defaults, many git installs are too old to change the default, and in the end we have these confusions and teaching is hard.</li>
+<li>:sweat_smile:! Thanks!</li>
+<li>when you create a repo on github, by default the branch is now &quot;main&quot;</li>
+</ul>
+</li>
+<li>
+<p>You have a typo &quot;comit&quot; instead of &quot;commit&quot;</p>
+<ul>
+<li>Is this in the materials or on the stream?</li>
+<li>On the stream</li>
+<li>OK, thanks!</li>
+</ul>
+</li>
+<li>
+<p>How do I change the name from <code>master</code> to <code>main</code> ?</p>
+<ul>
+<li>Changing by default for future projects: https://superuser.com/questions/1419613/change-git-init-default-branch-name</li>
+<li>Changing for exaisting project: <code>git branch -m</code> (also may need to be changed in Github) (would recommend not doing this unless you can check what else may be wrong, e.g. if multiple people are working on it)</li>
+</ul>
+</li>
+<li>
+<p>I have untracked files, are they always unaffected by my switching between main and branches? Or can they get deleted when I use &quot;git checkout&quot;?</p>
+<ul>
+<li>They do not get deleted or changef if they don't exist in either the old or new branch. They will remain as untracked files in your working directory, recipe. If you type <code>git status</code> you'll get a message that untracked files are present.</li>
+<li>They will cause issues if the new branch has that filename in it. In this instance, you will get a error, that your file is interfering with the branch you want to switch to.</li>
+<li>Every time you check out a branch, Git will refresh the content of the working directory: it will take away and put files that it is aware of. If it sees that a file with a certain name is in the working directory unawares of Git, it will turn a blind eye to this, <strong>unless</strong> there is a name conflict with a tracked file. In other words, tracked files are moved around by Git; untracked one aren't.</li>
+</ul>
+</li>
+<li>
+<p>How can I switch back to the branch master?</p>
+<ul>
+<li><code>git checkout master</code> or on newer git: <code>git switch master</code> (there is a note further down in material on why we still use the older commands so that it works for everybody)</li>
+</ul>
+</li>
+<li>
+<p>When doesn't a merge create a commit?</p>
+<ul>
+<li>It normally does, but...</li>
+<li>... If you are merging a commit that is strictly ahead of the current branch then git can &quot;fast foward&quot; and just move the branch pointer rather than creating a merge commit</li>
+<li>see fast-forward (bottom of that page there is an example &quot;Branch-2&quot;)</li>
+<li>fast-forwarding is just linking a sequence of commits that did not &quot;diverge&quot; (you might have not needed to create a branch, in retrospect)</li>
+</ul>
+</li>
+</ol>
+<p>:::info</p>
+<h2 id="exercise-until-xx-00">Exercise until xx:00</h2>
+<p>https://coderefinery.github.io/git-intro/branches/#exercise-create-and-commit-to-branches</p>
+<p>You should be able to make a branch and commits.  The goal is to have three branches at the end.  This will be used after the break - don't merge.</p>
+<p>Poll: For the exercise, I am (multi-choice):</p>
+<ul>
+<li>done: ooooooooooooooooo</li>
+<li>need more time: o</li>
+<li>not trying: o</li>
+<li>it was too hard: o</li>
+<li>it was too easy: ooo:w</li>
+<li>o</li>
+<li>tried also optional exercises: oo
+:::</li>
+</ul>
+<ol start="55">
+<li>
+<p>How do I branch from M2 (a hash point different than the HEAD)?</p>
+<ul>
+<li>step 1: <code>git checkout &lt;hash-M2&gt;</code></li>
+<li>step 2: <code>git branch &lt;new-branch&gt; master</code>; <code>git checkout &lt;new-branch&gt;</code>
+<ul>
+<li>i don't think so, this will branch from master (but please try and verify)
+<ul>
+<li>instead: <code>git branch &lt;new-branch&gt; &lt;hash-m2&gt;</code> followed by <code>git checkout &lt;new-branch&gt;</code></li>
+<li>in one step: `git checkout -b <new-branch> &lt;ha
+<ul>
+<li>It will not branch from master as long as you do step 1 first. But the <code>git checkout -b &lt;new-branch&gt; &lt;hash-m2&gt;</code> command is elegant.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why do we see <code>experiment</code> still in the branches? Shouldn't it get &quot;absorbed&quot; by <code>main</code>?</p>
+<ul>
+<li>Good question!  So, main absorbed experiment, but the branch still exists separately until deleted.</li>
+<li>The way I remember: &quot;merge will only affect the current branch&quot;.  In this case main, the other branch always still exists.</li>
+</ul>
+</li>
+<li>
+<p>If I was on the branch less-salt and did a <code>git merge expermient</code>, those changes would get merged into less-salt? Should I avoid merging among branches and always just merge into main?</p>
+<ul>
+<li>Usual workflow would me merging to main.</li>
+<li>There are cases where you merge other branches - when it does what you want.</li>
+<li>On larger projects, you commonly have a development branch, which is merged into and merges into master are only done after further revision of the development branch....</li>
+</ul>
+</li>
+<li>
+<p>merge conflict: I get a conflict (see below) - how should i fix the conflict?</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>&quot;$ git merge less-salt
+</span><span>Auto-merging ingredients.txt
+</span><span>CONFLICT (content): Merge conflict in ingredients.txt
+</span><span>Automatic merge failed; fix conflicts and then commit the result.&quot;
+</span></code></pre>
+<ul>
+<li>We will discuss resolving conflicts tomorrow.  I would wait for then to get details - we have a recovery plan.</li>
+<li>You could try it on your own if you wish, following https://coderefinery.github.io/git-intro/conflicts/. You could <code>git merge --abort</code> to abort the merge that had conflicts and resolve the conflict tomorrow instead.</li>
+</ul>
+</li>
+<li>
+<p>Do we have to define git graph again after we close the git bash?</p>
+<ul>
+<li>No, it should stay as an alias in the configuration file <code>.gitconfig</code>, because we used <code>--global</code> flag to define it for all projects</li>
+</ul>
+</li>
+<li>
+<p>Can she demonstrate how to use git diff to see what changes were made to ingredients.txt in master?</p>
+<ul>
+<li>Sorry, it was missed. I recommend you check the recording, it should help you catch up.</li>
+</ul>
+</li>
+<li>
+<p>Is it wise to merge with MASTER/MAIN and still work on in the sub-branch?</p>
+<ul>
+<li>In some cases.  There is nothing wrong with it, so I would think &quot;does this make sense / will I get confused?&quot;</li>
+<li>This is a good idea in paricular when working with several collaborators. If you have implemented changes in a branch that works (=is well tested) it is a good idea to merge early instead of waiting too long which may lead to lots of conflicts. This is also something that could be discussed / agreed upon with the collaborators.</li>
+</ul>
+</li>
+<li>
+<p>Can we continue to edit in Experiment branch then? will it stays unmerged?</p>
+<ul>
+<li>You can.  Some workflows do this strategy.</li>
+<li>Interesting side note (on Github / Gitlab): If you continue pushing to a branch after you have opened a pull request, your new changes will be added to the pull request.</li>
+<li>yes, new commits are added to the branch referenced by HEAD, whether the branch is merged or not</li>
+</ul>
+</li>
+<li>
+<p>Very basic: How do I save my bash file?</p>
+<ul>
+<li>Which bash file?  Your history?</li>
+<li>Yes, I believe we have to upload this for a certificate in the end?</li>
+<li><code>history</code> will print out all history you can copy and paste.  See below also.</li>
+</ul>
+</li>
+<li>
+<p>How do I save the work I did on the terminal today?</p>
+<ul>
+<li><code>history</code> will show all commands and you can copy and paste.  The file <code>~/.bash_history</code> should save it, though. zsh: permission denied: /Users/xxx/.bash_history</li>
+<li>history only shows the last 10 commands or so :(
+<ul>
+<li>try <code>history 1</code> (on my computer it shows then more since first command) GREAT! Thank you, that shows the whole history :)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="feedback-day-1">Feedback, day 1</h2>
+<p>:::info
+See you tomorrow, same time!  Tell your friends, everyone is invited to come.
+:::</p>
+<p>Today was (choose all that apply):</p>
+<ul>
+<li>too fast: o</li>
+<li>just right speed: ooooooooooooo</li>
+<li>too slow: oooooooooooooo</li>
+<li>useful: ooooooooooooooooooooooooooo</li>
+<li>not useful:</li>
+<li>will improve my work: oooooooooooooooooooo</li>
+<li>livestream style was good: ooooooooooooooooooo</li>
+<li>would prefer in-person option:</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>clear explanations ooooooooooo</li>
+<li>comprehensive overiew ooooooooo</li>
+<li>nice ressources oooooo</li>
+<li>easy to follow ooooooOnu</li>
+<li>when the terminal history of the instructor was shown.</li>
+</ul>
+<p>One thing that should be improved next time:</p>
+<ul>
+<li>too fast type-alongs, but too slow other explanations (+3)
+<ul>
+<li>Thanks, good feedback!  (future days will pick up the speed)</li>
+</ul>
+</li>
+<li>type-alongs weren't too fast for me, but sometimes I did not catch that this is a type along, because I just follow the terminal, so maybe stating it a bit more clear would be nice (+1)</li>
+<li>explain coding-terms (e.g. hash), as not everyone has the background</li>
+<li>More clearly say what you type when its a type along. Then you dont need to read instructors terminal while writing yourself</li>
+<li>More optional content in the exercises</li>
+<li>Many people got confused how git &quot;stored&quot; your files, perhaps explaining a little bit more of how git works and what is it before getting hands-on.</li>
+<li>Also, many people got lost into <code>bash</code> and <code>nano</code> and got frustrated from it. Kinda distracted from what git <strong>is</strong>.
+<ul>
+<li>What about a pre-exercise to demonstrate and get some experience with these tools?</li>
+</ul>
+</li>
+<li>It was really nice to have commands history, but it was not visible throughout the workshop - could you make sure that if you use it, it is on always when we do type-along?</li>
+</ul>
+<p>Any other comments:</p>
+<ul>
+<li>Have Breakout rooms available from the beginning of the session +1</li>
+<li>Tip: make sure all unnecessary browser tabs are closed during live stream. Instructor had a tab with email open, which could be accidentally shared.</li>
+<li>Mute zoom from the beginning - there was sound from two streams at the same time</li>
+<li>There's many commands to do same things, great that you didn't use too many to overwhelm!</li>
+<li>would it be possible to give a general way how to approach the exercises in other editors (sort of: what do you need to find out)</li>
+<li>Enable Exercise Leaders to meet their group at the start of the day. Late arrivals can create a backlog difficult to catch up with during the exercise.</li>
+<li>Richard's microphone had too much noise after the first break.</li>
+</ul>
+
+  
+
+          </div>
+          <div class="col-sm-2">
+            
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;">
+              
+              <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;processed_images&#x2F;ca3a9db6e52dcd2800.png" alt="CodeRefinery logo"
+                style="margin-top: 25px;">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
+
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Improve this page</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery/2022-09-20-workshop">Source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

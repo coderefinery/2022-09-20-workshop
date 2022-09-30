@@ -1,0 +1,1434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://coderefinery.github.io/2022-09-20-workshop/img/favicon.ico">
+
+    
+      <title>Questions and notes from workshop day 4</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 4" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/eglerean/2022-09-20-workshop/main/static/img/CR_twittercard_Fall2022.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://coderefinery.github.io/2022-09-20-workshop/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main">
+      <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>CodeRefinery workshop September 20-22 and 27-29, 2022</h1>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop">About</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/schedule">Schedule</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/audience">Audience</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/join">How to join</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/requirements">Requirements</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/questions">Q&amp;A</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.org/about/code-of-conduct/">Code of Conduct</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/volunteer">Volunteer</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/announcements">Announcement texts</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/communication">Communication</a>
+                
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            
+  <h1>Questions and notes from workshop day 4</h1>
+
+  <ul>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#icebreakers">Icebreakers</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#icebreaker-question-1">Icebreaker question #1</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#icebreaker-question-2">Icebreaker question #2</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#poll-do-you-start-this-week-or-did-you-already-attend-last-week">Poll: Do you start this week or did you already attend last week?</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#reproducible-research">Reproducible research</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#motivation">Motivation</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#organizing-your-projects">Organizing your projects</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#recording-dependencies">Recording dependencies</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#discussion">Discussion</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#recording-computational-steps">Recording computational steps</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#exercise-using-snakemake">Exercise - Using Snakemake</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#recording-environments">Recording environments</a>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#sharing-code-and-data">Sharing code and data</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#wrap-up">Wrap-up</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#social-coding-and-open-software">Social coding and open software</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#part-1-social-coding">part 1: Social coding</a>
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#question-1-why-would-i-want-to-share-my-scripts-code-data">Question 1: Why would I want to share my scripts&#x2F;code&#x2F;data?</a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#question-2-the-most-concerning-thing-for-me-if-i-share-my-software-now">Question 2: The most concerning thing for me, if I share my software now</a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#question-3-why-is-software-often-treated-differently-from-papers">Question 3: Why is software often treated differently from papers?</a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#question-4-when-you-find-a-repository-with-code-library-you-would-like-to-reuse-what-are-the-things-you-look-at-to-decide-whether-you-use-it">Question 4: When you find a repository with code&#x2F;library you would like to reuse, what are the things you look at to decide whether you use it?</a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#your-questions">Your Questions?</a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#licensing">Licensing</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#question-5-which-of-these-are-derivative-works">Question 5: Which of these are derivative works?</a>
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#your-questions-1">Your Questions?</a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day4/#feedback-day-4">Feedback, day 4</a>
+        
+      </li>
+    
+  </ul>
+
+  
+  
+    <h2 id="icebreakers">Icebreakers</h2>
+<h3 id="icebreaker-question-1">Icebreaker question #1</h3>
+<p>Computer programs are expected to produce the same output for the same inputs. Is that always true for research software? Can you give some examples?</p>
+<ul>
+<li>I have experienced often that different compilers or different compiler optimization levels produce binaries which produce different outputs. Most of the time it was the program that was not written in a robust way and not the compiler.</li>
+<li>Differences in outputs due to different architectures and therefore different slightly different numerical values, i.e. numerical instanbilities.</li>
+<li>It should. Reproducibility is the base of scientific research. Different environments can have different package versions, or different architectures can give different floating point approximations. For this, better to use a container or something similar to reduce variability.</li>
+<li>There would be a bug if the same input gives different output (or at least a feature change).</li>
+<li>Some randomization sometimes is used, but in general it is difficult to know the input of programs in my field, so most of the time I'm using the output to reverse-engineer the input.</li>
+<li>Does not happen always. If I change number of nodes/cores in parallel computing. If the software version is changed. Things change a bit even when the computer is changed. But all these changes have always been insignificant in my research though.</li>
+<li>Seeding random numbers can be challenging (not impossible) for really parallel/distributed programs.</li>
+<li>Some processes are deliberately random, yet we would like similar results for different seeds, e.g. training a neural network.</li>
+<li>Molecular dynamics simulations rarely do.</li>
+<li>I think it depends on <em>what exactly</em> are you researching. If one would like to research for example people's reactions to different kind of random output, you would need a special research program, which would produce surprising answers to human input. Then the human reactive input would need to be recorded well. Could be some kind of a psychological study setting.</li>
+<li>I use randomization imputation in modelling which does not give the exact same output.</li>
+<li>I would rephrase the statement on top as just <em>the computer programs are expected to carry out the same operations</em> and the computers carry out <em>the compiled versions of the computer programs</em> -- so many weird things look more normal, that is  forewarned is forearmed.</li>
+<li>Monte carlo simulation with a same random seed at first should lead to the same result if all the random number generated are the same in every process.</li>
+</ul>
+<h3 id="icebreaker-question-2">Icebreaker question #2</h3>
+<p>What do you want to be when you grow up?</p>
+<ul>
+<li>A composer and a sailor. Or a researcher.</li>
+<li>Gardener</li>
+<li>To grow more??? No, thanks...</li>
+<li>I want to be someone who never grows up.</li>
+<li>A systems developer or web developer</li>
+<li>Scientist :)</li>
+<li>I don't really care as long as I work with a computer.</li>
+<li>Astronaut</li>
+<li>Rich</li>
+<li>Paleontologist</li>
+<li>Astrophysicist</li>
+<li>Just growing up would be enough</li>
+<li>Mid-Term goal, embedded software/robotics (in the very broad point of view) engineer knowledgeable in Machine Learning, Optimization, system's dynamics, etc. Long-Term, project leader, preferable in academia. I want to take as much responsibility as I can and organize and keep a team efficient and make people's lives to feel purposeful and oriented.</li>
+<li>Possibly a user experience and user interface designer, maybe work with video games :O</li>
+<li>Founder of a unicorn company</li>
+</ul>
+<h3 id="poll-do-you-start-this-week-or-did-you-already-attend-last-week">Poll: Do you start this week or did you already attend last week?</h3>
+<p>Started this week:
+Also did attend last week: oooooooooooooooooooooooooooooooooooooooooo</p>
+<h2 id="reproducible-research"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/">Reproducible research</a></h2>
+<ol>
+<li>
+<p>I have a question about last weeks material. When can I just use <code>git push</code> and when do I have to add <code>&lt;remote-name&gt;] [&lt;branch&gt;:&lt;branch&gt;</code>?</p>
+<ul>
+<li>To use <code>git push</code> your remote has to be set up (i.e. <code>--set-upstream</code> has to be executed once), otherwise you will have to define which remote/branch you are pushing to.</li>
+<li>It also depends a bit on how you have configured git. Many people like to configure git to only push the current branch. Some people like to push all branches. Personally, I prefer to type it out since then I know what is happening, no surprises. I don't push more often than 2-3 times a day so it's not that much typing either.
+<ul>
+<li>In your .gitconfig you can look for <code>[push]</code> (if defined) on how it is configured. In my case: <code>default = simple</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Will we talk about licenses at some point? We have a model published, and we want it to be openly available to the community. But we want to avoid someone taking it, editing it, and then <em>not</em> sharing it.</p>
+<ul>
+<li>We will talk about licensing and copyright later today.
+<ul>
+<li>cool, thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Can you share the web you were showing? (practical info and such)</p>
+</li>
+</ol>
+<ul>
+<li>https://github.com/coderefinery/workshop-intro/blob/master/livestream.md</li>
+</ul>
+<ol start="4">
+<li>
+<p>What is the difference between the commands <code>git pull origin master</code> and <code>git merge master</code>. If you're in branch master and you want to update your master branch with updates on GitHub (both were provided in the previous class).</p>
+<ul>
+<li>Git pull can be seen as a combination of git fetch (download all commits that I don't have yet on my harddrive) followed by git merge. A git pull always contains a git merge. Instead of <code>git pull origin master</code> you could also do: <code>git fetch master</code> and followed by <code>git merge origin/master</code>. did this answer make sense?
+<ul>
+<li>Totally, thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Do you make a distinction between <strong>reproducible</strong> and <strong>replicable</strong>?</p>
+<ul>
+<li>Yes. One distinction is the one used in the figure displayed just now on the stream.</li>
+<li>https://coderefinery.github.io/reproducible-research/_images/39-reproducible-replicable-robust-generalisable.jpg <img src="https://coderefinery.github.io/reproducible-research/_images/39-reproducible-replicable-robust-generalisable.jpg" alt="" /></li>
+<li>But great question. Bood that you raised that there is a difference.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="motivation"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/motivation/">Motivation</a></h2>
+<ol start="6">
+<li>Not a question but I want to add to the motivation: I arrived to a group where the numerical code we are using was being share via usb stick. I have tried to convince my supervisors to use control version without any success. They disregard any attempt to make code re-usable and consider it a complete waste of time. It is almost impossible to me not to RAGE at this presentation due to the frustration accumulated. I've practically wasted my entire PhD time dealing with technicalities and being the only competent (or trying to become one) person dealing with the information systems and software. My PhD is finishing, I've no thesis or publications and my supervisors keep throwing that this is a lack of organization from my side. The situation is so unfair and the necessity of the PhD contract for me to live in a foreign country has made to me impossible to confront my supervisors.
+More than a question this is a reminder of HOW IMPORTANT is to write reproducible results and code that everyone can use. You're making people's lives simpler. Traceability, reproducibility and organization can save someone's career.
+<em>PD: sorry for the rant.</em>
+<ul>
+<li>You are not the first and will not be the least. I have a heart for your situation, but stand firm and tall. Do not compromise your integrity standards and turn your experience in a story of persistence, development and growth. <em>Sorry if this sounds patronizing, but I really know how it feels to deal with structural incompetence.</em> (OP: don't be sorry, this feels wholesome and all :) )
+<ul>
+<li>Our job carrier is also shaped by the bad experiences. There must be places where your values and skills are functional to success and not conducive to frustration.</li>
+</ul>
+</li>
+<li>thank you for sharing this experience. I am very sorry to hear.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="organizing-your-projects"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/organizing-projects/">Organizing your projects</a></h2>
+<ol start="7">
+<li>
+<p>I am using python. I have the main script/notebook and another script holding only functions that I call in the main. How should I structure the folder? In which folders should I save the functions and the main script?</p>
+<ul>
+<li>(more about this on Thursday) First group related functions into common files. You can start with few files. Once files get very long and once it's difficult to describe by name what is inside a file, then it's perhaps time to split into two files. Give them descriptive names. These are then modules. They can all be in the same folder as the main script/notebook as a start. Once you start using the same modules in different scripts and notebooks, you can start collecting related modules into packages and then you create a subfolder with a descriptive name and move the files (modules) into the subfolder. After using this some more, you will become tired of copying them to different projects and keeping them in sync. At that point it might be time to create a package and package the subfolder and distribute it via PyPI or Conda (sorry for long answer but is this what you were after? Anything we can discuss in more detail or less detail? It's a process as a project grows)
+<ul>
+<li>Thanks for your answer! I am in the part where I am realizing that my functions are used in more than one project, but my question was more within a project, should I save my script <code>functions.py</code> in <code>src</code> (same as <code>main.py</code>), or should I create a folder at the same level as <code>src</code> called <code>bin</code> or something like that for the functions (I know I am mixing C and python structure but that is where I am confused :S)
+<ul>
+<li>It dependends partially on whether you want to make and install a Python package
+<ul>
+<li>Not for now</li>
+</ul>
+</li>
+<li>I would create a folder and move the related modules into it. Example: folder could be called <code>statistics</code> and the files inside could be called: <code>mean.py</code>, etc. Then inside <code>statistics</code> I would also create a file <code>__init__.py</code> which can describe the interface of the package. Then you almost already have a package which you can import into your main script and later also package on its own. In Python the subfolder often has the name of the package.
+<ul>
+<li>But, if this is not installed, then it can depend upon the working directory from which you start the script (I think?) (Or is it the directory of the importing script?)
+<ul>
+<li>Right now I have my scripts outside <code>src</code> and I have to make a trick like: </li>
+</ul>
+<pre data-lang="python" style="background-color:#f5f5f5;color:#1f1f1f;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#72ab00;">import </span><span>os, sys
+</span><span>module_path </span><span style="color:#72ab00;">= </span><span>os.path.</span><span style="color:#5597d6;">abspath</span><span>(os.path.</span><span style="color:#5597d6;">join</span><span>(</span><span style="color:#d07711;">&#39;..&#39;</span><span>, </span><span style="color:#d07711;">&#39;statistics&#39;</span><span>))
+</span><span style="color:#72ab00;">if </span><span>module_path </span><span style="color:#72ab00;">not in </span><span>sys.path:
+</span><span>    sys.path.</span><span style="color:#5597d6;">append</span><span>(module_path)
+</span></code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Would you write a readme on how to get the data, maybe with a curl download command if applicable? Perhaps even as part of the evironment setup? Can this be generally audomated like when you install a package?</p>
+<ul>
+<li>+1 for your idea</li>
+<li>Data download can be automated and it might be a good idea.</li>
+<li>Ideally both since data download scripts can break really fast.</li>
+</ul>
+</li>
+<li>
+<p>How do I save the literature in an effective way?</p>
+<ul>
+<li>I use EndNote to save and document literature that I ave used for research. University licenses exist for it!
+<ul>
+<li>Thanks for the suggestion</li>
+</ul>
+</li>
+<li>I use zotero is free and I think also open source and good ;)</li>
+<li>Mendeley is a good tool. Good for maintaining bibtex files.</li>
+</ul>
+</li>
+<li>
+<p>I think you have to pay for Overleaf git intergration now</p>
+<ul>
+<li>Good point, thanks.</li>
+<li>oh</li>
+</ul>
+</li>
+<li>
+<p>Is this a write/code-along?</p>
+<ul>
+<li>Not right now. We will soon have the first exercise for the day.</li>
+</ul>
+</li>
+<li>
+<p><strong>Polite request to instructors</strong>: please do not scroll up and down so quickly, pick up a place, and comment it. Your playing with the mouse wheel is visually annoying.</p>
+<ul>
+<li>thanks</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="recording-dependencies"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research">Recording dependencies</a></h2>
+<ol start="13">
+<li>
+<p>Explainer: <a rel="noopener" target="_blank" href="https://www.thefreedictionary.com/Superfund+site">superfund site</a></p>
+</li>
+<li>
+<p>Python has tools specifically shaped for dependency traceability. What about other less <em>academia</em> oriented languages such as C/C++ ? Can that be discussed?</p>
+<ul>
+<li>You mean dependencies? (sorry I was distracted and not sure what you mean by &quot;this&quot;)</li>
+<li>There is a list in the bottom, we will briefly discuss.</li>
+<li>C/C++ is not just for academia though; probably it has been superseded by Matlab in that role :-)</li>
+</ul>
+</li>
+</ol>
+<h3 id="discussion"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/dependencies/#exercise-different-solutions-to-specify-requirements">Discussion</a></h3>
+<p>A:</p>
+<ul>
+<li>The most common case and worst since it is doomed to fail over time</li>
+<li>It's like saying &quot;I don't care&quot;</li>
+</ul>
+<p>B:</p>
+<ul>
+<li>I don't understand the writing <code>git+https</code>
+<ul>
+<li>this can fetch the package directly from github (useful for development where you want to test it before putting it on PyPI or CondaForge or similar)
+<ul>
+<li>which syntax is that?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>C:</p>
+<ul>
+<li>This look too narrowed with the specific version but maybe useful if an important feature for the project changes with the version (?). </li>
+<li>I think this is the most easily trackable/able to reproduce</li>
+<li>Are <code>==</code> essential? As opposed to a single <code>=</code>
+<ul>
+<li>yes, for requirements.txt
+<ul>
+<li>who imposes this requirement to <code>requirements.txt</code>?</li>
+<li>people who defined the syntax</li>
+<li>See below https://coderefinery.github.io/reproducible-research/dependencies/#pip-and-pypi It's python-like.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>D:</p>
+<ul>
+<li>.</li>
+</ul>
+<ol start="14">
+<li>
+<p>If I have an existing project that is running, is there one command to get all the dependencies? So I know them and can put them into a file?</p>
+<ul>
+<li>That depends a lot on the way you have set up the project. If you have been using e.g. a conda environment and installed everything via conda you can use <code>conda list</code>. Otherwise it's not that easy.</li>
+</ul>
+</li>
+<li>
+<p>Can  PIP also have multiple environments like conda?</p>
+<ul>
+<li>Do you mean: can we have with pip different environments on the same computer? Or something else?
+<ul>
+<li>If yes, then these are virtual environments and they work very similarly to conda environments and you can create as many as you like. Personally i create one per project and install everything into those and almost nothing system-wide. </li>
+</ul>
+</li>
+<li>You can for sure have different 'pips' and name them f.e. pip2, pip3, dependent on your python version.</li>
+<li><code>virtualenv</code> or <code>venv</code> is what you would use - they map to directories, not by names in some common place.  One directory = one environment.</li>
+</ul>
+</li>
+<li>
+<p>What could/would you use for Matlab users instead of conda?</p>
+<ul>
+<li>Many matlab dependences are associated to the matlab version you are using, so if you can fix the version then your environment is solved (more or less..). For example in HPC systems, you might be able to do <code>module load matlab/r2017a</code> to load a specific matlab version from the past. There are &quot;matlab runtimes&quot; i.e. executable interpreters where you can (re)run matlab code (even from the past) without the need of installing a specific version. More info at:  https://se.mathworks.com/products/compiler/matlab-runtime.html</li>
+<li>You can try to use a similar specification file and clearly list your dependencies (i.e. which Matlab version you used, which toolboxes at which versions and so on), but I'm not aware of a similar package management system.</li>
+</ul>
+</li>
+<li>
+<p>I often use <strong>conda</strong> for reproducibility. Often my exported enviorment (in form of .yml file) fails to load again. What can be reason? This has happend many times.</p>
+<ul>
+<li>It is probably too exact. If it includes the build numbers it won't load on other operating system.
+<ul>
+<li>Isn't it important to have it this much exact? That's the purpose of environment, what should I do to avoid it?
+<ul>
+<li>For pure(?) exactness you would need containers</li>
+</ul>
+</li>
+<li>+1, Yes, but unfortunately <em>exact</em> includes things like which OS it is compiled for etc. Interesting how <em>exact</em> is the opposite of <em>reusable</em>, isn't it?</li>
+<li>true! But I have tried with using exported env in similar OS ( from linux to Linux, Mac to Mac etc) and I failed both times. I failed definitely while doing Linux to Mac.</li>
+</ul>
+</li>
+<li>I often export and then clean it up some: one that is exact, and one that is the general requirements</li>
+<li><code>conda env export --from-history</code> might be interesting to look at, but is not as exact.</li>
+<li>Conda compatibility across operating system is not that good if versions are too exact (an environment made with Linux, might not <em>resolve</em> on MS Windows)
+<ul>
+<li>never knew that! I will be careful. But, then what's the better method of providing requirements, if not Conda?
+<ul>
+<li>With a container you can fix the operating system and its version and it can be run over other operating systems (like a virtual machine running on top of your current computer).
+-Oh yes ! containers. thanks :) but I feel containers might be more complex to set up as compared conda env for a newbie using my code.
+<ul>
+<li>I agree, the more <em>important</em> is a project, the more complex solutions should be used. If you are working on a clinical trial with thousands of patients, then you want to use a container. If you are doing a quick analysis for some project, conda is good enough.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>I've had an issue, too, that an environment made on Windows doesn't work on Linux.</li>
+</ul>
+</li>
+<li>Depending on your code, you might actually want to provide two environment files, one &quot;flexible&quot; that should work on all OS, and allows to run your code, and one with precise settings that you used to create your results. That way you make the tool available to others while still allow best reproducibility options, but this will mean that you also need to provide OS/Architecture. 
+<ul>
+<li>I was also thinking this could be a solution. multiple envs for multiple OS.
+<ul>
+<li>I would prefer not to have one for each OS but one &quot;general&quot; and one &quot;reproducing&quot; environment.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why would we use open source projects if <strong>MATLAB</strong> includes most of the tools that were explained in just one place? Plus is a verified language.</p>
+<ul>
+<li>Because Matlab costs a lot of money and not everybody can afford a license.</li>
+<li>Yypically yhis is not a problem when being affiliated to a university in the Nordics as all (?) pay for license or get a good deal but it becomes a problem once you leave and still want to use the code in your company/startup/free time.</li>
+<li>Because matlab is owned by one person, there are fewer ways to do things. Maybe good because it is simple, but you quickly get to things you can't easily do.</li>
+<li>There is no better verification than fully open source code and many eyes checking it. The same argument is also why R is better than SPSS which has had errors in implementation of statistical formulas in the past, and nobody could check the source code.</li>
+<li>Because the next version of Matlab might disrupt your whole analysis pipeline by them deciding that they want to change something, or the next version is no longer compatible with an external dependency.</li>
+</ul>
+</li>
+<li>
+<p>(considering the question above) My supervisors say that MATLAB is better because is payed and checked by <em>experts</em> when open source is just checked by <em>&quot;amateurs&quot;</em>. This is how we ended up with 50 K lines of code of MATLAB to run a project (obviously they are not the ones coding, so we are compelled to use MATLAB). Can more instructed people give me valid arguments against this?</p>
+<ul>
+<li>Most very successful companies (like Google, Facebook, Microsoft), nowadays publish at least some part of their software in open source repositories, and, unlike closed source, you actually know what it does. Who protects you against matlab &quot;phoning home&quot; :alien: your code, it could even be disguised as some kind of license check or whatever, so this &quot;closed source&quot; usage can be quite dangerous.
+<ul>
+<li>My supervisors also told me that companies like Google, Facebook, etc, ask you to be <strong>very</strong> good at MATLAB if you want to work with them. Based on this answer, is this somewhat false?
+<ul>
+<li>I haven't seen Matlab as a required/requested skill for Google/fb. But I would need to check...</li>
+</ul>
+</li>
+<li>This is not true regarding MATLAB being required by companies. MATLAB has various issues as a programming language, so a MATLAB coder might need to unlearn some bad practices. Here a blog post that lists some of the issues: https://neuroplausible.com/matlab (I am Enrico Glerean, teaching Matlab at Aalto Scientific Computing and I am not recommending Matlab for skill transfers to industry :))
+<ul>
+<li>I think Matlab gets a bit too bad rep here. It is used by many companies on the interface between academia and industry because many decision makers come from academia and grew up with matlab and also because it is sometimes more expensive to rewrite existing code than to pay for license. It is a good language and can do a lot but the one downside is that it is not free.
+- (Enrico): I agree that because of the past of the decision makers Matlab still finds a way from Academia to Industry. In general (and I say this as a Matlab fan and teacher), there is no point in picking up Matlab since the Python ecosystem is fully mature, unless you really must use a tool that is only available in Matlab. Just type Matlab on linkedin jobs versus python (I did and it gives 98 jobs for Matlab and 1299 for Python in Finland, manually checking some matlab job offers also have python in the requirements).</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between <strong>conda</strong> and <strong>mamba</strong>? And which one to use?</p>
+<ul>
+<li>mamba is a re-implemented conda that was made to be faster, using lessons learned form conda.</li>
+<li>drop-in replacement</li>
+</ul>
+</li>
+<li>
+<p>I always run into problems when I want to update Spyder, a package, etc. Conda simply doesn't want to update! I usually use pip update or follow instructions that Spyder tells me to use to update, but again, nope. Any advice?</p>
+<ul>
+<li>My advice is that if you started with one environment and have all you need, then stick to that until the end of the project. If a major update happened during your project and you really need to update to newer versions, then make a new environment.</li>
+</ul>
+</li>
+<li>
+<p>Why not Anaconda?</p>
+<ul>
+<li>Good question. One advantage of conda vs Anaconda is that is smaller in size and number of files.</li>
+<li>On shared computers (servers, supercomputers etc), one setup is to install globally different versions of Anaconda, and then have additional packages being managed by individual users by means of conda environments.</li>
+<li>Anaconda is more convenient at the beginning since it provides most packages out of the box. However, in the long term we recommend to have a minimal base system and install packages into project-specific environments and for this, Miniconda is a better choice. For our workshops we therefore recommend Miniconda to prepare you for the long term and to start with good practices right from the start. Another benefit is the smaller install size and time. (quoted from https://coderefinery.github.io/installation/conda/)</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between conda environments and virtual environments? I thought they were the same thing. </p>
+</li>
+</ol>
+<hr />
+<h2 id="recording-computational-steps"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/workflow-management/">Recording computational steps</a></h2>
+<h3 id="exercise-using-snakemake">Exercise - <a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/workflow-management/#exercise-using-snakemake">Using Snakemake</a></h3>
+<p>Use this time to plore the lesson and that exercise. We didn't do much introduction to give you time to explore yourself. Ask questions below and we will discuss at the end. This is the last <em>big</em> exercise of the day.</p>
+<p>I am:</p>
+<ul>
+<li>done: oo</li>
+<li>not trying:</li>
+<li>need more time: JYU+5mins?</li>
+</ul>
+<p>&quot;talk less, give us more time&quot;.  I think:</p>
+<ul>
+<li>like it: oo</li>
+<li>don't like it:</li>
+<li>neutral: o (talk as much and give us some more time, because we rediscuss things after questions)
+:::</li>
+</ul>
+<ol start="23">
+<li>
+<p>For the exercise (in the preparation box), I want both the cloned repo, and another one using the word-count as a template? I'm confused.</p>
+<ul>
+<li>You generate your copy from template on Github, and you'd clone your own repository. You can delete any old versions of the word-count repo now.</li>
+</ul>
+</li>
+<li>
+<p>I noticed that when I use the coderefinery environment I installed according to the instructions, I get this:</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>==&gt; WARNING: A newer version of conda exists. &lt;==
+</span><span>current version: 4.12.0
+</span><span>latest version: 22.9.0
+</span></code></pre>
+<p>Do I really have version 4? That sounds ancient.</p>
+<ul>
+<li>You don't need to, I never do these suggested updates.  That does seem like a big version jump, though!
+<ul>
+<li>Really weird. I installed conda last week. <code>conda --version</code> also returns version 4 (this is on Mac), I will update it later today</li>
+<li>The same for me. Installed last week (Windows 10).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Where can I find the syntax or beginner introduction to snakemake?</p>
+<ul>
+<li>I guess somewhere from https://snakemake.github.io/</li>
+</ul>
+</li>
+<li>
+<p>What does running a job actually mean? Is it updating a file to Github? or creating a record of a file being updated?</p>
+<ul>
+<li>It runs locally on your computer. It makes some output files, and next time you run it can notice that the output files are already there and not run again.
+<ul>
+<li>What are the output files? Is that determined by the code in the repository?</li>
+</ul>
+</li>
+<li>A job in snakemake: is essentially one (parallel) execution of a currently possible step (like a worker in other contexts). Each step(rule) can be performed as many times as there are inputs for that rule. A job will take any currently available step (rule execution), where all conditions are met, and run it. This can be done in parallel, as long as the rules don't depend on multiple previous steps. But in our example, only the zip rule depends on all previous rules being finished. All other rules only depend on one file from the previous step, so if e.g. one of the books is huge, the other books can be counted and evaluated before that book's word count is done, and all <em>jobs</em> will in the end wait for this book before the zipping is done. </li>
+</ul>
+</li>
+<li>
+<p>Do we have to run the <code>snakemake --delete-all-output -j 1</code> command every time?</p>
+<ul>
+<li>No.  Often, you would run without <code>--delete-all-output</code> and let snakemake figure out what you changed and only re-run the relevant bits.  There are plenty of other ways to control the output.</li>
+</ul>
+</li>
+<li>
+<p>I get an error ModuleNotFoundError: No module named 'numpy'. It says &quot;finished job 7&quot;, then &quot;1 of 11 steps (9%) done&quot;.</p>
+<ul>
+<li>this was part of the CodeRefinery conda environment - did you activate it, <code>conda activate coderefinery</code> ?</li>
+<li>yes, I am in the coderefinery environment. I even see it in the conda list: numpy                     1.22.3          py310hed7ac4c_2    conda-forge</li>
+<li>I wonder if one of the steps could be calling a Python command that is outside the environment.  I think it would be hard to debug without seeing it...</li>
+<li>Could it be that the Conda update I've been runnning earlier messes things up? Anyone else having installed the update experiencing this?</li>
+</ul>
+</li>
+<li>
+<p>I get <code>bash: snakemake: command not found</code> when trying to run <code>snakemake --delete-all-output -j 1</code>. No worries. I had forgotten to set the conda environment...</p>
+<ul>
+<li>+1</li>
+</ul>
+</li>
+<li>
+<p>I am struggling a bit to see the purpose of snakemake. Can you comment on the difference between snakemake and just writing a Python program to check the directory for files and run the wordcount on that?</p>
+<ul>
+<li>We'll discuss this in the wrap-up, good point, thanks!</li>
+<li>It's really not needed everwhere. For something really simple, a script might be OK.  It starts to become more useful when you've got lots and lots of steps, they take a long time, and you need to be able to run certain bits.
+<ul>
+<li>great, thanks! :)</li>
+</ul>
+</li>
+<li>The usefulness stands out when you work on files that change in time (as for the number and size) and you have to replay the same workflow on it reliably.
+One classical case is the compilation (=create executable binaries) of evolving source codes. But, it is not limited to that: you may have input files that get refreshed with some regularity, or you want to produce new output alongside old output (adding a single feature to an existing workflow, which grows).
+Also, snakemake only reruns the rules (kind of blocks of a script) that involves files that have changed. You don't need to pick up what command you have to run once that file has changed.</li>
+</ul>
+</li>
+<li>
+<p>Is snakemake only a Python thing?</p>
+<ul>
+<li>It integrates with Python some, but you can have it call and run programs in any other language, too.  The &quot;shell&quot; lines can call any other programs.</li>
+</ul>
+</li>
+<li>
+<p>I just want to add that I like the &quot;talk less, give us more time&quot; approach but I think a couple of more minutes explaining what snakemake is and why to use it would have been useful before the exercise to understand what we're doing in the exercise. +4</p>
+<ul>
+<li>Thanks for raising this. It seems several participants have experienced the same thing.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="recording-environments"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/environments/">Recording environments</a></h2>
+<ol start="33">
+<li>
+<p>I didn't manage to run Docker, even if installation was ok. Just the windows 10 can't anymore permit me to access the original BIOS to enable hardware virtualization.</p>
+<ul>
+<li>I am not sure about your specific machine, but at least on Aalto Windows 10 laptop, it is enough to start docker as an administrator, I cannot check BIOS settings right now. It might be related to https://stackoverflow.com/questions/39684974/docker-for-windows-error-hardware-assisted-virtualization-and-data-execution-p</li>
+<li>Thanks, using it as admin begin running and then gives the same error with this link https://docs.docker.com/desktop/windows/troubleshoot/#virtualization So it has to be the BIOS thing. I'll play a bit around it.</li>
+<li>Hardware assisted virtualization and data execution protection must be enabled in the BIOS. The first solution didn't work either.</li>
+<li>YES! It was a pain to get to the BIOS with the modern DisplayPort on a computer with real good old-style BIOS, but after succeding and enabling hardware virtualization Docker works now!</li>
+</ul>
+</li>
+<li>
+<p>Issue. The link https://singularity.lbl.gov/ within https://coderefinery.github.io/reproducible-research/environments/#containers is obsolete apparently</p>
+<ul>
+<li>Thanks for spotting this! Indeed Singularity is now Singularity/Apptainer. We will fix it.</li>
+</ul>
+</li>
+<li>
+<p>Question in regards to Docker: Will the image know to update ones you already have it on your computer? Like, will I need to take any measures to make sure I have the latest version when running a Docker image?</p>
+<ul>
+<li>The image will contain its own operating system so the version of your &quot;normal&quot; (&quot;host&quot;) operating system is then less important when using the image. If I understood your question correctly.
+<ul>
+<li>Ah, sorry I think I worded it poorly. I was thinking if the image is updated on DockerHub. If I have run it previously on my computer will it know to run the latest update when I run it again after an update? If that makes more sense...
+<ul>
+<li>when you fetch an image from DockerHub then you indicate which version. Perhaps you take <em>latest</em>, and then it will fetch the latest at that time. If you then fetch <em>latest</em> few weeks later by e.g. building a derived image that refers to <em>latest</em>, it might then need to fetch a new version. If you refer to a specific version, then that one won't change anymore.</li>
+</ul>
+</li>
+<li>Ah thank you so much!
+<ul>
+<li>&quot;latest&quot; is convenient but is a moving target. good for development but maybe not ideal for reproducibility when sharing a container recipe for future generations.</li>
+<li>There are initiatives like the <a rel="noopener" target="_blank" href="https://www.softwareheritage.org/">Software Heritage</a> to preserve reliable versions of past softwares. I am unsure if right now they are already providing this as I have not used it myself.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Regarding the <strong>dangers</strong>, how can you find out whether a Docker repository is trusted? Say, I want an obsolete version of Ubuntu (to run programs not maintained any longer) and want to make sure it has not been tampered with.</p>
+<ul>
+<li>There are some official suppliers for the different distributions, but yes, this is a general issue.
+<ul>
+<li>Is singularity any safer or does it invite more safety?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How about GUI programs? Can they go into a Docker or an Apptainer container?</p>
+<ul>
+<li>yes</li>
+</ul>
+</li>
+<li>
+<p>Is a docker comparable to a virtual machine? At least in my head they are similar things at this point.</p>
+<ul>
+<li>Sort of similar, but the container uses the same <em>operating system kernel</em> so it is more connected to the host.
+<ul>
+<li>thank you!</li>
+</ul>
+</li>
+<li>Maybe is worth mentioning that Binder, continuous integration solutions and testing in the cloud are all based on containerized solutions. Containers are meant to also be destroyed and ephimeral, or replaceble. (Even Github services are running on containers). Compared to a Python environment, you can think of it as a fully computational environment (they are kind of virtual Linux machines)</li>
+</ul>
+</li>
+<li>
+<p>Do you recommend Docker or Apptainer?</p>
+<ul>
+<li>[Radovan] I use apptainer/singularity since I can use it also on clusters and I find it easier to use and learn and also use docker images. easier because I don't have to be root all the time, easier to remember command line options and the container image is a file and is easier for me to find, not forget, and move around
+<ul>
+<li>Thank you! I see.</li>
+</ul>
+</li>
+<li>From Docker images one can obtain Singularity images, so in that regard there is a smooth transition from one to the other</li>
+</ul>
+</li>
+<li>
+<p>If Docker is so unfriendly, why not to explain Singularity if it scores better in any respect?</p>
+<ul>
+<li>Good question. Docker is still vastly more popular so at least mentioning it was worth it so that we know what it is.</li>
+<li><em>Linux containers like Singularity cannot run natively on Windows or Mac because of basic incompatibilities with the host kernel.</em> You can however run a virtual linux machine and then run singularity on top of it... quite many levels of virtualization!  https://docs.sylabs.io/guides/3.0/user-guide/installation.html#install-on-windows-or-mac 
+<ul>
+<li>aha good point</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="sharing-code-and-data"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/reproducible-research/sharing/">Sharing code and data</a></h2>
+<ol start="42">
+<li>
+<p>How do you combine FAIR principles with privacy laws? For me this is a big question in patient research. </p>
+<ul>
+<li>Assuming that the code does not contain hard-coded personal data (like patients IDs), then the code can be FAIR and made as open as possible. If you would like to attach some &quot;demo&quot; data to your open code, you can synthesize some fake patients. For example with tabular data https://github.com/DPBayes/twinify . Another alternative is to show a code demo with open data that has similar properties, and then those who will re-use your code will adapt it to their private data (and cite your code!).</li>
+<li>True, however, not the data probably, unless you specifically ask this in informed consent. Example data is a good idea, thanks!</li>
+</ul>
+</li>
+<li>
+<p>Does Zenodo also archive the git history?</p>
+<ul>
+<li>Zenodo does not archive the whole git repo with the whole history</li>
+<li>it makes a copy (archives) a snapshot but not its history</li>
+</ul>
+</li>
+<li>
+<p>For every new release, I get a new DOI on Zenodo?</p>
+<ul>
+<li>yes, exactly!</li>
+<li>but Zenodo will also give you a DOI which will refer to the latest release and that can be used as well</li>
+<li>Zenodo combines all version DOIs to an &quot;umbrella&quot; DOI, so you can use this DOI to cite all versions or refer to a software in general.</li>
+</ul>
+</li>
+<li>
+<p>So, if I've written an analysis program for Matlab and I would like to share the code for the people who assess my thesis and the other scientific community to verify that I've actually used a clever automated program, would it be helpful to publish it in Zenodo and cite myself?</p>
+<ul>
+<li>You could do so, however please keep in mind that what you put on Zenodo cannot be removed. So if your program is work in progress / not fully matured, it might be more suitable to share on e.g. Github.
+<ul>
+<li>indeed, I could just share my GitHub repo as a website. Thanks.
+<ul>
+<li>As a reviewer if I see only the github repo as a website I also ask for a snapshot to be uploaded to Aenodo. I have seen many repositories disappear while the Zenodo snapshot is still there. This can also be done after the peer-review process is over.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Yes absolutely (assuming license allows). We will talk about this in a short bit</li>
+<li>If you need citations for your career, I recommend telling people to cite the paper that describes/used the code rather than citing zenodo DOI itself. This is a bit sad thing to recommend, but as long as h-index and other metrics are being used for career advancement, one needs to consider this. If you don't care about citations for your career, then cite the Zenodo repository.</li>
+<li>Technically, Zenodo combines citations to single versions in a concept DOI, so your citation count does not get &quot;fractured&quot; and you can see the total number of citations to all versions on Zenodo.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="wrap-up">Wrap-up</h3>
+<ol start="46">
+<li>
+<p>Is there a reproducibility crisis also outside academia?</p>
+<ul>
+<li>I think it is even more concerning outside academia, when software might be used to control cars or test new drugs.</li>
+<li>... although the legal and commercial stakes outside academia can be so high that it commands stricter quality criteria than in academia (where a lot of people can get away with lousy research provided they publish anything anywhere). +1</li>
+</ul>
+</li>
+<li>
+<p>Can we actually trust Zenodo in the long run? Many services turn paid or disappear over time.</p>
+<ul>
+<li>Zeonod is at CERN, so it should stay around for a bit.
+<ul>
+<li>I see, that's good. </li>
+</ul>
+</li>
+<li>CERN has funding for at least the next 10 years +, which includes IT infrastructure. That includes funding and support for Zenodo.</li>
+<li>See https://about.zenodo.org/infrastructure/ and sibling web pages</li>
+</ul>
+</li>
+<li>
+<p>For a publication, how do I determine how many steps I need to take to make my code usable for others? (e.g. listing dependencies vs Docker vs something else)</p>
+<ul>
+<li>A good way is to ask a colleague/student/friend to install and run and get the same result as in your paper. this will often identify problems and is more practical than strict guidelines. see also https://www.reprohack.org/</li>
+<li>Some universities are offering Research Software Engineers service, so they can try to install it and run it and help you publishing it (e.g. at Aalto University https://scicomp.aalto.fi/rse/)</li>
+</ul>
+</li>
+<li>
+<p>Perhaps we can pool tips on common mistakes when coding towards reproducible scientific software (like the introduction of numerical errors from differences in rounding routines mentioned in the very beginning of todays lesson)?</p>
+<ul>
+<li>Would be great! I am especially interested in the role of stochastic calculations and random numbers.
+<ul>
+<li>Good idea. We will touch on the topic of random numbers on Thursday within the lesson on software testing</li>
+</ul>
+</li>
+<li>Please also remember that some phenomena are inheringtely not-reproducible because of small effect size (= you need lots of data for detecting a small effect). So according to what you study you might struggle with irreproducibility independently from the code or quality of the data. There are solutions for these cases like &quot;multiverse&quot; analysis, &quot;blind&quot; analysis, but the best is the &quot;multi labs&quot; analysis where multiple research group collect and analyse data independently and then a meta-analysis is derived. Some writing about this https://www.aalto.fi/en/open-science-and-research/getting-started-with-reproducibility-in-research </li>
+</ul>
+</li>
+<li>
+<p>About reproducibility/reusability of code. I am confused between options. If a code (that does some data analysis for user having no idea of programming) is meant to be used by users later on, should it be written in langauge like Python etc, or data analysis work flows like KNIME etc? I feel users having no idea of programming would anyway not be able to contribute into code/data analysis work flow... wether it is s developed using a proper programming language or made using any data analytics platform  ...</p>
+<ul>
+<li>
+<p>This is a very good philosohical question.  It really depends on the case, but I think there is a real value in using a common language that people are likely to know.  Even if most users don't contribute, the few that do can be very important.</p>
+</li>
+<li>
+<p>Think of the most basic unit that you want to be reusable: a Python function or the full pipeline? There will be more pipeline tools in the future, but they might still be able to integrate your Python function, so I would invest making the single unit more reusable, and wrappers/pipelines/etc will come and go.</p>
+</li>
+<li>
+<p>I [name=rkdarst] realized this connected to the <a rel="noopener" target="_blank" href="https://en.wikipedia.org/wiki/KISS_principle">KISS principle</a>.  I really liked this comment there: &quot;with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools.&quot;  So how easy is it for you, or someone else, to fix it? (update: I'm not trying to say I know the solution, only that it was interesting to think about)</p>
+<ul>
+<li>Then again (!) how do we define a &quot;common mechanic&quot;, &quot;common user&quot;... who is more likely to be found easily in future if I am not there to help with pipeline/code? A python developer, or a data analysis work flow (e.g KNIME) expert to work on the code in future?</li>
+<li>+1, it depends.  This is why software can be fun.</li>
+<li>I usually try to define &quot;is this project about getting something done (use simple tools) or learn something new (be more bold)&quot;. Both OK in different cases.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is there a useful tool to generate a requirements.txt-file for an existing project?</p>
+<ul>
+<li><code>pip list</code> and <code>pip freeze</code> say what is installed, but everything - even dependencies of dependencies.  Often, making it by hand gets the highest-quality list: you know exactly what you need.</li>
+</ul>
+</li>
+<li>
+<p>I'm still a bit confused with what Docker is doing. Is it somewhat the same process as when creating .ISO files of a CD? So it's creating an image of a program with the code that I want to be run... kind of... emulating the environment that I have been working on?</p>
+<ul>
+<li>Imagine if that .ISO was a &quot;Live CD&quot; with the whole operating system. Slightly more like that, but more specialized.
+<ul>
+<li>thanks.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="social-coding-and-open-software"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/social-coding/">Social coding and open software</a></h2>
+<h3 id="part-1-social-coding"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/social-coding/social-coding/">part 1: Social coding</a></h3>
+<h4 id="question-1-why-would-i-want-to-share-my-scripts-code-data">Question 1: Why would I want to share my scripts/code/data?</h4>
+<ul>
+<li>A: Easier to find and reproduce (scientific reproducibility)</li>
+<li>B: More trustworthy: others can verify correctness and find and report bugs</li>
+<li>C: Enables others to build on top of your code (derivative work, provided the license allows it)</li>
+<li>D: Others can submit features/improvements</li>
+<li>E: Others can help fixing bugs</li>
+<li>F: Many tools and apps are free for open source, so no financial cost for this (GitHub, GitLab, Appveyor, Read the Docs)</li>
+<li>G: Good for your CV: you can show what you have built</li>
+<li>H: Discourages competitors. If others can't build on your work, they will make competing work</li>
+<li>I: When publicly shared, usually we timestamp or set a version, so it is easier to refer to a specific version</li>
+<li>J: You can reuse your own code later after change of job or affiliation</li>
+</ul>
+<p><strong>Choose many</strong>. Vote by adding an <code>o</code> character:</p>
+<ul>
+<li>A: ooooooooooooooooooooooo</li>
+<li>B: oooooooooooooooooo</li>
+<li>C: oooooooooo</li>
+<li>D: ooooooooo</li>
+<li>E: oooooooo</li>
+<li>F: ooooo</li>
+<li>G: ooooooooooooooo</li>
+<li>H: o</li>
+<li>I: ooo</li>
+<li>J: ooooooooooooo</li>
+</ul>
+<h4 id="question-2-the-most-concerning-thing-for-me-if-i-share-my-software-now">Question 2: The most concerning thing for me, if I share my software now</h4>
+<p>-A: It will be scooped (stolen) by someone else.
+-B: It will expose my &quot;ugly code&quot;.
+-C: Others may find bugs and mistakes. What if the algorithm is wrong?
+-D: I will get too many questions, I do not have time for that.
+-E: Losing control over the direction of the project
+-F: Low quality copies will appear.
+-G: I won't be able to sell this later. Someone else will make money from it.
+-H: It is too early, I am just prototyping, I will write version to distribute later.
+-I: Worried about licensing and legal matters, as they are very complicated.</p>
+<p><strong>Choose one</strong>. Vote by adding an <code>o</code> character:</p>
+<ul>
+<li>A: oooo</li>
+<li>B: oooooooooooooooooo</li>
+<li>C: oooooooo</li>
+<li>D: ooo</li>
+<li>E: ooooo</li>
+<li>F: oo</li>
+<li>G: ooo</li>
+<li>H: oooooooo</li>
+<li>I: oooooooooo</li>
+</ul>
+<h4 id="question-3-why-is-software-often-treated-differently-from-papers">Question 3: Why is software often treated differently from papers?</h4>
+<p>Free-form answers:</p>
+<ul>
+<li>is it?</li>
+<li>Because researchers are often not knowledgeable enough to know how to properly treat software (or too scared to try)</li>
+<li>I work in theory, and sometimes people seem to look down on researchers who develop code rather than doing so-called real research</li>
+<li>Scientific orginality is hard to extract from a software </li>
+<li>Most of scientists do not know how to properly cite or reference code and software. Just commercial software that specify how to be cited and provide an implementation to automatic citation software (or bibtex).
+<ul>
+<li>This can be addressed by adding a &quot;How to cite&quot; with a bibtex entry to your README, and yes making it easier for others is important.</li>
+<li>One can include a citation to the Git repo / project website / Zenodo link in papers. Some journals only allow references to papers, when that is the case one can combine in the same reference item a reference to both a paper and to the code.</li>
+</ul>
+</li>
+<li>It is traditionally considered to be a method, not a research output.</li>
+<li>For historic reasons maybe, papers are an older more establishedformat.</li>
+<li>The opportunity cost is high, i.e. if the software is so sucessful, then the developers or the sponsors may be more motivated to sell it as an commercial product, which is the opposite to let other researchers know every detail of your work.</li>
+<li>Software is often seen as something for <em>Software people</em> and relegated to work for technical people. Most of the code I've seen in research is <em>spaghetti</em> code that can do only one task in a very specific manner and only the author knows what it does, so, imposible to share and <em>experts</em> don't want to show how they work.</li>
+<li>Software is developed continually. New features can be added to a software library such that the software library contains implementations of many algorithms. Publications (papers/articles) tend to be a &quot;single unit&quot; (just one main thing/idea) AND &quot;single shot&quot; (published only once and not revised significantly).</li>
+<li>When I submitted a manuscript recently my superviser said that I should make my scripts public because that is good practice, but that I &quot;shouldn't spend too much time on that because no one will look at them anyways&quot;, that culture makes me unmotivated to improve my practices
+<ul>
+<li>This will change immediately with the first reviewer that will look into the code :-) <em>Sorry I couldn't keep it</em></li>
+</ul>
+</li>
+<li>I am not trained to develop software/code in such a way that it can be shared and reused. This is one of the reasons for following this course. I am trained to write a report and publish it. </li>
+<li>No one will give you a PostDoc or Professor position for your code used in research. The only thing that matters in academia is the number of <strong>articles</strong> you can produce.
+<ul>
+<li>I know some postdocs hired for their software skills.  Less likely for professors (but being good at software could get you more articles), but there are other career paths for research software engineers. </li>
+<li>Yeah, but they can be good at software but not good at sharing code. Same as professors can have 0 pedagogic skills but the university demands them to teach. I think there's not motivation for academic researchers to neither share how knowledge is built nor to make it reproducible, only results and final plots catch the eye (and this will keep like this if the only measure in an academic career keeps being the number of articles).</li>
+</ul>
+</li>
+<li>You can get funding for your research/paper idea (again needs papers to prove idea and get funding), no funds for your software ideas if you are working in academia.
+<ul>
+<li>There are specific calls for grants for development and improvement of codes. For instance the EU center of excellence calls, see e.g. the <a rel="noopener" target="_blank" href="https://www.trex-coe.eu/">TREX</a> project that promotes the development of programs, libraries and workflows for theoretical quantum chemistry simulations.</li>
+</ul>
+</li>
+</ul>
+<h4 id="question-4-when-you-find-a-repository-with-code-library-you-would-like-to-reuse-what-are-the-things-you-look-at-to-decide-whether-you-use-it">Question 4: When you find a repository with code/library you would like to reuse, what are the things you look at to decide whether you use it?</h4>
+<p>Free-form answers:</p>
+<ul>
+<li>How easily I get it to run (If I need changes: also how easily I can understand what the code is doing, and how to edit it) +2</li>
+<li>I look into it first and see if I understand it (is the code clear, commented and documented)</li>
+<li>I check the licence requirements +1</li>
+<li>Community involved (number of pull requests submitted/accepted, issues resolved) - most probably problems will pop up, and only community can help. No community = no help :(</li>
+<li>Whether it's used by others as well. +1</li>
+<li>How quickly can I test some kind of &quot;proof of concept&quot; with the library?</li>
+<li>the coding ability of</li>
+<li>Repository activity (last update), number of stars/downloads, documentation (getting started) +1</li>
+</ul>
+<h4 id="your-questions">Your Questions?</h4>
+<ol start="53">
+<li>
+<p>How would you advise if some incident hppen? I meant if I use faker.js but Marak, creator of faker.js who recently deleted the project?</p>
+<ul>
+<li>It's always a concern.  My main strategy is to understand the risk and try to focus on large, community, open-source projects.  More contributers = less risk, and if the main developers go off, at least others are around who can help provide an alternative.</li>
+<li>It seems that Faker project is fully copyright license (https://github.com/faker-js/faker/blob/main/LICENSE), I would be discouraged in using it as it locks my work especially if I think my code is important and should be re-usable in X years. For the same reason alternatives to Matlab and SPSS are recommended as then my code is not locked to their secrets.</li>
+</ul>
+</li>
+<li>
+<p>Suggestion for another entry in Question 1: it invites me to code properly from the outset!  (And I know it will take it longer so I can budget time and manage expectation)</p>
+<ul>
+<li>Thanks. I opened a pull request with this.</li>
+</ul>
+</li>
+<li>
+<p>What about non-commerical licenses, which are somewhat common in some fields e.g. in computer vision?</p>
+<ul>
+<li>It's an option, but limits the community that could contribute and wouldn't be included in open-source collections.  It won't become the next numpy.  Could be useful depending on your future goals.</li>
+<li>My university's innovation people recommended the GPL license if you might want to commercialize later.  They said it rarely interfers.  [A]GPL license = others can reuse for anything, but any derivatives have to also be open.  It keeps your competitive advantage, since only you can make it closed later.
+<ul>
+<li>I guess this could be troublesome if you accept contributions without requiring copyright assignment.</li>
+<li>As soon as you accept contributions from someone else, <strong>from that inclusion onward you are bound to the LICENSE used unless all authors agree to a change...</strong></li>
+<li>And GPL: I don't see how it keeps you competitive advantage, since anyone can do the same thing you do based on the GPL version. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Does the code belong to the company or the person that codes? I think in this matter it is not different from manual labour in other areas, but the problem of coding is that code can slip from companies hands easier. Why the software belongs to the coder that works for a company when this is not a discussion in other fields?</p>
+<ul>
+<li>Usually yes, a &quot;work for hire&quot; (by employees) is owned by the employer.  You should ask about open source policies - especially universities let you share.
+<ul>
+<li>Indeed, universities are employers and researchers are hired. 
+And universities run research projects that are confidential too. 
+So it is not just about &quot;companies&quot;.</li>
+<li>Then how do you showcase/prove your skills? If it belongs to company (non-academic setting), you can't take it with you when shifitng position.
+<ul>
+<li>A common way out I heard of is that you will be able to rewrite it. The new employer may want to hire for those skills. It is important to make sure that, when you leave a company, you don't undersign a prohibition to compete (which actually would push you out of the market you worked in that far).</li>
+<li>Are not such prohibitions commonly time limited, to say 6 or 12 months?
+<ul>
+<li>Depends from case to case. Always mind what you undersign when you leave a company. Do not be distracted by vague notions as 'commonly'.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>good question and yes this is a flaw!  Side projects, asking to open-source and share,... (any more ideas?)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Manuscripts can't be seen as &quot;done&quot; so strictly. One shouldn't base their new study on old manuscripts, at least not only on those. In my field (and I suppose other fields, too) it's important to cite the newest research. So it gets old, too.</p>
+<ul>
+<li>The <strong>definition of done</strong> (please look it up) is one of the tenets of so-called agile programming, aka 'scrum'. I would dispute the myth of never-ending coding.
+<ul>
+<li>Software libraries do not exist in a vaccum. Integration with other software is the cause of bitrot. </li>
+</ul>
+</li>
+<li>+1! And often old manuscripts are proved false and it takes lots of effort to unlearn what everyone thought was the &quot;truth&quot;.</li>
+<li>Practically speaking &quot;the scientific method&quot; is an algorithm, which is agreed upon and used by the academia. The research done builds on (hopefully) all the previous work, broadening the common knowledge. But the scientific method calls us to doubt even the latest publications.</li>
+<li>This is the myth of standing on the shoulders of giants. Sometimes you need to triage how tall the giants were. These are the review articles.</li>
+</ul>
+</li>
+<li>
+<p>My Github account is with my work email. If I change my organization, I loose that mail account. Is it advisable to use personal mails for github accounts?</p>
+<ul>
+<li>I guess it depends on if all projects are owned by that organization (and its policies).  For me, I use personal email.  You can add multiple emails.</li>
+<li>I have both a personal and the university email associated with the account. The university account can be exchanged if I change organisations...</li>
+<li>Are you allowed by your terms of employment to fork the repository? If so, the problem of mail address appears to be secondary.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="licensing"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/social-coding/licensing/">Licensing</a></h3>
+<h3 id="question-5-which-of-these-are-derivative-works">Question 5: Which of these are derivative works?</h3>
+<ul>
+<li>A. Download some code from a website and add on to it</li>
+<li>B. Download some code and use one of the functions in your code</li>
+<li>C. Changing code you got from somewhere</li>
+<li>D. Extending code you got from somewhere</li>
+<li>E. Completely rewriting code you got from somewhere</li>
+<li>F. Rewriting code to a different programming language</li>
+<li>G. Linking to libraries (static or dynamic), plug-ins, and drivers</li>
+<li>H. Clean room design (somebody explains you the code but you have never seen it)</li>
+<li>I. You read a paper, understand algorithm, write own code</li>
+</ul>
+<p><strong>Choose many</strong>. Vote by adding an <code>o</code> character:</p>
+<ul>
+<li>A: oooooooooooooooooooo</li>
+<li>B: oooooooooooooo</li>
+<li>C: ooooooooooooo</li>
+<li>D: oooooooooooooooooo</li>
+<li>E: oooooo</li>
+<li>F: oooooooooooooo</li>
+<li>G: ooooooooo</li>
+<li>H: o</li>
+<li>I: oo</li>
+</ul>
+<h4 id="your-questions-1">Your Questions?</h4>
+<ol start="59">
+<li>
+<p>Answer I (write code from alg. one &quot;understands&quot;): cite the paper!</p>
+</li>
+<li>
+<p>What does &quot;clean room design&quot; in answer H refer to?</p>
+<ul>
+<li>One set of people looks at code and writes a specification &quot;here is what it does&quot;.  Another set reads that specification and writes new code to do the same thing.  Main point is to specifically avoid making a derivative work.
+<ul>
+<li>Is it the same as writing pseudocode?
+<ul>
+<li>No, it's even more extreme than that. Pseudocode still has the creativity of the original authors, and that is the copyrightable part.</li>
+<li>https://en.wikipedia.org/wiki/Clean_room_design </li>
+<li>Thanks</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What if I only distribute a patch, and tell people to apply it themselves. Is it a derivate work?</p>
+<ul>
+<li>The patch: you probably had to look at the orginal code and carefully make the patch to work with the code.  You could argue it is, or isn't.  These type of interfaces are a common debate/cause of legal action, but if you are small it's probably not a big deal in practice.</li>
+</ul>
+</li>
+<li>
+<p>How to prove that my code is not a derivative work?</p>
+<ul>
+<li>You can try to document how you make it, have good history, etc.  But in the end, for copyright it's a legal thing.  Lawers would argue in a court (and this is why big companies are much more strict with their projects).</li>
+<li>Take note. There are specialized lawyers for screening these issues. Or law firms hire computer science firms for forensic work. (It's not a cheap affair.)</li>
+</ul>
+</li>
+<li>
+<p>Is there such a thing as &quot;plagiarism detection&quot; software for code?</p>
+<ul>
+<li>Yes, there are different tools that try to do this.</li>
+<li>Git is a plagiarism detection software, in a manner of speaking :-) It checks if your successive commit plagiarises an existing commit. 
+The shell command <code>diff</code> is an even older implementation of the same searching/chasing for existing content.</li>
+</ul>
+</li>
+<li>
+<p>If I find a function that I want to use but the license is closed, what can I do? Can I somehow write my own version?</p>
+<ul>
+<li>a) Use the function and you can never re-distribute or re-license your code</li>
+<li>b) find another option</li>
+<li>c) you can try to rewrite.  It would be a grey area, if you look too closely and follow the creative design of the original function, it would technically be a derivative work.  See discussion of clean-room design above.</li>
+<li>d) make a study of the similar functions available to your community, review them (and publish the comparison, perhaps, if this has a general interest), and then create your best implementation.</li>
+<li>e) you can contact the author also and suggest to distribute that part differently? this is perhaps more relevant for the many repositories without any license than for actually closed code.</li>
+</ul>
+</li>
+<li>
+<p>Ownership: am I the owner of some code I wrote? Indepedently of the license I use.</p>
+<ul>
+<li>Yes: license to others doesn't change ownership.  Owner can change license later, others can't.</li>
+<li>If others contribute, they become co-owners.</li>
+<li>Note &quot;owner&quot; for copyright only means &quot;I have the right to tell others not to use it&quot;.  Subtle difference from &quot;I can do anything I want&quot;</li>
+<li>Also: If you publish on an open source license, and later change the license, anyone who copied it while under the OSL can continue using it and distribute/modify it. </li>
+<li><strong>Copyright is not the same as authorship and ownership</strong>. Copyright is about the right of multiplying and distributing a work; you may be the author, the owner but have forfaited your right to multiply and distributing it (for a fee, for a number of years, for example).</li>
+</ul>
+</li>
+<li>
+<p>Hypothetical situation: I license my code with a <strong>strong copyleft</strong> license. I found someone uses it in a closed form. Politely: so what? What would happen?</p>
+<ul>
+<li>You (the owner) would have take legal action if asking nicely doesnt' work.</li>
+<li>Examples: https://en.wikipedia.org/wiki/BusyBox#GPL_lawsuits, https://en.wikipedia.org/wiki/Gpl-violations.org . Enforcement does happen!</li>
+<li>It strongly depends on your jurisdiction, and how much legal expertise you can count on. And in which country where the infringement has been committed...  Downsides of the global village. </li>
+</ul>
+</li>
+<li>
+<p>What if a repository is licensed for &quot;non-commercial&quot; use. Can it be used for research (with code + article published)?</p>
+<ul>
+<li>You would have to read the exact license but probably yes.  Though technically look at conditions and your organization, etc.</li>
+<li>I am unsure about software, but data collected with public funding is by default licensed for any commerical use (EU open data act, assuming data can be reused e.g. no ethical or legal constraints). I would expect the same applies to software, but I would need to find a reference.</li>
+<li>(I removed my comment on anaconda, I can't confirm it)</li>
+<li>I guess it depends on the &quot;business model&quot; of your university.... +1 
+<ul>
+<li>Universities can have commercial branches/spin-offs, which may be smartly set up to exploit the loopholes in licenses and create profit. There must be some office/r on Intellectual Property that oversees this.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Where is the slideshow with the recipe and the licensing examples?</p>
+<ul>
+<li>https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/main/licensing-and-cakes.md/ thanks</li>
+</ul>
+</li>
+<li>
+<p>Can you comment briefly on the Creative Commons licenses?</p>
+<ul>
+<li>Some very well-developd and standardized licenses for general data and artistic activities.  Not designed for code.</li>
+<li>They did an especially good job of making four standard categories clear and explaining what they mean, which is very helpful.</li>
+</ul>
+</li>
+<li>
+<p>It seems that the code development history can be easily fabricated. So somebody can just steal my code, add his/her fake history and claim ownership...</p>
+<ul>
+<li>In that unfortunate case, you have your code history to debunk the plot. But, indeed, it is a conflict situation that has already fired up. </li>
+<li>You discourage the nasty by raising the bar of the criminal energy that s/he has to use to steal your work.</li>
+<li>But people would look at time stamps. and they can be also modified. This is a great point and another reason why git history is so useful because recreating one very quickly is unlikely.</li>
+</ul>
+</li>
+<li>
+<p>if I published code without a license, anyone can take it, edit it, and not publish it, if they get it before I add a license?</p>
+<ul>
+<li>The default license is &quot;no license&quot;, meaning they can't do anything.  But someone can use and not publish/tell anyone even if there is a license.</li>
+<li>Interesting read for software without a license: https://en.wikipedia.org/wiki/License-free_software</li>
+</ul>
+</li>
+<li>
+<p>If I'm writing code during my research work, can I write it under a open source license? What if my supervisors are against it? If I don't remember incorrectly, there's a point in the university contract that says that anything I produce related to my research work belongs to the university.</p>
+<ul>
+<li>You would need to ask your university. If your supervisor doesn't want to, then that is probably a problem.  (unfortunately, universities say so much about open science, but then also make it so hard actually do it)
+<ul>
+<li>Yeah, unfortunately my supervisors don't want to share, but didn't participate either. So the group will inherit my code without posibility from my side to share it or show it to others, potentially hindering my possibilities to build a better CV for future employment.
+<ul>
+<li>This is very unfortunate! If you are at Aalto please get in touch with one of us as we could discuss this with your supervisor (but I also understand that you might not want to disclose this, and I am sorry) [Enrico]</li>
+<li>It depends on the policy of the university, which is above your supervisor's whims. Check if there is an office you can inform yourself about this. </li>
+<li>Note that you do not loose employment opportunities by following the rules of your employers. You will have to explain your claims about your skills, which you have to do anyhow. You might have a slightly longer job interview, but not much more than that (if you deal with humans and not an automated recruitment/screening process...).</li>
+</ul>
+</li>
+<li>In Finland there are going to be policies for open software that would basically highly recommend for software to be open. Your supervisor might still have a saying that &quot;software should be closed&quot;, but it would need to answer to university management why it is so. 
+<ul>
+<li>Same in the Netherlands. Not just the universities but also the State funding bodies.</li>
+</ul>
+</li>
+<li>Might be worth finding the &quot;open science&quot; people at your university and ask them for advice.+1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Will the Zenodo snapshot of GitHub survive if GitHub disappears overnight? Are the files <em>transferred</em> to Zenodo?</p>
+<ul>
+<li>Yes, Zenodo makes a copy and the point is that it can survive Github disappearing.</li>
+</ul>
+</li>
+<li>
+<p>If I use someone's code that is published under a GPL license, do I need to do anything other than adhering to that standard, when I publish code which is build on their code? Cite them in the README?</p>
+<ul>
+<li>keep their copyright notice, add yours, and it helps users of the software if you also summarize how your version differs from theirs (if small modification). if a small GPL component was introduced, then I would describe that in the readme</li>
+</ul>
+</li>
+<li>
+<p>If you have graphics in the repo for a GUI for instance, is that covered by the licenses you presented or should they have a CC license for instance? And how what that work with more licenses for one project?</p>
+<ul>
+<li>you could say that code is distributed under license X and text and images shared under CC license Y.</li>
+</ul>
+</li>
+<li>
+<p>Is there such a thing as licence hierarchy, in the sense: a project composed of different pieces of software each with their own license -- does the entire project fall under the &quot;least permissive&quot; license?</p>
+<ul>
+<li>Typically license is per-project but it is possible to license per-file (MPL allows that).</li>
+<li>If the components have permissive license, then they can be redistributed under a new/different per-project license. If a component has a strong share-alike license, it might &quot;infect&quot; (not a very nice word but sometimes use) or overpower the other licenses</li>
+</ul>
+</li>
+<li>
+<p>Can I publish a repository with files generated / used by a commercial software?</p>
+<ul>
+<li>An excellent question and I don't have a general answer. If the example are plots generated by commercial software, I would assume that you can publish those. Maybe we can also find examples where this is less clear? If it is research output, you are anyway expected to publish the generated data to reproduce the results.</li>
+</ul>
+</li>
+<li>
+<p>Images online: sorry for the silly question but. What about memes? They are clearly not licensed but it's massively used anyways. Is this a gray area?</p>
+<ul>
+<li>Yeah, I think it's a big grey area.  Both backgrounds and specific memes would be copyrighted, but it seems that mass use is more valuable than trying to enforce the copyright.</li>
+<li>They may fall under fair use when used in a readme or on a slide</li>
+</ul>
+</li>
+</ol>
+<h2 id="feedback-day-4">Feedback, day 4</h2>
+<p>Today was:</p>
+<ul>
+<li>too fast: o</li>
+<li>too slow: </li>
+<li>just right: oooooooooooooo</li>
+<li>useful: oooooooooooooo</li>
+<li>more discussion wanted: </li>
+<li>more exercise wanted: oo</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>licensing! +6</li>
+<li>snakemake +3</li>
+<li>I think the active participation by the course participants in the Licensing session was really great and helped make this a very nice session even though there were no exercises +2</li>
+</ul>
+<p>One thing that should be improved for next time:</p>
+<ul>
+<li>I found it harder today than last week to listen, keep track of HackMD, fill out polls. Today's content was less familiar, so multitasking was harder +6</li>
+<li>Answers for the polls must be given right next to the question, instead of scrolling back and forth to read question and find corresponding location to answer it +1
+<ul>
+<li>thanks! I will create an issue for this so we won't forget </li>
+<li>issue created</li>
+</ul>
+</li>
+<li>I was missing proper introductions to the topics, especially in the second part. It was not really intuitive, and I'm not sure how much I'll take from it. +2
+<ul>
+<li>I'm sorry for the quick parts in the reproducible-research part.  The topic is just so big that it's hard to give enough introduction.  We can try to improve for next time!</li>
+</ul>
+</li>
+</ul>
+<p>Comments on the course format:</p>
+<ul>
+<li>.</li>
+</ul>
+<p>Other comments:</p>
+<ul>
+<li>I learned alot today and loved the discussion based formate (which i usually find boring).</li>
+<li>Consider that EL need to check out attendance in their teams, so the breakout rooms are also useful to maintain that connection with the learners. This has an impact on the credits granted.
+<ul>
+<li>good point. thanks. I did not think about that.</li>
+</ul>
+</li>
+</ul>
+
+  
+
+          </div>
+          <div class="col-sm-2">
+            
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;">
+              
+              <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;processed_images&#x2F;ca3a9db6e52dcd2800.png" alt="CodeRefinery logo"
+                style="margin-top: 25px;">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
+
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Improve this page</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery/2022-09-20-workshop">Source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

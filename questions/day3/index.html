@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://coderefinery.github.io/2022-09-20-workshop/img/favicon.ico">
+
+    
+      <title>Questions and notes from workshop day 3</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 3" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/eglerean/2022-09-20-workshop/main/static/img/CR_twittercard_Fall2022.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://coderefinery.github.io/2022-09-20-workshop/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main">
+      <div class="container">
+
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>CodeRefinery workshop September 20-22 and 27-29, 2022</h1>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop">About</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/schedule">Schedule</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/audience">Audience</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/join">How to join</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/requirements">Requirements</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/questions">Q&amp;A</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.org/about/code-of-conduct/">Code of Conduct</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/volunteer">Volunteer</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/announcements">Announcement texts</a>
+                
+              
+                
+                  <a class="nav-link" href="https://coderefinery.github.io/2022-09-20-workshop/communication">Communication</a>
+                
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            
+  <h1>Questions and notes from workshop day 3</h1>
+
+  <ul>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#icebreakers">Icebreakers</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#icebreaker-question-1">Icebreaker question #1</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#icebreaker-question-2">Icebreaker question #2</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#participating-in-collab-exercise-via-stream-only">Participating in collab exercise via stream-only</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#git-collaborative">git-collaborative</a>
+        
+          <ul>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#concepts-around-collaboration">Concepts around collaboration</a>
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#poll">Poll:</a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#centralized-workflow">Centralized workflow</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#break-until-xx-10-exercise-after-the-break">Break until xx:10 (exercise after the break)</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#exercise-centralized-1-until-xx-55">Exercise Centralized-1, until xx:55</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#break-until-xx-25">Break until xx:25</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#distributed-version-control">Distributed version control</a>
+                
+              </li>
+            
+              <li>
+                <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#exercise-until-xx-20">Exercise until xx:20</a>
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="https://coderefinery.github.io/2022-09-20-workshop/questions/day3/#feedback-day-3">Feedback, day 3</a>
+        
+      </li>
+    
+  </ul>
+
+  
+  
+    <h2 id="icebreakers">Icebreakers</h2>
+<h3 id="icebreaker-question-1">Icebreaker question #1</h3>
+<p>I want today to be:</p>
+<ul>
+<li>faster: oo</li>
+<li>slower: </li>
+<li>same as yesterday: oooooooooooooooo</li>
+<li>more exercises: oo</li>
+<li>more type-along: oooo</li>
+<li>more demos while just watching: o</li>
+<li>same as yesterday but slight pauses during type-along: ooooooooo</li>
+</ul>
+<p>Any other feedback from yesterday?:</p>
+<ul>
+<li>Some people are just <em>memorizing commands</em>, it could be useful to have a overview of the concepts before starting with the commands.</li>
+<li>In type alongs, you could say which keys to push</li>
+<li>I think it is nice to hear your personal experiences of how you Git on a normal day, it gives a good idea of how it is incorporated in your workflow. </li>
+<li>SSH keys are an issue. The info in the video and in the instructions on GitHub to which link is provided is conflicting. </li>
+</ul>
+<h3 id="icebreaker-question-2">Icebreaker question #2</h3>
+<p>If you could seamlessly share your work with others (your friends, or anyone in the world), what would you do?</p>
+<ul>
+<li>probably code a bit more clearly</li>
+<li>Stop being so anxious about my work, since there will be many checkings along, many friendly &quot;peer-reviewers&quot;</li>
+<li>Finally writing documentation and using meaningful variable names</li>
+<li>Feel more pressure to make my projects readable and pretty immedieatly</li>
+<li>^^^ This</li>
+<li>Make apps</li>
+<li>Explain/comment more clearly what I am doing and why. Also ask more feedback.</li>
+<li>Learn more since I can get feedback</li>
+<li>Contribute to larger shared projects </li>
+<li>Introduce <em>easter eggs</em> in my projects :egg:</li>
+</ul>
+<h3 id="participating-in-collab-exercise-via-stream-only">Participating in collab exercise via stream-only</h3>
+<p>(this is not relevant for teams and zoom groups)</p>
+<p>Please open an issue here: https://github.com/cr-workshop-exercises/centralized-workflow-exercise/issues</p>
+<p>With this we will add you as collaborator to this exercise.</p>
+<ol>
+<li>
+<p>Guys, you're talking over each other in the zoom. I guess some of you have the others muted.</p>
+<ul>
+<li>thanks. i will raise it</li>
+<li>Now it's fine (y)</li>
+<li>ok for me</li>
+<li>thanks for reporting!</li>
+</ul>
+</li>
+<li>
+<p>once we pull some resources from github, which of the previously branches will be downloade? (imagine the source code in github has many branches)</p>
+<ul>
+<li>If you run <code>fetch</code>, it will update the view of all remote branches - the <code>origin/...</code> branchs (but won't modify your branches)</li>
+<li><code>pull</code> = <code>fetch</code> + <code>merge</code> so I <em>think</em> that it would update your current branch, but the <code>origin/...</code> branches would change, too.</li>
+</ul>
+</li>
+</ol>
+<h2 id="git-collaborative">git-collaborative</h2>
+<p>https://coderefinery.github.io/git-collaborative/</p>
+<h3 id="concepts-around-collaboration">Concepts around collaboration</h3>
+<p>https://coderefinery.github.io/git-collaborative/remotes/</p>
+<h4 id="poll">Poll:</h4>
+<p>Too fast: 
+All clear: ooooooo
+Confusing: 
+Too slow: o</p>
+<ol start="3">
+<li>
+<p>No questions because everything's good!</p>
+<ul>
+<li>Same here +++++</li>
+<li>My guess is participation dropped a little (?) We are less than half than yesterday in our room.</li>
+</ul>
+</li>
+<li>
+<p>Fork/import. Please can you repeat what is the difference?</p>
+<ul>
+<li>When talking about cloud repositories: Fork is within a given cloud provider (e.g. GitHub or BitBucket) and import is between them.</li>
+<li>Fork is also often used for a copy of the repository that you intend to change into a new project (not sure if this was mentioned). For example, LibreOffice is a fork of OpenOffice.
+<ul>
+<li>+1 the two meanings can be confusing.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is the process to make a remote repository a template? Or command instead of clone?</p>
+<ul>
+<li>on github: settings, make a template button -&gt; this creates a &quot;generate from template&quot; button</li>
+</ul>
+</li>
+<li>
+<p>Is it common to fork a repository and later (how much later?) propose the changes to be reintegrated to the main repo?</p>
+<ul>
+<li>Absolutely!</li>
+<li>Follow up: Why would you fork instead of cloning and branching if you want to contribute?</li>
+<li>So... &quot;fork&quot; is the Github concept that lets you push to your fork and make a proposal from your fork to the original.  If you clone only, how do you send changes back?  You can't directly modify it without permission.  We will see how this works in the &quot;Distributed&quot; lesson today.
+<ul>
+<li>Good - so the short answer is permissions.
+<ul>
+<li>Exactly. If you are working on a repo with colleagues that you already know, you could set it up with the permissions to commit right from the beginning. That said, it can be good to write protect the main branch of the code in order to prevent pushing to main without review within the team.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>When cloning, we only clone one branch to the local computer. Is not possible to clone the whole repository with all commits/branching history?</p>
+<ul>
+<li>A clone actually does have all branchs and history.</li>
+<li>Try <code>git branch -v</code> to see them - they are <code>origin/...</code> branches so &quot;remote tracking branches&quot; - they don't appear as local branches immediately.
+<ul>
+<li>I think it should be <code>git branch --all</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>If I am working on a project and it has some collaborators, do I have to make the project public in github? I would not like to make it public before it finishes. </p>
+<ul>
+<li>+1</li>
+<li>You can leave it private until you are ready to make it public.  This would be a typical workflow (github supports free private repositories now).</li>
+<li>But if I make it private, how can the others clone it?</li>
+<li>You can invite other person to have access to the repo. As owner of a repo, you can send an invite to anyone who has an account on Github.
+<ul>
+<li>Alternative: have one repo that is private and one that is public. On the public one you have the <code>main</code> branch. On the private one you have all unpublished branches.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Unrelated. Where I can find the definition of the alias <code>git graph</code>?</p>
+<ul>
+<li>https://coderefinery.github.io/git-intro/reference/#commands-we-use</li>
+<li><code>git config --global alias.graph &quot;log --all --graph --decorate --oneline&quot;</code></li>
+</ul>
+</li>
+<li>
+<p>Can we get a real life example (for example from one of your repositories) of a pull request after forking? So to see the size of changes.</p>
+<ul>
+<li>From this morning: https://github.com/coderefinery/git-collaborative/pull/237 (but this is just a pull request for a branch, right? not a fork)</li>
+<li>They can be large or small: single spelling fix or re-writingbig parts.</li>
+</ul>
+</li>
+<li>
+<p>Can you explain the &quot;origin&quot; concept again?</p>
+<ul>
+<li><code>origin</code> is the convential term for &quot;the place from where you cloned from&quot;.</li>
+<li>git, by default, when you <code>git clone</code>, it a remote with the name <code>origin</code> and that name can be used with <code>git push</code> and <code>git pull</code> to send changes back and forth.</li>
+</ul>
+</li>
+<li>
+<p>If we clone and then push our committed changes will we have to decide if we want to push to the original central repository or to a new central repo that we ourselves create? I'm thinking a fork is always set up to push to a newly created central repo to welcome in comming changes from us. </p>
+<ul>
+<li>Yes, you need to make that decision.  Usually it is easy, since you often don't have permission to the original repo.  The &quot;push&quot; (actually more like a &quot;pull&quot;) from the fork to the original is within the Github platform.</li>
+</ul>
+</li>
+<li>
+<p>When one is making changes and commiting, how big of a change should be included in a single commit? Is it reasonable to commit all small typo or sort of...aesthetic changes?</p>
+<ul>
+<li>Good question. In general it is better to commit more often, rather than to seldom. One workflow that I sometimes use is to work in a fork of a repo that I use only for myself, and once the material is ready, I copy by hand the new content to the a branch in the original repo. This can be smooth if the new material is in form of new files, e.g. new source code files or website subpages.
+<ul>
+<li>Follow-up: is this something we can adapt in the collaborative group or are there still some &quot;gold standards&quot; that should be kept?
+<ul>
+<li>Each team / project does over time develop some habits. And that would then be the &quot;gold standard&quot; for that project.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why <strong>fork</strong> and not <strong>commit in a different branch</strong> and then request for a merge?</p>
+<ul>
+<li>In this &quot;Centralized&quot; example, that is what we do.</li>
+<li>But if you don't have permission to push to the central repo, then when you make your own branch, you can't push it anywhere to make it visible where it can be merged.</li>
+<li>so this is useful when you are contributing to some project where you don't know the original people</li>
+</ul>
+</li>
+<li>
+<p>Is the <code>master</code>/<code>main</code> naming dilemma relevant for today's first exercise?</p>
+<ul>
+<li>Same as yesterday. But the branch can be renamed as you wish.</li>
+</ul>
+</li>
+</ol>
+<h3 id="centralized-workflow">Centralized workflow</h3>
+<p>https://coderefinery.github.io/git-collaborative/centralized/</p>
+<ol start="16">
+<li>
+<p>What are other common structures? </p>
+<ul>
+<li>We'll see the &quot;distributed&quot; structure in the second exercise.
+<ul>
+<li>Follow-up: are there any common derivatives of the centalized structure?
+<ul>
+<li>People can make their own forks anyway, if they don't want to pollute the central repo with their own changes.  Then there can be sub-forks, and so on.  Really, anything is possible (but that makes it hard to teach)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>For those who requested to be added to a team yesterday, how do we know who is in our group? and how do we decide who the team leader is? I just got a link to 2 repositories (2 &quot;cr-workshop-exercises&quot; )</p>
+<ul>
+<li>Are you doing this via the stream (requsting access via the cr-workshop-exercise group) -&gt; I applied via this, yes.</li>
+<li>You are in one giant group with everyone else.  You will see which repositories you can use in the exercise (talking about this now)
+<ul>
+<li>Thank you!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why does <code>git diff</code> not show any staged changes, only unstaged? Can we make it show? Could be useful for deciding commit-message?</p>
+<ul>
+<li><code>git diff --cached</code> will show staged changes. Or <code>git diff --staged</code>, which might be easier to remember!</li>
+<li>this surprising behavior can be useful as you can use <code>git diff</code> to see new changes since staging last. I typically stage several times before committing.</li>
+</ul>
+</li>
+<li>
+<p>Please mention the tasks to be done. By the time I accepted the invite, the tasks were already explained and I missed it.</p>
+<ul>
+<li>ok will do after break. in short: your goal is to open a pull request, so everything until and including step H</li>
+<li>Can you give me the link to the page being shown in the stream? ok got it</li>
+</ul>
+</li>
+<li>
+<p>Will all the people be added to the repo after the break?</p>
+<ul>
+<li>this is stream participants?</li>
+<li>yes, I mean the stream participants</li>
+<li>we have hopefully already added everybody who opened an issue at https://github.com/cr-workshop-exercises/centralized-workflow-exercise/issues</li>
+<li>My issue is still open in the recorder version, I didnt get an email yet
+<ul>
+<li>ok working on it ...
+<ul>
+<li>done</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>When we pull a rep on a local machine, should we create a branch of that again? or can we make the changes on the original version we have downloaded?</p>
+<ul>
+<li>Take note: <code>pull</code> is the transfer from remote to local
+<ul>
+<li>Pull is pulling from Place A to place B in general, it can be from your copy to the original, from a non main branch to main, or pulling online modifications to your local copy.
+<ul>
+<li>This is not clear. Pull is pulling from A to B. Push is pushing from B to A. But what is A and B? I'd need this to understand how it works 
+<ul>
+<li>The problem here is that &quot;pull&quot; is pretty universal pulling from somewhere else (you can pull almost to anywhere, or ask for someone to pull your changes - the pull request ). Pushing commonly refers to uploading changes directly to a repository.</li>
+<li>The terms local vs remote are tricky in the git context, as they always depend on your point of view. But in general <code>local</code> refers to the local copy on your machine, <code>remote</code> to the online repository your local repository copy is linked (most often, but not necessarily, on your github page) to and <code>upstream</code> c</li>
+<li>ommonly refers to a <code>remote</code> repository that a forked repository on your github page is copied from.</li>
+<li>So in summary: A and B can be any repository when it comes to pull/push. There is not really a restriction on what they can be. BUt the most common scenarios are probably:
+<ul>
+<li>Creating a pull request from a forked repository to the source repository (so that a maintainer/owner can then pull from your repo to the source repo)</li>
+<li>Pull changes from a remote repository to your local copy</li>
+<li>push changes from your local copy to a remote repository</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>That depends a bit. If you clone a fork of a repo (i.e. your copy of the original), you can modify the main branch, submit the changes directly to your copy and open a Pull request on the original repository with your modified main branch, and open pull requests</li>
+</ul>
+</li>
+</ol>
+<p>:::info</p>
+<h3 id="break-until-xx-10-exercise-after-the-break">Break until xx:10 (exercise after the break)</h3>
+<p>Remember to take your break - we will come back to officially start the exercise time.
+:::</p>
+<p>::::info</p>
+<h3 id="exercise-centralized-1-until-xx-55">Exercise Centralized-1, until xx:55</h3>
+<p>https://coderefinery.github.io/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request</p>
+<p>You will try to do that exercise, steps A-H.  The final state should be opening a pull request to whatever repository you are working on (your team repo, or the stream repo).  The general steps:</p>
+<ul>
+<li>Clone (make sure to clone with ssh, not using https otherwise you won't be able to push back)</li>
+<li>Make branch, commit</li>
+<li>Push the branch</li>
+<li>Go to Github web interface and open pull request.</li>
+</ul>
+<p>:::danger
+Alert!  You should use a SSH url to clone, not the web address.  You can find the SSH url from the green &quot;Code&quot; button on the web page.  For example, <code>git@github.com:cr-workshop-exercises/centralized-workflow-exercise.git</code></p>
+<p>If you get a password request when pushing <code>Username for 'https://github.com':</code>, you can change to ssh this way (use the right repository-url, recorded one or not):</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>git remote set-url origin git@github.com:cr-workshop-exercises/centralized-workflow-exercise.git
+</span></code></pre>
+<p>:::
+I am:</p>
+<ul>
+<li>done: ooooooooooooooo</li>
+<li>need more time: o(11:00 please)</li>
+<li>exercise worked well: ooooooooooo</li>
+<li>had problems: </li>
+<li>Overcaffeinated: oooo</li>
+<li>undercaffeinated: oo
+::::</li>
+</ul>
+<ol start="22">
+<li>
+<p>When I try to clone the repositiory I get an error: &quot;remote: Not Found // fatal: repository 'https://github.com/cr-workshop-exercises/' not found&quot;</p>
+<ul>
+<li>You need to use <code>https://github.com/cr-workshop-exercises/centralized-workflow-exercise</code> - your URL is organization, this includes the repository.  There are two options.</li>
+<li>so in the instructions it says <code>git clone &lt;repository-url&gt; centralized-workflow-exercise</code>, so is it the full url and then centralized-workflow-exercise again or that is part of the url?</li>
+<li>Always the one with two parts (like what I pasted).</li>
+<li>Ok thanks!</li>
+<li>wait!  you should clone with an ssh url, found from the repository.  See the alert above.</li>
+</ul>
+</li>
+<li>
+<p>I forgot the -u when pushing. Can I fix this after the fact?</p>
+<ul>
+<li>It's not a problem - <code>-u</code> only says &quot;remember this for next time&quot;, you can use it later or be explicit each time.
+<ul>
+<li>and you can also use this when pushing the second time and it will connect the two then.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>in the cloned project, in .git/config there is https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded.git
+Shouldn't it be some ssh git@github.com:something....  ?</p>
+<ul>
+<li>that depends on how you cloned it. if you cloned from https, it will use the https address, otherwise it will use the ssh address.</li>
+<li>Sorry, did not pay attention</li>
+<li>See above for how to recover (red box under exercises)</li>
+</ul>
+</li>
+<li>
+<p>Sorry. I was in a hurry and commited accidently to the master instead of my branch. What do I do?</p>
+<ul>
+<li>Following options:
+<ul>
+<li>
+<ol>
+<li>create a branch afterwards (it will have your changes from master) and push that one online without pushing your master branch.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>reset your HEAD on master, to the commit before the new commits, create a new branch from there and then cherry-pick your changes (i.e. remember the commit id and then - on your branch - run <code>git cherry-pick &lt;commitID&gt;</code>)</li>
+</ol>
+</li>
+<li><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/recovering/#recovering-from-committing-to-the-wrong-branch">course materilal- recovering from committing to the wrong branch</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why is it called a pull request? Am I not requesting to have my branch be merged into the main?</p>
+<ul>
+<li>You are correct!  &quot;Merge request&quot; would be a more proper name, and that is used by platforms other than Github.</li>
+<li>Most often you essentially request someone to &quot;pull&quot; your changes (assuming there are no conflicts) i.e. essentially you ask someone to <code>git pull yourRepo/yourbranch</code> on the branch you want to be pulled into.</li>
+</ul>
+</li>
+<li>
+<p>If I as the admin of the repo do a pull to get my local copy up to date after a collaborator has pushed a change, I do not see the changes the collaborator has made? Why is this so? Would it not make sense that I saw this update even though it is not yet merged into main? </p>
+<ul>
+<li>You probably can see it if you look around enough.  Does <code>git branch -a</code> show an <code>origin/the-branch-your-collaborator-made</code> branch?  If not, try <code>git fetch</code> first. - Using <code>git fetch</code> worked out, Thanks!</li>
+<li>So you can see it here, you can <code>git checkout</code> that branch to investigate more, merge locally, etc.</li>
+</ul>
+</li>
+<li>
+<p>I use notepad++ for editing my python codes. So, instead of nano (configured with git), if I continue editing with notepad++ and then stage+commit, is it the same? If it is same, then what is the point of configuring an editor (like nano) with git?</p>
+<ul>
+<li>That works just fine.  We suggest nano only because it's simplest and usually works for everyone (important when teaching this many people).
+<ul>
+<li>ok thanks</li>
+</ul>
+</li>
+<li>Configuring an editor with git is mainly used so that git commands that open an editor call the right one (e.g. some conflict resolution commands open an editor). </li>
+</ul>
+</li>
+<li>
+<p>Is it possible to directly open the files inside the local repo and modify them using some editors (like notepad) and then save them and stage them in the git bash? (Is it also possible to modify the files somewhere else inside the local machine and then transfer them to the local git repo and stage them?)</p>
+<ul>
+<li>Yes (and yes, even though I wouldn't recommend this unless you have a good reason)</li>
+<li>better than transferring between computers by hand is to place it on github/gitlab and then synchronize changes with pull and push</li>
+</ul>
+</li>
+<li>
+<p>Why should we use the SSH and not the direct url? What is the danger?</p>
+<ul>
+<li>For cloning using https is fine, but if you want to push, git will need to check your identity, and if you use https, you have quite a bit of work setting up the authentication.</li>
+<li>(you used to be able use username+password with HTTPS url, but that option was removed about a year ago.  SSH is simpler than other options)</li>
+</ul>
+</li>
+<li>
+<p>When cloning a repo, why some branches are included and some are not? How to pull all branches?</p>
+<ul>
+<li>The branches get renamed from &quot;branch_name&quot; into &quot;origin/branch_name&quot;. You can see them using <code>git branch -v</code>.
+<ul>
+<li>I think it should be <code>git branch --all</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why is the expression 'pull request'? In gitLab it's 'Merge request' which seems much more intuitive (sorry if this has been asked before).</p>
+<ul>
+<li>see #26</li>
+<li>Excellent, thanks!</li>
+</ul>
+</li>
+<li>
+<p>In step you showed this: git branch yourname-somefeature master, but know it was like this: yourname/somefeature why?</p>
+<ul>
+<li>The <code>-</code> vs <code>/</code> has no special meaning.  We changed the recommendation to <code>-</code> because it was less confusing (the <code>/</code> in <code>origin/...</code> <em>does</em> mean something)
+<ul>
+<li>RB: sorry. When working on my own I use &quot;/&quot; but for presenting I should rather use &quot;-&quot; for less confusion.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Can I delete the branch after pushed to remote repo if I don't want to merge it?</p>
+<ul>
+<li>Yes.  It will stay on the remote until deleted there.</li>
+</ul>
+</li>
+<li>
+<p>The title of the pull requests is practically the same as our commit...if we change the title, it will be different than the commit of our changes. Can this pose a problem?</p>
+<ul>
+<li>No problem, they can be the same or different.  The pull request title/description isn't stored in the repository history.</li>
+<li>if the PR (pull request) contains only one commit, it inferst the title from the commit message. you can still change the title. this becomes different if PR contains many commits, there it's good to have a summarizing title</li>
+</ul>
+</li>
+</ol>
+<p>:::info</p>
+<h3 id="break-until-xx-25">Break until xx:25</h3>
+<p>:::</p>
+<ol start="36">
+<li>
+<p>I got this error: </p>
+<pre data-lang="bash" style="background-color:#f5f5f5;color:#1f1f1f;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#5597d6;">ERROR:</span><span> Permission to cr-workshop-exercises/centralized-workflow-exercise.git denied to user.
+</span><span style="color:#5597d6;">fatal:</span><span> Could not read from remote repository.
+</span><span style="color:#5597d6;">Please</span><span> make sure you have the correct access rights
+</span><span style="color:#5597d6;">and</span><span> the repository exists.
+</span></code></pre>
+<ul>
+<li>Did you request to be given access (make the issue), and did you accept the invitation you got from it?</li>
+<li>No, how do I do that?</li>
+<li>https://coderefinery.github.io/git-collaborative/centralized/#exercise-preparation → Participating via stream → If you have not requested access</li>
+</ul>
+</li>
+<li>
+<p>At some point it would be nice if you could say something about common pitfalls or experiences or maybe best practice when working several people on larger projects, as I go a long in my projects I usually get a clearer picture of functionality and sometimes want to change basic classes or functions made in the beginning of a project, but if other people are developing on the project I suppose this would introduce a lot of conflicts</p>
+<ul>
+<li>The last part of today is practical ideas of how to contribute, where we discuss some of this.  If we don't remember the this question then, raise it again!</li>
+<li>The best thing for these kind of situations are tests (imo). As long as the tests succeed, you should be fine in changing the underlying classes. But any time you have to change a test, you are introducing a breaking change, which might not be what you want.</li>
+<li>and to open an issue first and collect feedback before making a change. the issue can also inform others about the changes that are coming up.</li>
+</ul>
+</li>
+<li>
+<p>How would you manage something like credentials in your code when collaborating and sharing code online? Use a config file ignored using gitignore?</p>
+<ul>
+<li>Correct.  Then share that config file some other way, or maybe each person has their own credentials in there.  Maybe even a &quot;secrets&quot; git repo that is handled separately.</li>
+<li>GitHub and GitLab can also store repository secrets without exposing them in the history or test outputs</li>
+</ul>
+</li>
+<li>
+<p>The admin and I (contributor) are sitting next to eachother comparing trees. We have both fetched, but the trees are different. Do we need to use some commands to make the trees align in the future. I have one branch that is not pushed yet.</p>
+<ul>
+<li>Hm, does <code>git graph</code> show any hints (like, are you at slightly different places in the graph)?</li>
+<li>Do you need to fetch and checkout the current master branch?
+<ul>
+<li>I will try this.</li>
+</ul>
+</li>
+<li>Updating your local copy: https://coderefinery.github.io/git-collaborative/centralized/#step-2b-update-your-local-copy
+<ul>
+<li>Thank you.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>After merging PR and deleting the branch in GitHub how to delete the local branch?</p>
+<ul>
+<li><code>git branch -d BRANCHNAME</code> (it will warn if it's not merged,  <code>-D</code> will force)</li>
+</ul>
+</li>
+<li>
+<p>In the repository there is a file <code>/.github/workflows/test.yml</code>. What does it do?</p>
+<ul>
+<li>this is in the forking one. we will comment on that but this will run an automated test on each pull request (in this case it will check whether recipe title contains the word &quot;taco&quot; if I remember correctly; so the test is silly but we wanted to show that this is possible)</li>
+</ul>
+</li>
+<li>
+<p>In the exercise we just did - what exactly is referred to as &quot;fork&quot;/&quot;forking&quot;?</p>
+<ul>
+<li>In our example, &quot;fork&quot; in a Github concept that means &quot;I want a copy of the repsitory under my user, linked to the other repository&quot;</li>
+<li>&quot;fork&quot; can also be a generic term for a derivative copy of some code.</li>
+</ul>
+</li>
+<li>
+<p>When I type <code>git graph</code> in git bash on my computer, I actually see many branches, not just mine. But if I type <code>ls</code>, I only see my file. Why is this? This was before I typed <code>git pull origin master</code>.</p>
+<ul>
+<li><code>git graph</code> is defined with <code>--all</code>, which means everything - your branches and all branches on all remotes.</li>
+<li>We just talked about how to update your local copy with the other changes: the <code>pull</code> part.</li>
+</ul>
+</li>
+<li>
+<p>Your radovan/another-pasta is now not updated, right? How could you update this branch? For example, it might happen that someone fixed a bug that you can use on your branch as well, and you want to keep working on your branch.</p>
+<ul>
+<li><code>git fetch</code> (updates the view), <code>git checkout radovan/another-pasta</code> (make sure you are on the branch locally), <code>git merge origin/radovan/another-pasta</code> (this brings those changes in to locally)</li>
+<li>follow-up: so then you have the updates of main, and all your own changes to the branch?</li>
+<li>It depends on what you merge.  You could merge all main changes into your branch (<code>git merge origin/main</code>).  Or you could only merge the changes made on that particular branch (like the changes from code review, <code>git merge origin/YOUR_BRANCH</code>)</li>
+<li>if I wanted to integrate &quot;upstream&quot; changes (changes made by others) into my branch, I would merge master into my branch after updating master. or I would rebase my branch (we did not shown or mentionned how rebases work)</li>
+<li>Correct.  I would often do rebases if I am the only one working on it, but it's a bit much to teach right now.</li>
+</ul>
+</li>
+</ol>
+<h3 id="distributed-version-control">Distributed version control</h3>
+<p>https://coderefinery.github.io/git-collaborative/distributed/</p>
+<ol start="45">
+<li>
+<p>When you fork a repository, will all commits from the original repo be copied (i.e. even those which are e.g. not in the forked master branch)?</p>
+<ul>
+<li>In general, yes. You can choose to copy the main branch only (in GitHub this is a checkbox in fork page)
+<ul>
+<li>So if you only do fork master, are the remaining commits in your fork as well, since the git database keeps things even if they are not part of branches)? 
+<ul>
+<li>Not sure, but I think it only copies the data it needs. In general, git will occationally remove commits that are not in any branch or tag.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Commits that are not in any branch are not copied</li>
+</ul>
+</li>
+<li>
+<p>when I fork a repo, how do I get changes made to the original repo, while I am working on my fork version?</p>
+<ul>
+<li>At the end of this episode we talk about how to update the fork copy.</li>
+<li>we will show this in the last ten minutes. material also contains 3 routes to do that. the simplest one is: there is a button on your fork called &quot;Sync fork&quot;</li>
+</ul>
+</li>
+<li>
+<p>So the cloning process is the same for forking and as in the previous exercise?</p>
+<ul>
+<li>Yes, clone is the same.  But you clone from your fork (your username in URL), not the central one.</li>
+</ul>
+</li>
+<li>
+<p>Can I have different origin-like items, that is different pointers to different URLs? One for  cloning from a place and one for fork form another place, for example?</p>
+<ul>
+<li>Yes, if you have a fork, you might want to add the &quot;upstream&quot; repository to your remotes, which allows you to pull changes from there to your local copy, that you can then push to your fork. But if those two repos are disconnected (i.e. something completely different, you are likely to get into a lot of conflicts). If you want to add a second repo to your repo, you might want to have a look at git submodules.</li>
+</ul>
+</li>
+<li>
+<p>why https won't work?</p>
+<ul>
+<li>It will work for clone, but not for push later (HTTPS username+password was disabled in Github a few years ago).</li>
+<li>ok</li>
+</ul>
+</li>
+<li>
+<p>can you create the fork from git bash or does it have to be done in github?</p>
+<ul>
+<li>There is a Github command line interface that does it, but &quot;fork&quot; like we are talking about is a Github concept so not directly built into git.  https://cli.github.com/</li>
+</ul>
+</li>
+</ol>
+<p>:::info</p>
+<h3 id="exercise-until-xx-20">Exercise until xx:20</h3>
+<p>https://coderefinery.github.io/git-collaborative/distributed/#exercise-part-1-creating-a-pull-request
+Goal: do this forking process and make a pull request (to a repository that you have no access to).  Steps A-E.
+If you can't make it all the way, it's OK (next week does not depend on this, but you can practice more then)</p>
+<p>I am:</p>
+<ul>
+<li>done: oooo</li>
+<li>need more time: o</li>
+<li>exercise was good: ooooo</li>
+<li>exercise needs improvement: 
+:::</li>
+</ul>
+<ol start="51">
+<li>
+<p>how can I change just the commit message of my previous commit?</p>
+<ul>
+<li>Have you pushed it anywhere yet? no</li>
+<li>OK, so make sure you haven't done any more <code>git add</code>s (otherwise it would be included), then <code>git commit --amend</code> and it will let you adjust the message.  It amends the previous commit, you could add new changes or only edit the message.</li>
+<li>ok, thanks! I tried that, but with -m and a changed commit message, which threw an error. without the -m, it works</li>
+<li>Strange, <code>--amend</code>  with <code>-m</code> seems to work for me.  I guess different git versions, anyway, it works.</li>
+</ul>
+</li>
+<li>
+<p>What you do if you clone the froked repo in wrong folder ? i tried removing the directory and it says &quot;rm: forking-workflow-exercise//.git: Permission denied&quot;  etc. i was trying rm -r.</p>
+<ul>
+<li>I think it makes some files in <code>.git</code> not wwriteable.  If using command line, try <code>rm -rf THE_DIRECTORY</code> (be careful the directory is right!).  The <code>-f</code> changes the permissions so it can be deleted.</li>
+<li>i tried and it deleted this time. Hope there is no specific way of removing such repos.</li>
+<li>It's fine to just delete.  All data is there, you probably still have the copy on Github.</li>
+</ul>
+</li>
+<li>
+<p>How do I edit a commit message that I have already commited?</p>
+<ul>
+<li><code>git commit --amend</code> will open the editor and you can edit it</li>
+</ul>
+</li>
+<li>
+<p>Can you also create a pull request for your own fork without sending it to the central repo?</p>
+<ul>
+<li>Yes!  Between any two forks (or the same repository).</li>
+</ul>
+</li>
+<li>
+<p>When I am a collaborator in a project, and working on my local computer, what should I do at the end of the day if the work is not ready for commit but I want to have a backup on Github. </p>
+<ul>
+<li>The simplest is, make a branch for this work, commit to that branch, and push that branch.</li>
+</ul>
+</li>
+<li>
+<p>I get an error when pushing error: <code>src refspec &lt;myforked repo&gt;does not match any</code></p>
+<ul>
+<li>exactly what command line are you running?</li>
+<li>git push origin -u forkkushagra-cw-exercise</li>
+<li>Is the branch name correct?</li>
+<li>yes</li>
+<li>I'm not sure... what is the exact error message?</li>
+<li>I resolved thanks</li>
+<li>+1</li>
+</ul>
+</li>
+<li>
+<p>How do I change the commit msg? I staged again and it says nothing to commit.</p>
+<ul>
+<li>If it is the most recent commit, and you haven't pushed it anywhere, then <code>git commit --amend</code> will open the editor and let you edit the message.  (if anything is staged, it will be added to the commit)
+<ul>
+<li>What if I pushed it already?</li>
+<li>Then you <em>can</em> still modify, and then force push (<code>git push -f</code>).  If anyone else has fetched and used this, they wont' get the update and you have chaos.  If it's your private branch no one else is working on, it is OK.</li>
+<li>Great! it works. thanks</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Unrelated. What are the URLs of the &quot;HackMDs&quot; of day 1 and 2?</p>
+<ul>
+<li>Earlier days on website: https://coderefinery.github.io/2022-09-20-workshop/questions/</li>
+</ul>
+</li>
+</ol>
+<h2 id="feedback-day-3">Feedback, day 3</h2>
+<p>Today was:</p>
+<ul>
+<li>too fast: ooooo </li>
+<li>too slow: oooo</li>
+<li>just right: oooooooooooooooooo</li>
+<li>useful: oooooooooo</li>
+<li>not that useful: </li>
+<li>will help my work: ooooooooooooooooooo</li>
+<li>will recommend to others: oooooooooo</li>
+<li>needs improvement to recommend to others: o</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>The groups on Zoom worked very well. +4</li>
+<li>Exercises were very useful. +3</li>
+<li>First time I worked with forks. Very cool:smiley: +1</li>
+<li>We get to develop very useful skills. Just to have seen the interface and get the concepts makes you less afraid to try it out.</li>
+<li>I started feeling confident about using git and github +1</li>
+<li>Review of the pull request included many insights which were very useful.</li>
+<li>veru useful 'material'</li>
+<li>I've been using github to download programs and code but I've never understood anything about it. Now I understand it :smiley:</li>
+</ul>
+<p>One thing that should be improved for next time:</p>
+<ul>
+<li>The first exercise could be done in less time (+10)</li>
+<li>The other exercises needed more time. +2</li>
+<li>The explaination of how to download the first repository could be more detailed in the written instructions (what link to use, the ssh version)
+<ul>
+<li>Thanks, yes, we need to improve that.</li>
+</ul>
+</li>
+<li>The new teacher should do more linear explanations instead of moving back and forwad. It was difficult to follow for me. Also stop interrupting the other teacher and commenting everything he does. Not my teaching style.</li>
+<li>Have more time for excercises.</li>
+<li>Describing irrelevant commands when explaining another concepts can make it confusing (do I need <code>git remote --verbose</code> to set everything up? was it different from <code>git remote -v</code>?)</li>
+<li>Examples about undoing changes done to the wrong branch should be discussed more actively. To me, this is the trickiest part of git. (+2, agreed - this is also the thing which makes me scared to test things and practice by myself)
+<ul>
+<li>Yeah, all of these &quot;changing history&quot; things are hard.  Unfortunately we don't have much time but maybe we could give a dedicated lecture on it sometime?</li>
+</ul>
+</li>
+<li>As an administrator and learner it would have been helpful if the excercise leader was a bit more clear about the next step so I as administrator didnt have to jump between administrating and reading steps in instructions.
+<ul>
+<li>I agree, we should work on those instructions a bit more!</li>
+</ul>
+</li>
+<li>We need more cat cameos :smiley_cat: +10003
+<ul>
+<li>come back next week!  I will be teaching more then.</li>
+</ul>
+</li>
+<li>Perhaps the instructor should explain the key content thinking more of the camera than of the screen. (A little bit more lecture-like)</li>
+<li>Can hackmd page be structured or color-coded. There were many ssh related issues today. Going through all to see deeper questions and answers gets difficult.
+<ul>
+<li>Good question.  I think we are limited in what to do, but in general I would recommend looking only at the bottom, add a new question rather than try to find info above.  we will point you to the answer if it is already there.</li>
+</ul>
+</li>
+</ul>
+<p>Comments on the course format:</p>
+<ul>
+<li>The exercises were much more useful than the very lengthy explanations on the stream. It would have been great to have more time for exercises (eg for reviewing pull requests, trying out stuff) and less time on twitch. +3</li>
+<li>Is there a cheat sheet for the git commands we have gone through up till now? It could be very useful to have one when we have several browsers open and it's hard to find the place where the  command is mentioned. +2
+<ul>
+<li>Each lesson has a &quot;quick reference&quot; guide that lists most of the commands we use.  If you see commands missing, let us know!  (you can open an issue, see link at top, or make a pull request...)  There is also some extremely detailed PDF cheatsheet I made a while ago. +1</li>
+</ul>
+</li>
+<li>Exercises are really key becuase it is such a low-consequence way to try out commands. they have made me a lot more comfortable with trying out git commands I am not super sure about</li>
+<li>I would like to have a session dedicated to how to use github as a backup for someone that programmes mostly alone.
+<ul>
+<li>Yesterday we had an episode that was almost that &quot;Sharing repositories online&quot;</li>
+</ul>
+</li>
+<li>Click alongs are more difficult to follow than write alongs.</li>
+<li>It would be good if whoever leads the session makes the practical calls on what to do - you have a tendency to discuss the format a lot, also small things that do not make much difference like break now or in 5 minutes. I think the course is great, just power on :)</li>
+<li>Suggestion: in the 1st exercise, you have asked to review pull requests at the beginning of this explanation, my group has done the reviews already. Please indicate more clearly when to do things and when to wait. maybe you could add it  to the instructions for EL to explain what will happen in the stream and how to follow along (review eahc others' requests using different functionalities).</li>
+<li>Suggestion: Maybe there should be some instructions for EL and all those joining Zoom not to open the mic and to go directly to breakout rooms. Otherwise it is quite disturbing ( twitch and zoom audio at the same time). In the previous edition there was no-one in the main room, evrybody went to the breakout rooms directly and it worked smoothly. no (audio) messages needed (but still, amazing organization! weel done)</li>
+</ul>
+<p>Other comments:</p>
+<ul>
+<li>All hail Radovan! I think he's an awesome teacher. Talks slowly, clear walk throughs, explains use cases. +3</li>
+<li>Very cute cat +1</li>
+<li>Hopefully more next week!</li>
+<li>Thanks to all the teachers and organisers!</li>
+</ul>
+
+  
+
+          </div>
+          <div class="col-sm-2">
+            
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;">
+              
+              <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;processed_images&#x2F;ca3a9db6e52dcd2800.png" alt="CodeRefinery logo"
+                style="margin-top: 25px;">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
+
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Improve this page</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery/2022-09-20-workshop">Source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>
